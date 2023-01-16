@@ -1,0 +1,33 @@
+{
+  "name": "atach-react-to-express-server-boilerplate",
+  "version": "1.0.0",
+  "description": "atach-react-sites-to-express-server-boilerplate",
+  "license": "MIT",
+  "homepage": "https://github.com/lucasvtiradentes/boilerplate-projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasvtiradentes/boilerplate-projects.git"
+  },
+  "author": {
+    "name": "Lucas Vieira",
+    "email": "lucasvtiradentes@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/lucasvtiradentes/boilerplate-projects/issues"
+  },
+  "main": "src/server/src/index.ts",
+  "scripts": {
+    "build_server": "cd ./src/server && npm run build",
+    "build_dropspy": "cd ./src/dropspy && npm run build",
+    "build_all": "npm run build_server && npm run build_dropspy",
+    "build": "npm run build_all",
+    "postbuild": "ts-node ./scripts/post-build.ts",
+    "start": "cd ./src/server && npm run start",
+    "dev": "set \"NODE_ENV=development\" && echo dev"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.5",
+    "npm-run-all": "^4.1.5",
+    "ts-node": "^10.9.1"
+  }
+}

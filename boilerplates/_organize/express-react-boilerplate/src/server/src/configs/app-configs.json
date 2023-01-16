@@ -1,0 +1,14 @@
+{
+
+  "project_configs": {
+    "appname": "dropmax",
+    "source_folder": "./src",
+    "dist_folder": "./build"
+  },
+
+  "server_configs": {
+    "default_port": 3000,
+    "development_port": 4000
+  }
+
+}

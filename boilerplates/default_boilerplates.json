@@ -1,0 +1,154 @@
+[
+  {
+    "name": "express-server",
+    "category": "backend-server",
+    "folder": "/backend-server/express-server",
+    "version": "0.0.1",
+    "description": "⚡ a basic express server boilerplate.",
+    "lastUpdate": "2023-01-16"
+  },
+  {
+    "name": "express-vercel",
+    "category": "backend-server",
+    "folder": "/backend-server/express-vercel",
+    "version": "0.0.1",
+    "description": "⚡ a basic express server boilerplate to run on vercel.",
+    "lastUpdate": "2023-01-17"
+  },
+  {
+    "name": "chrome-extension",
+    "category": "chrome-extension",
+    "folder": "/chrome-extension/chrome-extension",
+    "version": "0.0.1",
+    "description": "⚡ a basic chrome-extension boilerplate.",
+    "lastUpdate": "2023-01-19"
+  },
+  {
+    "name": "chrome-extension-react",
+    "category": "chrome-extension",
+    "folder": "/chrome-extension/chrome-extension-react",
+    "version": "0.0.1",
+    "description": "⚡ a basic chrome-extension with react boilerplate.",
+    "lastUpdate": "2023-01-19"
+  },
+  {
+    "name": "electron",
+    "category": "electron",
+    "folder": "/electron/electron-basic",
+    "version": "0.0.1",
+    "description": "⚡ a basic electron boilerplate.",
+    "lastUpdate": "2023-01-17"
+  },
+  {
+    "name": "electron-puppeteer",
+    "category": "electron",
+    "folder": "/electron/electron-puppeteer",
+    "version": "0.0.1",
+    "description": "⚡ a basic electron boilerplate.",
+    "lastUpdate": "2023-01-17"
+  },
+  {
+    "name": "next-basic",
+    "category": "next",
+    "folder": "/next/next-basic",
+    "version": "0.0.1",
+    "description": "⚡ a basic nextjs-typescript boilerplate.",
+    "lastUpdate": "2023-01-18"
+  },
+  {
+    "name": "next-tailwind",
+    "category": "next",
+    "folder": "/next/next-tailwind",
+    "version": "0.0.1",
+    "description": "⚡ a nextjs-tailwind boilerplate.",
+    "lastUpdate": "2023-01-18"
+  },
+  {
+    "name": "next-tailwind-auth",
+    "category": "next",
+    "folder": "/next/next-tailwind-auth",
+    "version": "0.0.1",
+    "description": "⚡ a nextjs-tailwind with authentication boilerplate.",
+    "lastUpdate": "2023-01-19"
+  },
+  {
+    "name": "next13-basic",
+    "category": "next",
+    "folder": "/next/next13-basic",
+    "version": "0.0.1",
+    "description": "⚡ a basic nextjs-typescript boilerplate.",
+    "lastUpdate": "2023-01-19"
+  },
+  {
+    "name": "next13-tailwind",
+    "category": "next",
+    "folder": "/next/next13-tailwind",
+    "version": "0.0.1",
+    "description": "⚡ a nextjs-tailwind boilerplate.",
+    "lastUpdate": "2023-01-19"
+  },
+  {
+    "name": "next13-tailwind-auth",
+    "category": "next",
+    "folder": "/next/next13-tailwind-auth",
+    "version": "0.0.1",
+    "description": "⚡ a nextjs-tailwind with authentication boilerplate.",
+    "lastUpdate": "2023-01-19"
+  },
+  {
+    "name": "nodejs-basic",
+    "category": "other",
+    "folder": "/other/node-basic",
+    "version": "0.0.1",
+    "description": "⚡ a basic nodejs-typescript boilerplate.",
+    "lastUpdate": "2023-01-18"
+  },
+  {
+    "name": "puppeteer-pkg",
+    "category": "other",
+    "folder": "/other/puppeteer-pkg",
+    "version": "0.0.1",
+    "description": "⚡ a basic puppeteer-pkg boilerplate.",
+    "lastUpdate": "2023-01-19"
+  },
+  {
+    "name": "react-basic",
+    "category": "react",
+    "folder": "/react/react-basic",
+    "version": "1.0.0",
+    "description": "⚡ a basic react-typescript boilerplate.",
+    "lastUpdate": "2023-01-19"
+  },
+  {
+    "name": "react-tailwind",
+    "category": "react",
+    "folder": "/react/react-tailwind",
+    "version": "1.0.0",
+    "description": "⚡ a basic react-tailwind boilerplate.",
+    "lastUpdate": "2023-01-19"
+  },
+  {
+    "name": "atach-react-to-express-server-boilerplate",
+    "category": "_organize",
+    "folder": "/_organize/express-react-boilerplate",
+    "version": "1.0.0",
+    "description": "atach-react-sites-to-express-server-boilerplate",
+    "lastUpdate": "2022-12-10"
+  },
+  {
+    "name": "node-typescript-npm-package-ci-cd-publish-boilerplate",
+    "category": "_organize",
+    "folder": "/_organize/node-typescript-npm-package-ci-cd-publish-boilerplate",
+    "version": "1.0.9",
+    "description": "This is a simple CI/CD to publish the package to npm when pushs it to origin.",
+    "lastUpdate": "2022-12-03"
+  },
+  {
+    "name": "node-typescript-npm-package-ci-cd-publish-with-semantic-release-boilerplate",
+    "category": "_organize",
+    "folder": "/_organize/node-typescript-npm-package-ci-cd-publish-with-semantic-release-boilerplate",
+    "version": "0.0.0-development",
+    "description": "This is a node typescript project that uses semantic release to automaticly deploy to npm and do other useful tasks.",
+    "lastUpdate": "2022-12-10"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "project_configs": {
+    "appname": "server",
+    "source_folder": "./src",
+    "dist_folder": "./dist",
+    "default_env": "development"
+  },
+  "server_configs": {
+    "default_port": 3000
+  }
+}

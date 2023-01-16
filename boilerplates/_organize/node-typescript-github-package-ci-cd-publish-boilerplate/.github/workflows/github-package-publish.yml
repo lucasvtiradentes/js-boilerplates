@@ -1,0 +1,30 @@
+name: "ci/cd github package publish"
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    env:
+      NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN }}
+    steps:
+      - name: setup-checkout
+        uses: actions/checkout@v2
+      - name: setup-node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          registry-url: "https://npm.pkg.github.com"
+          scope: "@lucasvtiradentes"
+      - name: build-scripts
+        run: |
+          npm install
+          npm run build
+      - name: publish package
+        run: npm publish

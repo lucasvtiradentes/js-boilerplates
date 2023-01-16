@@ -1,0 +1,9 @@
+## FOLDERS =========================
+/**/node_modules/
+/**/build/
+node_modules/
+
+## FILES ===========================
+/**/.env
+/**/pnpm-lock.yaml
+pnpm-lock.yaml

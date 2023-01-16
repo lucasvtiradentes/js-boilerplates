@@ -1,0 +1,12 @@
+{
+  "name": "use-github-package",
+  "version": "1.0.0",
+  "description": "Simple example on how to use github private packages.",
+  "main": "index/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@lucasvtiradentes/other-package-github": "^1.0.4"
+  }
+}

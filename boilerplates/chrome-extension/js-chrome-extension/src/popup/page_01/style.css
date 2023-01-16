@@ -1,0 +1,67 @@
+#header {
+  background-color: rgb(3, 4, 78);
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+button {
+  margin: 5px auto;
+}
+
+/* ########################################################################## */
+
+#content {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+/* ########################################################################## */
+
+.line {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  padding: 1px;
+}
+
+.property {
+  font-weight: bold;
+}
+
+/* ########################################################################## */
+
+.pag {
+
+  border-radius: 15px;
+  padding: 5px;
+  margin: 10px auto;
+  /* background-color: red; */
+  /* border: black 1px solid; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pag .titulo {
+  text-align: center;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+}
+
+.pag .center {
+  text-align: center;
+}
+
+.pag .dados {
+  margin-top: 10px;
+}
+
+/* ########################################################################## */
+
+#footer {
+  margin-top: 3px;
+  background-color: rgb(3, 4, 78);
+}

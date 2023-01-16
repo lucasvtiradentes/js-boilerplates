@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "name": "chrome-extension-template",
+  "description": "this is a chrome extension boilerplate",
+  "version": "1.0.0",
+  "author": "Lucas Vieira",
+  "background": {
+    "service_worker": "./background/background.js"
+  },
+  "permissions": [
+    "storage",
+    "declarativeContent",
+    "activeTab",
+    "tabs"
+  ],
+  "host_permissions": [ "https://www.google.com/*" ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "popup_pages/page_01/index.html",
+        "page_injections/google.com/google_injection.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": [ "https://www.google.com/*" ],
+      "js": [ "./page_injections/google.com/google_injection.js" ]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "./assets/icon_super.png",
+      "32": "./assets/icon_super.png",
+      "48": "./assets/icon_super.png",
+      "128": "./assets/icon_super.png"
+    },
+    "default_popup": "popup/popup.html",
+    "default_title": "Controle de fluxo de pedidos / SUPER"
+  },
+  "icons": {
+    "16": "./assets/icon_super.png",
+    "32": "./assets/icon_super.png",
+    "48": "./assets/icon_super.png",
+    "128": "./assets/icon_super.png"
+  }
+}

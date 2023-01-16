@@ -1,0 +1,11 @@
+[
+  {
+    "name": "react-vite",
+    "category": "react",
+    "command": "echo create vite latest",
+    "repository": "https://github.com/vitejs/vite",
+    "version": "1.0.0",
+    "description": "Next generation frontend tooling. It's fast!",
+    "lastUpdate": "2022-12-10"
+  }
+]

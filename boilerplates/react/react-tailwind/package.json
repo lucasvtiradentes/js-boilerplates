@@ -1,0 +1,78 @@
+{
+  "name": "react-tailwind",
+  "version": "1.0.0",
+  "description": "⚡ a basic react-tailwind boilerplate.",
+  "license": "MIT",
+  "keywords": [
+    "nodejs",
+    "typescript"
+  ],
+  "homepage": "https://github.com/lucasvtiradentes/boilerplate-projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasvtiradentes/boilerplate-projects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucasvtiradentes/boilerplate-projects/issues"
+  },
+  "author": {
+    "name": "Lucas Vieira",
+    "email": "lucasvtiradentes@gmail.com"
+  },
+  "type": "module",
+  "scripts": {
+    "postinstall": "husky install",
+    "commit": "cz",
+    "prebuild": "rimraf ./dist",
+    "build:check": "tsc --noEmit",
+    "build": "tsc && vite build",
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest --passWithNoTests --watchAll",
+    "test:staged": "jest --passWithNoTests --findRelatedTests",
+    "test:coverage": "jest --passWithNoTests --coverage",
+    "start": "vite preview",
+    "dev": "vite",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "lint:staged": "lint-staged --concurrent false --quiet",
+    "scripts:commits": "ts-node ./resources/update-commits-configs.ts",
+    "scripts:issues": "ts-node ./resources/show-all-open-issues.ts"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@jest/globals": "^29.3.1",
+    "@types/jest": "^29.2.5",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "@vitejs/plugin-react": "^2.2.0",
+    "autoprefixer": "^10.4.13",
+    "commitizen": "^4.2.6",
+    "commitizen-emoji": "^1.0.5",
+    "commitlint": "^17.4.1",
+    "commitlint-config-gitmoji": "^2.2.9",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "jest": "^29.3.1",
+    "lint-staged": "^13.1.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.2",
+    "rimraf": "^4.0.4",
+    "tailwindcss": "^3.2.4",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.3"
+  }
+}

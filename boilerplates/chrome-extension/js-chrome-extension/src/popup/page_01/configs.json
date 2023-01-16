@@ -1,0 +1,42 @@
+{
+  "MOSTRAR_FUNÇÕES_PRINCIPAIS": true,
+  "TEMPO_ESPERAR_CARREGAR_PADRAO": 7000,
+  "CIELO_login_Super": "03320911392",
+  "CIELO_senha_Super": "213141",
+  "CIELO_login_Mateus": "francisca.melo@armateus.com.br",
+  "CIELO_senha_Mateus": "277406",
+  "ARR_CodigoMercados": [
+    {
+      "nome_mercado": "Mateus Cajazeiras",
+      "id_mercado": "2774076190"
+    },
+    {
+      "nome_mercado": "Mateus Super Turu",
+      "id_mercado": "2774076085"
+    },
+    {
+      "nome_mercado": "Mix Atacarejo Jardim Tropical",
+      "id_mercado": "2769101190"
+    },
+    {
+      "nome_mercado": "Mateus Super Cohatrac",
+      "id_mercado": "2774076247"
+    },
+    {
+      "nome_mercado": "Mateus Renascença",
+      "id_mercado": "2774061789"
+    },
+    {
+      "nome_mercado": "Mateus Calhau",
+      "id_mercado": "2769100704"
+    },
+    {
+      "nome_mercado": "Mateus Cohama",
+      "id_mercado": "2774061738"
+    },
+    {
+      "nome_mercado": "Mix Atacarejo Pedreira",
+      "id_mercado": "2774078290"
+    }
+  ]
+}
