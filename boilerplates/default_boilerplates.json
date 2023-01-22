@@ -18,7 +18,7 @@
   {
     "name": "chrome-extension",
     "category": "chrome-extension",
-    "folder": "/chrome-extension/chrome-extension",
+    "folder": "/chrome-extension/chrome-extension-basic",
     "version": "0.0.1",
     "description": "⚡ a basic chrome-extension boilerplate.",
     "lastUpdate": "2023-01-19"

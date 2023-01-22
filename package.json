@@ -7,12 +7,12 @@
     "url": "https://github.com/ts-boilerplate-land/ts-boilerplates.git"
   },
   "scripts": {
-    "postinstall": "husky install",
+    "prepare": "husky install",
     "commit": "cz",
-    "update:boilerplates": "ts-node ./resources/update-boilerplates.ts",
     "start": "npm run update:boilerplates",
-    "scripts:commits": "ts-node ./resources/update-commits-configs.ts",
-    "scripts:issues": "ts-node ./resources/show-all-open-issues.ts"
+    "scripts:update_boiler_list": "ts-node ./scripts/update-boilerplates.ts",
+    "scripts:gitmoji": "ts-node ./scripts/gitmoji-util.ts",
+    "scripts:issues": "ts-node ./scripts/github-issues-util.ts"
   },
   "keywords": [],
   "author": "",

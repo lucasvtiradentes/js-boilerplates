@@ -2,8 +2,9 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 echo "🐶 husky script: [commit-msg]"
-npm run update:boilerplates
-git add .
 npx --no -- commitlint --edit ${1}
 echo "✅ husky script: [commit-msg]"
 echo ""
+
+# npm run update:boilerplates
+# git add .

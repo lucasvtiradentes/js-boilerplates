@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "🐶 husky script: [pre-push]"
+npm run scripts:update_boiler_list
+git add boilerplates/default_boilerplates.json
+git commit --amend --no-edit
+echo "✅ husky script: [pre-push]"
+echo ""
+
