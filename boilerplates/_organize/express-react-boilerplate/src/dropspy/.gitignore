@@ -1,6 +1,0 @@
-# FOLDERS ###########################
-node_modules/
-dist/
-
-# FILES #############################
-pnpm-lock.yaml

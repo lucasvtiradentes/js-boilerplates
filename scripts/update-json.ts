@@ -1,5 +1,6 @@
-import {join} from "path"
-import {readdirSync, readFileSync, statSync, writeFileSync} from "fs"
+import {join} from "node:path"
+import {readdirSync, readFileSync, statSync, writeFileSync} from "node:fs"
+import { platform } from 'node:os'
 
 type Iboilerplate = {
   name: string
@@ -43,14 +44,14 @@ const foldersToIgnore = [
   "build"
 ];
 
+const divider = platform() === 'win32' ? '\\' : '/'
 const folderToSearch = join(__dirname, '..', 'boilerplates')
 const allSubfiles = getAllFolderSubfiles(folderToSearch, foldersToIgnore);
-const allBoilerpaltes = allSubfiles.filter((item: string) => item.split('\\').length === 4 && item.search("package.json") > -1)
+const allBoilerpaltes = allSubfiles.filter((item: string) => item.split(divider).length === 4 && item.search("package.json") > -1)
 
 const allUpdatedValues = allBoilerpaltes.reduce((acc, value) => {
-
   const curFile = join(folderToSearch, value)
-  const curFolder = value.replace('\\package.json', '').replace(/\\/g, '/')
+  const curFolder = value.replace(`${divider}package.json`, '').replace(new RegExp(divider, "g"), '/')
   const curCategory = curFolder.split('/')[1]
   const fileInfo: any = statSync(curFile)
   const obj = JSON.parse(readFileSync(curFile, 'utf8'));
@@ -68,7 +69,4 @@ const allUpdatedValues = allBoilerpaltes.reduce((acc, value) => {
 }, [] as Iboilerplate[])
 
 console.log("Updated boilerplates json content!")
-writeFileSync('./boilerplates/default_boilerplates.json', JSON.stringify(allUpdatedValues, null, 2));
-
-// put something here to update readme too
-// https://faun.pub/markdown-docs-automation-like-readme-md-from-external-or-remote-files-c897db938b31
+writeFileSync('./boilerplates/boilerplates.json', JSON.stringify(allUpdatedValues, null, 2));

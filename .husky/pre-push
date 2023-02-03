@@ -2,8 +2,9 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 echo "🐶 husky script: [pre-push]"
-npm run scripts:update_boiler_list
-git add boilerplates/default_boilerplates.json
+npm run update
+git add boilerplates/boilerplates.json
+git add README.MD
 git commit --amend --no-edit
 echo "✅ husky script: [pre-push]"
 echo ""

@@ -4,15 +4,17 @@
   "description": "📁 typescript boilerplates pre-setted up modern and useful project tools.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ts-boilerplate-land/ts-boilerplates.git"
+    "url": "https://github.com/lucasvtiradentes/ts-boilerplates.git"
   },
   "scripts": {
     "prepare": "husky install",
     "commit": "cz",
     "start": "npm run update:boilerplates",
-    "scripts:update_boiler_list": "ts-node ./scripts/update-boilerplates.ts",
-    "scripts:gitmoji": "ts-node ./scripts/gitmoji-util.ts",
-    "scripts:issues": "ts-node ./scripts/github-issues-util.ts"
+    "update:json": "ts-node ./scripts/update-json.ts",
+    "update:md": "ts-node ./scripts/update-markdown.ts",
+    "update": "npm run update:json && npm run update:md",
+    "script:gitmoji": "ts-node ./scripts/gitmoji-util.ts",
+    "script:issues": "ts-node ./scripts/github-issues-util.ts"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +26,7 @@
     "commitizen-emoji": "^1.0.5",
     "commitlint": "^17.4.2",
     "commitlint-config-gitmoji": "^2.2.10",
+    "dyn-markdown": "^1.1.0",
     "husky": "^8.0.3",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.4"
