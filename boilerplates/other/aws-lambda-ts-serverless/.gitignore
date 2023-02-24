@@ -1,0 +1,7 @@
+# FOLDERS ##########################
+node_modules/
+.build/
+.serverless
+
+# FILES ############################
+pnpm-lock.yaml

@@ -108,7 +108,19 @@ This repository containes the following boilerplates:
       <td>2023-02-03</td>
     </tr>
     <tr>
-      <td rowspan="2"><a href="./boilerplates/other">other</a></td>
+      <td rowspan="4"><a href="./boilerplates/other">other</a></td>
+      <td><a href="./boilerplates/other/aws-lambda-sam">aws-lambda-sam</a></td>
+      <td>⚡ aws lambda tamplate using aws sam.</td>
+      <td>2023-02-24</td>
+    </tr>
+    <tr>
+  <!--     <td><a href="./boilerplates/other">other</a></td> -->
+      <td><a href="./boilerplates/other/aws-lambda-ts-serverless">aws-lambda-ts-serverless</a></td>
+      <td>⚡ aws lambda tamplate using typescript and serverless.</td>
+      <td>2023-02-24</td>
+    </tr>
+    <tr>
+  <!--     <td><a href="./boilerplates/other">other</a></td> -->
       <td><a href="./boilerplates/other/nodejs-basic">nodejs-basic</a></td>
       <td>⚡ a basic nodejs-typescript boilerplate.</td>
       <td>2023-02-03</td>

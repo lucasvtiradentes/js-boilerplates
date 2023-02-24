@@ -96,6 +96,22 @@
     "lastUpdate": "2023-02-03"
   },
   {
+    "name": "aws-lambda-sam",
+    "category": "other",
+    "folder": "/other/aws-lambda-sam",
+    "version": "0.0.1",
+    "description": "⚡ aws lambda tamplate using aws sam.",
+    "lastUpdate": "2023-02-24"
+  },
+  {
+    "name": "aws-lambda-ts-serverless",
+    "category": "other",
+    "folder": "/other/aws-lambda-ts-serverless",
+    "version": "0.0.1",
+    "description": "⚡ aws lambda tamplate using typescript and serverless.",
+    "lastUpdate": "2023-02-24"
+  },
+  {
     "name": "nodejs-basic",
     "category": "other",
     "folder": "/other/node-basic",

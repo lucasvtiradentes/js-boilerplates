@@ -16,9 +16,6 @@
     "script:gitmoji": "ts-node ./scripts/gitmoji-util.ts",
     "script:issues": "ts-node ./scripts/github-issues-util.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@types/node": "^18.11.18",

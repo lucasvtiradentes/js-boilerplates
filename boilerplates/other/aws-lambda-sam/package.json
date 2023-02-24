@@ -1,0 +1,24 @@
+{
+  "name": "aws-lambda-sam",
+  "version": "0.0.1",
+  "description": "⚡ aws lambda tamplate using aws sam.",
+  "license": "MIT",
+  "keywords": [
+    "nodejs",
+    "aws",
+    "aws lambda",
+    "aws sam"
+  ],
+  "homepage": "https://github.com/username/repository",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/repository.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/repository/issues"
+  },
+  "author": {
+    "name": "your name",
+    "email": "youremail@gmail.com"
+  }
+}

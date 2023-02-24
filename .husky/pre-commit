@@ -1,11 +1,11 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo "🐶 husky script: [pre-push]"
+echo "🐶 husky script: [pre-commit]"
 npm run update
 git add boilerplates/boilerplates.json
 git add README.MD
-git commit --amend --no-edit
-echo "✅ husky script: [pre-push]"
+git add .
+echo "✅ husky script: [pre-commit]"
 echo ""
 
