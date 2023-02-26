@@ -9,7 +9,7 @@ type Boilerplate = {
   lastUpdate: string;
 }
 
-const REPOSITORY_URL = `https://github.com/lucasvtiradentes/ts-boilerplates/tree/master/`
+const REPOSITORY_URL = `https://github.com/lucasvtiradentes/boilermanager-boilerplates/tree/master/`
 // boilerplates/react
 
 const boilerplatesMD = new DynMarkdown("./README.MD")

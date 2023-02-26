@@ -1,0 +1,30 @@
+# FOLDERS #################################
+.git/
+.expo/
+.github/
+.husky/
+.vscode/
+assets/
+node_modules/
+
+# FILES ###################################
+.czrc
+.editorconfig
+.eslintignore
+.eslintrc.json
+.gitignore
+.lintstagedrc
+.prettierignore
+.prettier.json
+app.json
+babel.config.js
+commitlint.config.js
+eas.json
+LICENSE
+package.json
+README.md
+tsconfig.json
+
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

@@ -108,19 +108,7 @@ This repository containes the following boilerplates:
       <td>2023-02-03</td>
     </tr>
     <tr>
-      <td rowspan="4"><a href="./boilerplates/other">other</a></td>
-      <td><a href="./boilerplates/other/aws-lambda-sam">aws-lambda-sam</a></td>
-      <td>⚡ aws lambda tamplate using aws sam.</td>
-      <td>2023-02-24</td>
-    </tr>
-    <tr>
-  <!--     <td><a href="./boilerplates/other">other</a></td> -->
-      <td><a href="./boilerplates/other/aws-lambda-ts-serverless">aws-lambda-ts-serverless</a></td>
-      <td>⚡ aws lambda tamplate using typescript and serverless.</td>
-      <td>2023-02-24</td>
-    </tr>
-    <tr>
-  <!--     <td><a href="./boilerplates/other">other</a></td> -->
+      <td rowspan="2"><a href="./boilerplates/other">other</a></td>
       <td><a href="./boilerplates/other/nodejs-basic">nodejs-basic</a></td>
       <td>⚡ a basic nodejs-typescript boilerplate.</td>
       <td>2023-02-03</td>
@@ -143,6 +131,30 @@ This repository containes the following boilerplates:
       <td>⚡ a basic react-tailwind boilerplate.</td>
       <td>2023-02-03</td>
     </tr>
+    <tr>
+      <td rowspan="2"><a href="./boilerplates/react-native">react-native</a></td>
+      <td><a href="./boilerplates/react-native/react-native-cli">react-native-cli</a></td>
+      <td>⚡ a react native cli boilerplate.</td>
+      <td>2023-02-26</td>
+    </tr>
+    <tr>
+  <!--     <td><a href="./boilerplates/react-native">react-native</a></td> -->
+      <td><a href="./boilerplates/react-native/react-native-expo">react-native-expo</a></td>
+      <td>⚡ a react native expo boilerplate.</td>
+      <td>2023-02-26</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><a href="./boilerplates/serverless">serverless</a></td>
+      <td><a href="./boilerplates/serverless/aws-lambda-sam">aws-lambda-sam</a></td>
+      <td>⚡ aws lambda tamplate using aws sam.</td>
+      <td>2023-02-24</td>
+    </tr>
+    <tr>
+  <!--     <td><a href="./boilerplates/serverless">serverless</a></td> -->
+      <td><a href="./boilerplates/serverless/aws-lambda-ts-serverless">aws-lambda-ts-serverless</a></td>
+      <td>⚡ aws lambda tamplate using typescript and serverless.</td>
+      <td>2023-02-24</td>
+    </tr>
   </table>
 <!-- </DYNFIELD:boilerplates> -->
 </div>
@@ -153,7 +165,7 @@ This repository containes the following boilerplates:
 
 If you are a typescript developer, we would kind and happy accept your help:
 
-- The best way to get started is to select any issue from the [`good-first-issue` label](https://github.com/lucasvtiradentes/ts-boilerplates/labels/good%20first%20issue);
+- The best way to get started is to select any issue from the [`good-first-issue` label](https://github.com/lucasvtiradentes/boilermanager-boilerplates/labels/good%20first%20issue);
 - If you would like to contribute, please review our [Contributing Guide](./CONTRIBUTING.md) for all relevant details.
 
 Another ways to positivily impact this project is to:

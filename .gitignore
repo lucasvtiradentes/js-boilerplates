@@ -1,12 +1,16 @@
 # FOLDERS ##########################
 
 **/.git
+**/.expo
 **/node_modules
 **/build
 **/dist
 **/ignore
+**/coverage
 
 # FILES ############################
 
 **/.env
-pnpm-lock.yaml
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml

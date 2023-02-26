@@ -91,7 +91,7 @@ If you want to make changes to the source code, it is recommended to also instal
 To use this boilerplate you can either:
 
 1. install [boilermanager](https://github.com/ts-boilerplate-land/boilermanager) and select it from the boilerplate list everytime you want to use it (✅ recommended).
-2. download this folder by clicking [this link](https://download-directory.github.io/?url=https://github.com/lucasvtiradentes/ts-boilerplates/tree/master/backend-projects/express-react-boilerplate).
+2. download this folder by clicking [this link](https://download-directory.github.io/?url=https://github.com/lucasvtiradentes/boilermanager-boilerplates/tree/master/backend-projects/express-react-boilerplate).
 
 ### Tips and tricks
 
@@ -253,7 +253,7 @@ Also, in order to have this integration working correctly, I buld a [script](../
 
 If you are a typescript developer, we would kind and happy accept your help:
 
-- The best way to get started is to select any issue from the [`good-first-issue` label](https://github.com/lucasvtiradentes/ts-boilerplates/labels/good%20first%20issue);
+- The best way to get started is to select any issue from the [`good-first-issue` label](https://github.com/lucasvtiradentes/boilermanager-boilerplates/labels/good%20first%20issue);
 - If you would like to contribute, please review our [Contributing Guide](./CONTRIBUTING.md) for all relevant details.
 
 Another ways to positivily impact this project is to:
