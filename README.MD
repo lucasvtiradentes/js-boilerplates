@@ -72,10 +72,16 @@ This repository containes the following boilerplates:
       <td>2023-02-03</td>
     </tr>
     <tr>
-      <td rowspan="6"><a href="./boilerplates/next">next</a></td>
+      <td rowspan="7"><a href="./boilerplates/next">next</a></td>
       <td><a href="./boilerplates/next/next-basic">next-basic</a></td>
       <td>⚡ a basic nextjs-typescript boilerplate.</td>
       <td>2023-02-03</td>
+    </tr>
+    <tr>
+  <!--     <td><a href="./boilerplates/next">next</a></td> -->
+      <td><a href="./boilerplates/next/next-pwa">next-pwa</a></td>
+      <td>⚡ a basic nextjs pwa boilerplate.</td>
+      <td>2023-02-27</td>
     </tr>
     <tr>
   <!--     <td><a href="./boilerplates/next">next</a></td> -->

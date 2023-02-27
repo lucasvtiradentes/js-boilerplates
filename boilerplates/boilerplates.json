@@ -56,6 +56,14 @@
     "lastUpdate": "2023-02-03"
   },
   {
+    "name": "next-pwa",
+    "category": "next",
+    "folder": "/next/next-pwa",
+    "version": "0.0.1",
+    "description": "⚡ a basic nextjs pwa boilerplate.",
+    "lastUpdate": "2023-02-27"
+  },
+  {
     "name": "next-tailwind",
     "category": "next",
     "folder": "/next/next-tailwind",
