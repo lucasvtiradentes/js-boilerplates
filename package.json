@@ -13,16 +13,17 @@
     "update:json": "ts-node ./scripts/update-json.ts",
     "update:md": "ts-node ./scripts/update-markdown.ts",
     "update": "npm run update:json && npm run update:md",
-    "script:gitmoji": "ts-node ./scripts/gitmoji-util.ts",
-    "script:issues": "ts-node ./scripts/github-issues-util.ts"
+    "script:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
+    "script:issues": "ts-node ./scripts/github-issues.ts"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.2",
     "@types/node": "^18.11.18",
+
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.4",
     "commitizen": "^4.2.6",
     "commitizen-emoji": "^1.0.5",
-    "commitlint": "^17.4.2",
-    "commitlint-config-gitmoji": "^2.2.10",
+
     "dyn-markdown": "^1.1.0",
     "husky": "^8.0.3",
     "ts-node": "^10.9.1",

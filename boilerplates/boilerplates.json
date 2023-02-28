@@ -5,188 +5,148 @@
     "folder": "/backend-server/express-server",
     "version": "0.0.1",
     "description": "⚡ a basic express server boilerplate.",
-    "lastUpdate": "2023-02-03"
+    "lastUpdate": "2023-02-28"
   },
   {
     "name": "chrome-extension",
     "category": "chrome-extension",
-    "folder": "/chrome-extension/chrome-extension",
+    "folder": "/chrome-extension/chrome-extension-basic",
     "version": "0.0.1",
     "description": "⚡ a basic chrome-extension boilerplate.",
-    "lastUpdate": "2023-02-03"
+    "lastUpdate": "2023-02-28"
+  },
+  {
+    "name": "chrome-extension",
+    "category": "chrome-extension",
+    "folder": "/chrome-extension/chrome-extension-ts",
+    "version": "0.0.1",
+    "description": "⚡ a basic chrome-extension boilerplate.",
+    "lastUpdate": "2023-02-28"
   },
   {
     "name": "chrome-extension-react",
     "category": "chrome-extension",
-    "folder": "/chrome-extension/chrome-extension-react",
+    "folder": "/chrome-extension/chrome-extension-ts-react",
     "version": "0.0.1",
     "description": "⚡ a basic chrome-extension with react boilerplate.",
-    "lastUpdate": "2023-02-03"
+    "lastUpdate": "2023-02-28"
   },
   {
     "name": "electron-basic",
-    "category": "electron",
-    "folder": "/electron/electron-basic",
+    "category": "desktop-app",
+    "folder": "/desktop-app/electron-basic",
     "version": "0.0.1",
     "description": "⚡ a basic electron boilerplate.",
     "lastUpdate": "2023-02-28"
   },
   {
     "name": "electron-puppeteer",
-    "category": "electron",
-    "folder": "/electron/electron-puppeteer",
+    "category": "desktop-app",
+    "folder": "/desktop-app/electron-puppeteer",
     "version": "0.0.1",
     "description": "⚡ a basic electron boilerplate.",
     "lastUpdate": "2023-02-28"
   },
   {
-    "name": "next-basic",
-    "category": "next",
-    "folder": "/next/next-basic",
-    "version": "0.0.1",
-    "description": "⚡ a basic nextjs-typescript boilerplate.",
-    "lastUpdate": "2023-02-03"
-  },
-  {
-    "name": "next-tailwind",
-    "category": "next",
-    "folder": "/next/next-tailwind",
-    "version": "0.0.1",
-    "description": "⚡ a nextjs-tailwind boilerplate.",
-    "lastUpdate": "2023-02-03"
-  },
-  {
-    "name": "next-tailwind-auth",
-    "category": "next",
-    "folder": "/next/next-tailwind-auth",
-    "version": "0.0.1",
-    "description": "⚡ a nextjs-tailwind with authentication boilerplate.",
-    "lastUpdate": "2023-02-03"
-  },
-  {
-    "name": "next13-basic",
-    "category": "next",
-    "folder": "/next/next13-basic",
-    "version": "0.0.1",
-    "description": "⚡ a basic nextjs-typescript boilerplate.",
-    "lastUpdate": "2023-02-03"
-  },
-  {
-    "name": "next13-tailwind",
-    "category": "next",
-    "folder": "/next/next13-tailwind",
-    "version": "0.0.1",
-    "description": "⚡ a nextjs-tailwind boilerplate.",
-    "lastUpdate": "2023-02-03"
-  },
-  {
-    "name": "next13-tailwind-auth",
-    "category": "next",
-    "folder": "/next/next13-tailwind-auth",
-    "version": "0.0.1",
-    "description": "⚡ a nextjs-tailwind with authentication boilerplate.",
-    "lastUpdate": "2023-02-03"
-  },
-  {
-    "name": "node-basic",
-    "category": "other",
-    "folder": "/other/node-basic",
-    "version": "0.0.1",
-    "description": "⚡ a basic nodejs-typescript boilerplate.",
-    "lastUpdate": "2023-02-28"
-  },
-  {
-    "name": "puppeteer-pkg",
-    "category": "other",
-    "folder": "/other/puppeteer-pkg",
-    "version": "0.0.1",
-    "description": "⚡ a basic puppeteer-pkg boilerplate.",
-    "lastUpdate": "2023-02-28"
-  },
-  {
-    "name": "next-pwa",
-    "category": "pwa",
-    "folder": "/pwa/next-pwa",
-    "version": "0.0.1",
-    "description": "⚡ a basic nextjs pwa boilerplate.",
-    "lastUpdate": "2023-02-28"
-  },
-  {
     "name": "react-basic",
-    "category": "react",
-    "folder": "/react/react-basic",
+    "category": "frontend-app",
+    "folder": "/frontend-app/react-basic",
     "version": "1.0.0",
     "description": "⚡ a basic react-typescript boilerplate.",
-    "lastUpdate": "2023-02-03"
+    "lastUpdate": "2023-02-28"
   },
   {
     "name": "react-tailwind",
-    "category": "react",
-    "folder": "/react/react-tailwind",
+    "category": "frontend-app",
+    "folder": "/frontend-app/react-tailwind",
     "version": "1.0.0",
     "description": "⚡ a basic react-tailwind boilerplate.",
     "lastUpdate": "2023-02-28"
   },
   {
     "name": "react-native-cli",
-    "category": "react-native",
-    "folder": "/react-native/react-native-cli",
+    "category": "mobile-app",
+    "folder": "/mobile-app/react-native-cli",
     "version": "0.0.1",
     "description": "⚡ a react native cli boilerplate.",
     "lastUpdate": "2023-02-28"
   },
   {
     "name": "react-native-expo",
-    "category": "react-native",
-    "folder": "/react-native/react-native-expo",
+    "category": "mobile-app",
+    "folder": "/mobile-app/react-native-expo",
     "version": "0.0.1",
     "description": "⚡ a react native expo boilerplate.",
     "lastUpdate": "2023-02-28"
   },
   {
-    "name": "aws-lambda-puppeteer",
-    "category": "serverless",
-    "folder": "/serverless/aws-lambda-puppeteer",
+    "name": "node-basic",
+    "category": "node",
+    "folder": "/node/node-basic",
     "version": "0.0.1",
-    "description": "⚡ aws lambda tamplate using typescript and serverless.",
+    "description": "⚡ a basic nodejs-typescript boilerplate.",
+    "lastUpdate": "2023-02-28"
+  },
+  {
+    "name": "node-puppeteer",
+    "category": "node",
+    "folder": "/node/node-puppeteer",
+    "version": "0.0.1",
+    "description": "⚡ a basic puppeteer-pkg boilerplate.",
+    "lastUpdate": "2023-02-28"
+  },
+  {
+    "name": "next-pwa",
+    "category": "pwa-app",
+    "folder": "/pwa-app/next-pwa",
+    "version": "0.0.1",
+    "description": "⚡ a basic nextjs pwa boilerplate.",
     "lastUpdate": "2023-02-28"
   },
   {
     "name": "aws-lambda-sam",
-    "category": "serverless",
-    "folder": "/serverless/aws-lambda-sam",
+    "category": "serverless-functions",
+    "folder": "/serverless-functions/aws-lambda-sam",
     "version": "0.0.1",
     "description": "⚡ aws lambda tamplate using aws sam.",
     "lastUpdate": "2023-02-28"
   },
   {
     "name": "aws-lambda-serverless",
-    "category": "serverless",
-    "folder": "/serverless/aws-lambda-serverless",
+    "category": "serverless-functions",
+    "folder": "/serverless-functions/aws-lambda-serverless",
+    "version": "0.0.1",
+    "description": "⚡ aws lambda tamplate using typescript and serverless.",
+    "lastUpdate": "2023-02-28"
+  },
+  {
+    "name": "aws-lambda-puppeteer",
+    "category": "serverless-functions",
+    "folder": "/serverless-functions/aws-lambda-serverless-puppeteer",
     "version": "0.0.1",
     "description": "⚡ aws lambda tamplate using typescript and serverless.",
     "lastUpdate": "2023-02-28"
   },
   {
     "name": "vercel-express",
-    "category": "serverless",
-    "folder": "/serverless/vercel-express",
+    "category": "serverless-functions",
+    "folder": "/serverless-functions/vercel-express",
     "version": "0.0.1",
     "description": "⚡ a basic express server boilerplate to run on vercel.",
     "lastUpdate": "2023-02-28"
   },
   {
     "name": "vercel-serverless",
-    "category": "serverless",
-    "folder": "/serverless/vercel-serverless",
+    "category": "serverless-functions",
+    "folder": "/serverless-functions/vercel-serverless",
     "version": "0.0.1",
     "description": "⚡ a basic nextjs-typescript boilerplate.",
     "lastUpdate": "2023-02-28"
   },
   {
     "name": "vercel-serverless-puppeteer",
-    "category": "serverless",
-    "folder": "/serverless/vercel-serverless-puppeteer",
+    "category": "serverless-functions",
+    "folder": "/serverless-functions/vercel-serverless-puppeteer",
     "version": "0.0.1",
     "description": "⚡ a basic express server boilerplate to run on vercel.",
     "lastUpdate": "2023-02-28"

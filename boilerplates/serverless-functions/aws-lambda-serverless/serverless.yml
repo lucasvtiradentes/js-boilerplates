@@ -1,0 +1,31 @@
+service: helloworld-ts
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions:
+  HelloWorldFunction:
+    handler: src/index.handler
+    events:
+      - http:
+          path: /
+          method: get
+
+  helloF:
+    handler: src/index.hello
+    events:
+      - http:
+          path: /hello
+          method: get
+
+  worldF:
+    handler: src/index.world
+    events:
+      - http:
+          path: /world
+          method: post
+
+plugins:
+  - serverless-plugin-typescript
+  - serverless-offline

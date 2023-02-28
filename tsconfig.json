@@ -4,10 +4,8 @@
     "module": "CommonJS",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "declaration": true,
     "esModuleInterop": true,
     "rootDir": ".",
-    "outDir": "./dist",
     "strict": true,
     "skipLibCheck": true
   },
