@@ -1,28 +1,19 @@
 {
   "name": "vercel-serverless-puppeteer",
   "version": "0.0.1",
-  "description": "⚡ a basic express server boilerplate to run on vercel.",
+  "description": "description",
   "license": "MIT",
-  "keywords": [
-    "nodejs",
-    "typescript"
-  ],
-  "engines": {
-    "node": "^14"
-  },
-  "homepage": "https://github.com/username/repository",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/username/repository.git"
-  },
-  "bugs": {
-    "url": "https://github.com/username/repository/issues"
-  },
   "author": {
     "name": "your name",
     "email": "youremail@gmail.com"
   },
-  "main": "./dist/src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/repository.git"
+  },
+  "engines": {
+    "node": "^14"
+  },
   "scripts": {
     "prepare": "husky install",
     "commit": "cz",

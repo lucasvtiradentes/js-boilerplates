@@ -1,0 +1,20 @@
+{
+  "description": "aws lamda serverless application that uses puppeteer",
+  "app_features": [
+    "uses serverless framework to handle aws lambda",
+    "uses typescript",
+    "automatically deploy in every github push"
+  ],
+  "project_features": [
+    "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+    "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+  ],
+  "resources": [
+    "[https://www.npmjs.com/package/serverless-plugin-typescript](serverless-plugin-typescript)",
+    "[https://stackoverflow.com/questions/63507149/serverless-command-offline-not-found](Serverless command offline not found)",
+    "[https://www.youtube.com/watch?v=7ZEEvC-oW8c](Puppeteer on AWS Lambda in May of 2022)"
+
+  ],
+  "app_techs": ["nodejs", "typescript", "aws", "serverless", "puppeteer"],
+  "project_techs": ["vscode", "husky", "commitlint", "commitizen", "editorconfig", "prettier", "eslint", "lintstaged"]
+}

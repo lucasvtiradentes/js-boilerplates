@@ -1,0 +1,19 @@
+{
+  "description": "next pwa application",
+  "app_features": [
+    "[next](https://nextjs.org/) pwa application",
+    "tests-friendly with [jest](https://github.com/facebook/jest)"
+  ],
+  "project_features": [
+    "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+    "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+  ],
+  "resources": [
+    "[Next documentation](https://nextjs.org/)",
+    "[PWA with Next.js](https://dev.to/anuraggharat/pwa-with-nextjs-5178)",
+    "[next-pwa](https://www.npmjs.com/package/next-pwa)",
+    "[How to Create a PWA With Next.js in 10 Minutes](https://www.youtube.com/watch?v=ARNN_zmrwcw)"
+  ],
+  "app_techs": ["nodejs", "typescript", "next", "jest"],
+  "project_techs": ["vscode", "husky", "commitlint", "commitizen", "editorconfig", "prettier", "eslint", "lintstaged"]
+}

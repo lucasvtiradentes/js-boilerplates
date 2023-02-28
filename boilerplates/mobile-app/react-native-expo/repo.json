@@ -1,0 +1,23 @@
+{
+  "description": "react native application that uses expo",
+  "app_features": [
+    "[react native](https://reactnative.dev/docs/environment-setup) [expo](https://expo.dev/) application",
+    "tests-friendly with [jest](https://github.com/facebook/jest);"
+  ],
+  "project_features": [
+    "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+    "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+  ],
+  "resources": [
+    "[React Native Expo to APK File](https://www.youtube.com/watch?v=MK4JjqbHFBk)",
+    "[Build APKs for Android Emulators and devices](https://docs.expo.dev/build-reference/apk/)",
+    "[How to publish Expo React Native App to Apple App Store (step-by-step tutorial)](https://www.youtube.com/watch?v=LE4Mgkrf7Sk)",
+    "[How to publish Expo React Native App to Google Play Store](https://www.youtube.com/watch?v=oBWBDaqNuws)",
+    "[Publish Expo React Native App to Google Play Store](https://www.youtube.com/watch?v=7DQbbTQpUjQ&list=PLk8gdrb2DmCjsRsDIwMBJdf350qKMiJ8R)",
+    "[Expo online development](https://expo.dev/)",
+    "[Apple developer account](https://developer.apple.com/account)",
+    "[Google developer account](https://play.google.com/console/signup)"
+  ],
+  "app_techs": ["nodejs", "typescript", "react_native", "expo", "jest"],
+  "project_techs": ["vscode", "husky", "commitlint", "commitizen", "editorconfig", "prettier", "eslint", "lintstaged"]
+}

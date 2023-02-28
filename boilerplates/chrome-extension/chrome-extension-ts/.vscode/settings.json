@@ -1,12 +1,15 @@
 {
-    "typescript.tsdk": "./node_modules/typescript/lib",
-    "files.eol": "\n",
-    "json.schemas": [
-        {
-            "fileMatch": [
-                "/manifest.json"
-            ],
-            "url": "http://json.schemastore.org/chrome-manifest"
-        }
-    ]
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "src/manifest.json"
+      ],
+      "url": "http://json.schemastore.org/chrome-manifest"
+    }
+  ]
 }

@@ -1,23 +1,15 @@
 {
   "name": "react-basic",
   "version": "1.0.0",
-  "description": "⚡ a basic react-typescript boilerplate.",
+  "description": "description",
   "license": "MIT",
-  "keywords": [
-    "nodejs",
-    "typescript"
-  ],
-  "homepage": "https://github.com/lucasvtiradentes/boilerplate-projects",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lucasvtiradentes/boilerplate-projects.git"
-  },
-  "bugs": {
-    "url": "https://github.com/lucasvtiradentes/boilerplate-projects/issues"
+    "url": "https://github.com/yourusername/yourrepository.git"
   },
   "author": {
-    "name": "Lucas Vieira",
-    "email": "lucasvtiradentes@gmail.com"
+    "name": "Your Name",
+    "email": "yourname@gmail.com"
   },
   "type": "module",
   "scripts": {

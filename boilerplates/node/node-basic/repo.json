@@ -1,0 +1,16 @@
+{
+  "description": "node application",
+  "app_features": [
+    "[node](https://github.com/nodejs/node) server backend",
+    "tests-friendly with [jest](https://github.com/facebook/jest)"
+  ],
+  "project_features": [
+    "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+    "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+  ],
+  "resources": [
+    "[Nodejs documentation](https://nodejs.org/en/)"
+  ],
+  "app_techs": ["nodejs", "typescript", "jest"],
+  "project_techs": ["vscode", "husky", "commitlint", "commitizen", "editorconfig", "prettier", "eslint", "lintstaged"]
+}

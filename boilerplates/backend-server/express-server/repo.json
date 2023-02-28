@@ -1,0 +1,37 @@
+{
+  "description": "express server application",
+  "app_features": [
+    "[express](https://github.com/expressjs/express) server backend",
+    "[util function](./src/server/utils/show-all-server-endpoints.ts) where you can view all available routes",
+    "[util function](./src/utils/handle-events.ts) to add graceful shutdown and error handling",
+    "tests-friendly with [jest](https://github.com/facebook/jest) and [supertest](https://github.com/ladjs/supertest);"
+  ],
+  "project_features": [
+    "easily test your api responses through a [server_routes.http](./tools/server_routes.http) and [REST CLIENT](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode",
+    "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+    "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+  ],
+  "app_techs": [
+    "nodejs",
+    "typescript",
+    "express",
+    "jest",
+    "supertest",
+    "dotenv"
+  ],
+  "project_techs": [
+    "vscode",
+    "husky",
+    "commitlint",
+    "commitizen",
+    "editorconfig",
+    "prettier",
+    "eslint",
+    "lintstaged",
+    "restclient"
+  ],
+  "resources": [
+    "[Express documentation](https://expressjs.com/pt-br/)",
+    "[How to graceful shutdown a nodejs express server](https://www.youtube.com/watch?v=Z82mZV2Ye38)"
+  ]
+}

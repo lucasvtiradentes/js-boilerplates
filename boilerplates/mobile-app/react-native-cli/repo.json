@@ -1,0 +1,17 @@
+{
+  "description": "react native application",
+  "app_features": [
+    "[react native](https://reactnative.dev/docs/environment-setup) cli application",
+    "tests-friendly with [jest](https://github.com/facebook/jest);"
+  ],
+  "project_features": [
+    "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+    "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+  ],
+  "resources": [
+    "[Advanced React Native Boilerplate using TypeScript, Eslint, Prettier, Husky, CommitLint & more](https://www.youtube.com/watch?v=Z0hQK3eyK2M)",
+    "[React Native Tutorial # 3 - Project Structure and Boiler Plate](https://www.youtube.com/watch?v=_Z9tMbrm0WU)"
+  ],
+  "app_techs": ["nodejs", "typescript", "react_native", "jest"],
+  "project_techs": ["vscode", "husky", "commitlint", "commitizen", "editorconfig", "prettier", "eslint", "lintstaged"]
+}

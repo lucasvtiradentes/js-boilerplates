@@ -1,19 +1,11 @@
 {
   "name": "node-puppeteer",
   "version": "0.0.1",
-  "description": "⚡ a basic puppeteer-pkg boilerplate.",
+  "description": "description",
   "license": "MIT",
-  "keywords": [
-    "nodejs",
-    "typescript"
-  ],
-  "homepage": "https://github.com/username/repository",
   "repository": {
     "type": "git",
     "url": "https://github.com/username/repository.git"
-  },
-  "bugs": {
-    "url": "https://github.com/username/repository/issues"
   },
   "author": {
     "name": "your name",
@@ -40,8 +32,8 @@
     "lint:check": "eslint .",
     "lint:fix": "eslint . --fix",
     "lint:staged": "lint-staged --concurrent false --quiet",
-    "scripts:gitmoji": "ts-node ./script/update-commits-configs.ts",
-    "scripts:issues": "ts-node ./script/show-all-open-issues.ts",
+    "scripts:gitmoji": "ts-node ./script/gitmoji-setup.ts",
+    "scripts:issues": "ts-node ./script/github-issues.ts",
     "scripts:postbuild": "ts-node ./script/post-build.ts"
   },
   "dependencies": {

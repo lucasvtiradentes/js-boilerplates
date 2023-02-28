@@ -1,13 +1,8 @@
 {
   "name": "electron-basic",
   "version": "0.0.1",
-  "description": "⚡ a basic electron boilerplate.",
+  "description": "description",
   "license": "MIT",
-  "keywords": [
-    "nodejs",
-    "typescript"
-  ],
-  "homepage": "https://github.com/username/repository",
   "repository": {
     "type": "git",
     "url": "https://github.com/username/repository.git"
@@ -16,10 +11,6 @@
     "name": "your name",
     "email": "youremail@gmail.com"
   },
-  "bugs": {
-    "url": "https://github.com/username/repository/issues"
-  },
-  "main": "./dist/src/index.js",
   "scripts": {
     "prepare": "husky install",
     "commit": "cz",

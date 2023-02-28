@@ -1,0 +1,232 @@
+[
+  {
+    "name": "medium",
+    "image": "https://img.shields.io/badge/Medium-000000?logo=medium&logoColor=white",
+    "default_link": "https://medium.com/@lucasvtiradentes"
+  },
+  {
+    "name": "dev",
+    "image": "https://img.shields.io/badge/Dev-373737?logo=dev.to&logoColor=white",
+    "default_link": "https://dev.to/lucasvtiradentes"
+  },
+  {
+    "name": "youtube",
+    "image": "https://img.shields.io/badge/youtube-red?logo=youtube&logoColor=white",
+    "default_link": "https://www.youtube.com/@lucasvtiradentes"
+  },
+  {
+    "name": "windows",
+    "image": "https://img.shields.io/badge/windows-0000ff?logo=windows&logoColor=white",
+    "default_link": "ttps://www.microsoft.com/pt-br/software-download/windows11"
+  },
+  {
+    "name": "windows_terminal",
+    "image": "https://img.shields.io/badge/windows%20terminal-4D4D4D?logo=windows-terminal&logoColor=white",
+    "default_link": "https://github.com/microsoft/terminal"
+  },
+  {
+    "name": "vscode",
+    "image": "https://img.shields.io/badge/vscode-blue?logo=visualstudiocode&logoColor=white",
+    "default_link": "https://code.visualstudio.com/"
+  },
+  {
+    "name": "heroku",
+    "image": "https://img.shields.io/badge/heroku-purple?logo=heroku&logoColor=white",
+    "default_link": "https://www.heroku.com/"
+  },
+  {
+    "name": "bash",
+    "image": "https://img.shields.io/badge/bash-gray?logo=gnu-bash&logoColor=white",
+    "default_link": "https://www.gnu.org/software/bash/"
+  },
+  {
+    "name": "obsidian",
+    "image": "https://img.shields.io/badge/obsidian-7D69D6?logo=obsidian&logoColor=white",
+    "default_link": "https://obsidian.md/"
+  },
+  {
+    "name": "github",
+    "image": "https://img.shields.io/badge/github-black?logo=github&logoColor=white",
+    "default_link": "https://github.com/"
+  },
+  {
+    "name": "bitbucket",
+    "image": "https://img.shields.io/badge/bitbucket-0065ff?logo=bitbucket&logoColor=white",
+    "default_link": "https://bitbucket.org/"
+  },
+  {
+    "name": "gitlab",
+    "image": "https://img.shields.io/badge/gitlab-FC6D26?logo=gitlab&logoColor=white",
+    "default_link": "https://gitlab.com/"
+  },
+  {
+    "name": "html",
+    "image": "https://img.shields.io/badge/html-%23E34F26.svg?logo=html5&logoColor=white",
+    "default_link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+  },
+  {
+    "name": "css",
+    "image": "https://img.shields.io/badge/css-%231572B6.svg?logo=css3&logoColor=white",
+    "default_link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+  },
+  {
+    "name": "typescript",
+    "image": "https://img.shields.io/badge/typescript-%23007ACC.svg?logo=typescript&logoColor=white",
+    "default_link": "https://typescriptlang.org/"
+  },
+  {
+    "name": "nodejs",
+    "image": "https://img.shields.io/badge/node.js-339933?logo=nodedotjs&logoColor=white",
+    "default_link": "https://nodejs.org/"
+  },
+  {
+    "name": "git",
+    "image": "https://img.shields.io/badge/git-F1502F?logo=git&logoColor=white",
+    "default_link": "https://git-scm.com/"
+  },
+  {
+    "name": "javascript",
+    "image": "https://img.shields.io/badge/javascript-%23323330.svg?logo=javascript&logoColor=%23F7DF1E",
+    "default_link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/"
+  },
+  {
+    "name": "prettier",
+    "image": "https://img.shields.io/badge/prettier-blue?logo=prettier&logoColor=white",
+    "default_link": "https://prettier.io/"
+  },
+  {
+    "name": "eslint",
+    "image": "https://img.shields.io/badge/ESLint-4B3263?logo=eslint&logoColor=white",
+    "default_link": "https://eslint.org/"
+  },
+  {
+    "name": "commitlint",
+    "image": "https://img.shields.io/badge/commitlint-red?logo=commitlint&logoColor=white",
+    "default_link": "https://github.com/conventional-changelog/commitlint"
+  },
+  {
+    "name": "commitizen",
+    "image": "https://img.shields.io/badge/commitizen-pink?logo=conventionalcommits&logoColor=white",
+    "default_link": "https://github.com/commitizen/cz-cli"
+  },
+  {
+    "name": "husky",
+    "image": "https://img.shields.io/badge/🐶%20husky-yellow?logo=husky&logoColor=white",
+    "default_link": "https://github.com/typicode/husky"
+  },
+  {
+    "name": "editorconfig",
+    "image": "https://img.shields.io/badge/Editor%20Config-E0EFEF?logo=editorconfig&logoColor=000",
+    "default_link": "https://editorconfig.org/"
+  },
+  {
+    "name": "gitmoji",
+    "image": "https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square",
+    "default_link": "https://gitmoji.dev"
+  },
+  {
+    "name": "react",
+    "image": "https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361DAFB",
+    "default_link": "https://reactjs.org/"
+  },
+  {
+    "name": "express",
+    "image": "https://img.shields.io/badge/express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB",
+    "default_link": "https://expressjs.com/"
+  },
+  {
+    "name": "react_native",
+    "image": "https://img.shields.io/badge/react_native-%2320232a.svg?logo=react&logoColor=%2361DAFB",
+    "default_link": "https://reactnative.dev/"
+  },
+  {
+    "name": "expo",
+    "image": "https://img.shields.io/badge/expo-%2320232a.svg?logo=expo&logoColor=%2361DAFB",
+    "default_link": "https://expo.dev/"
+  },
+  {
+    "name": "npm",
+    "image": "https://img.shields.io/badge/npm-%2320232a.svg?logo=npm&logoColor=%white",
+    "default_link": "https://www.npmjs.com/"
+  },
+  {
+    "name": "pnpm",
+    "image": "https://img.shields.io/badge/pnpm-black?logo=pnpm&logoColor=F69220",
+    "default_link": "https://pnpm.io/"
+  },
+  {
+    "name": "next",
+    "image": "https://img.shields.io/badge/Next-000000?logo=next.js&logoColor=white",
+    "default_link": "https://nextjs.org/"
+  },
+  {
+    "name": "semantic_release",
+    "image": "https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square",
+    "default_link": "https://github.com/semantic-release/semantic-release"
+  },
+  {
+    "name": "c",
+    "image": "https://img.shields.io/badge/c%20language-%2300599C.svg?logo=c&logoColor=white",
+    "default_link": "https://en.wikipedia.org/wiki/C_(programming_language)"
+  },
+  {
+    "name": "apps_script",
+    "image": "https://img.shields.io/badge/apps%20script-4285F4?logo=google&logoColor=white",
+    "default_link": "https://www.google.com/script/start/"
+  },
+  {
+    "name": "jest",
+    "image": "https://img.shields.io/badge/jest-black?logo=jest&logoColor=white",
+    "default_link": "https://jestjs.io/"
+  },
+  {
+    "name": "supertest",
+    "image": "https://img.shields.io/badge/supertest-yellow?logo=supertest&logoColor=white",
+    "default_link": "https://github.com/ladjs/supertest/"
+  },
+  {
+    "name": "dotenv",
+    "image": "https://img.shields.io/badge/dotenv-gray?logo=dotenv&logoColor=white",
+    "default_link": "https://github.com/motdotla/dotenv"
+  },
+  {
+    "name": "lintstaged",
+    "image": "https://img.shields.io/badge/🚫%20lint%20staged-yellow?&logoColor=white",
+    "default_link": "https://github.com/okonet/lint-staged"
+  },
+  {
+    "name": "restclient",
+    "image": "https://img.shields.io/badge/restclient-blue?logo=restclient&logoColor=white",
+    "default_link": "https://marketplace.visualstudio.com/items?itemName=humao.rest-client"
+  },
+  {
+    "name": "electron",
+    "image": "https://img.shields.io/badge/electron-%2320232a.svg?logo=electron&logoColor=%2361DAFB",
+    "default_link": "https://www.electronjs.org/"
+  },
+  {
+    "name": "puppeteer",
+    "image": "https://img.shields.io/badge/🤖%20puppeteer-orange?&logoColor=white",
+    "default_link": "https://github.com/puppeteer/puppeteer"
+  },
+  {
+    "name": "tailwind",
+    "image": "https://img.shields.io/badge/tailwind-1e3a8a?logo=tailwindcss&logoColor=white",
+    "default_link": "https://tailwindcss.com/"
+  },
+  {
+    "name": "vercel",
+    "image": "https://img.shields.io/badge/vercel-black?logo=vercel&logoColor=white",
+    "default_link": "https://vercel.com/"
+  },
+  {
+    "name": "aws",
+    "image": "https://img.shields.io/badge/aws-yellow?logo=amazonaws&logoColor=white",
+    "default_link": "https://aws.com/"
+  },
+  {
+    "name": "serverless",
+    "image": "https://img.shields.io/badge/serverless-red?logo=serverless&logoColor=white",
+    "default_link": "https://serverless.com/"
+  }
+]

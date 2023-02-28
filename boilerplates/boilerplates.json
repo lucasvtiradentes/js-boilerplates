@@ -1,154 +1,659 @@
 [
   {
     "name": "express-server",
+    "description": "express server application",
     "category": "backend-server",
     "folder": "/backend-server/express-server",
-    "version": "0.0.1",
-    "description": "⚡ a basic express server boilerplate.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-02-28",
+    "app_features": [
+      "[express](https://github.com/expressjs/express) server backend",
+      "[util function](./src/server/utils/show-all-server-endpoints.ts) where you can view all available routes",
+      "[util function](./src/utils/handle-events.ts) to add graceful shutdown and error handling",
+      "tests-friendly with [jest](https://github.com/facebook/jest) and [supertest](https://github.com/ladjs/supertest);"
+    ],
+    "project_features": [
+      "easily test your api responses through a [server_routes.http](./tools/server_routes.http) and [REST CLIENT](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode",
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "nodejs",
+      "typescript",
+      "express",
+      "jest",
+      "supertest",
+      "dotenv"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged",
+      "restclient"
+    ],
+    "resources": [
+      "[Express documentation](https://expressjs.com/pt-br/)",
+      "[How to graceful shutdown a nodejs express server](https://www.youtube.com/watch?v=Z82mZV2Ye38)"
+    ]
   },
   {
-    "name": "chrome-extension",
+    "name": "chrome-extension-basic",
+    "description": "chrome extension",
     "category": "chrome-extension",
     "folder": "/chrome-extension/chrome-extension-basic",
-    "version": "0.0.1",
-    "description": "⚡ a basic chrome-extension boilerplate.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-03-01",
+    "app_features": [
+      "basic chrome extension written in javascript;"
+    ],
+    "project_features": [
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged"
+    ],
+    "resources": [
+      "[How to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)"
+    ]
   },
   {
-    "name": "chrome-extension",
+    "name": "chrome-extension-ts",
+    "description": "chrome extension that uses typescript",
     "category": "chrome-extension",
     "folder": "/chrome-extension/chrome-extension-ts",
-    "version": "0.0.1",
-    "description": "⚡ a basic chrome-extension boilerplate.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-03-01",
+    "app_features": [
+      "chrome extension that is written in typescript",
+      "tests-friendly with [jest](https://github.com/facebook/jest)."
+    ],
+    "project_features": [
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "typescript",
+      "html",
+      "css"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged"
+    ],
+    "resources": [
+      "[orange-it-up-chrome-extension](https://github.com/enisfr/orange-it-up-chrome-extension)",
+      "[creating chrome extesions with TypeScript](https://enisfr.medium.com/creating-chrome-extensions-with-typescript-914873467b65#9f32-5ed6c8b8e388)",
+      "[how to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)"
+    ]
   },
   {
-    "name": "chrome-extension-react",
+    "name": "chrome-extension-ts-react",
+    "description": "chrome extension that uses typescript and react",
     "category": "chrome-extension",
     "folder": "/chrome-extension/chrome-extension-ts-react",
-    "version": "0.0.1",
-    "description": "⚡ a basic chrome-extension with react boilerplate.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-03-01",
+    "app_features": [
+      "chrome extension that is written in typescript and uses react",
+      "tests-friendly with [jest](https://github.com/facebook/jest)."
+    ],
+    "project_features": [
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "typescript",
+      "react",
+      "html",
+      "css"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged"
+    ],
+    "resources": [
+      "[orange-it-up-chrome-extension](https://github.com/enisfr/orange-it-up-chrome-extension)",
+      "[creating chrome extesions with TypeScript](https://enisfr.medium.com/creating-chrome-extensions-with-typescript-914873467b65#9f32-5ed6c8b8e388)",
+      "[how to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)"
+    ]
   },
   {
     "name": "electron-basic",
+    "description": "electron application",
     "category": "desktop-app",
     "folder": "/desktop-app/electron-basic",
-    "version": "0.0.1",
-    "description": "⚡ a basic electron boilerplate.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-03-01",
+    "app_features": [
+      "[electron](https://github.com/electron/electron) basic application",
+      "tests-friendly with [jest](https://github.com/facebook/jest);"
+    ],
+    "project_features": [
+      "easily test your api responses through a [server_routes.http](./tools/server_routes.http) and [REST CLIENT](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode",
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "nodejs",
+      "typescript",
+      "electron",
+      "html",
+      "css",
+      "jest"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged"
+    ],
+    "resources": [
+      "[electron documentation](https://www.electronjs.org/pt/)"
+    ]
   },
   {
     "name": "electron-puppeteer",
+    "description": "electron application that uses puppeteer for browser automation",
     "category": "desktop-app",
     "folder": "/desktop-app/electron-puppeteer",
-    "version": "0.0.1",
-    "description": "⚡ a basic electron boilerplate.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-03-01",
+    "app_features": [
+      "[electron](https://github.com/electron/electron) basic application",
+      "uses [puppeteer](https://github.com/puppeteer/puppeteer) to perform browser automation",
+      "tests-friendly with [jest](https://github.com/facebook/jest);"
+    ],
+    "project_features": [
+      "easily test your api responses through a [server_routes.http](./tools/server_routes.http) and [REST CLIENT](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode",
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "nodejs",
+      "typescript",
+      "electron",
+      "html",
+      "css",
+      "puppeteer",
+      "jest"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged"
+    ],
+    "resources": [
+      "[electron documentation](https://www.electronjs.org/pt/)"
+    ]
   },
   {
     "name": "react-basic",
+    "description": "react application",
     "category": "frontend-app",
     "folder": "/frontend-app/react-basic",
-    "version": "1.0.0",
-    "description": "⚡ a basic react-typescript boilerplate.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-03-01",
+    "app_features": [
+      "[react](https://github.com/facebook/react) basic application",
+      "tests-friendly with [jest](https://github.com/facebook/jest);"
+    ],
+    "project_features": [
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "nodejs",
+      "typescript",
+      "react",
+      "jest"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged"
+    ],
+    "resources": [
+      "[react documentation](https://www.reactjs.org/pt/)"
+    ]
   },
   {
     "name": "react-tailwind",
+    "description": "react application that uses tailwind",
     "category": "frontend-app",
     "folder": "/frontend-app/react-tailwind",
-    "version": "1.0.0",
-    "description": "⚡ a basic react-tailwind boilerplate.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-03-01",
+    "app_features": [
+      "[react](https://github.com/facebook/react) basic application that uses tailwind",
+      "tests-friendly with [jest](https://github.com/facebook/jest);"
+    ],
+    "project_features": [
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "nodejs",
+      "typescript",
+      "react",
+      "tailwind",
+      "jest"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged"
+    ],
+    "resources": [
+      "[react documentation](https://www.reactjs.org/pt/)",
+      "[tailwind documentation](https://tailwindcss.com/)"
+    ]
   },
   {
     "name": "react-native-cli",
+    "description": "react native application",
     "category": "mobile-app",
     "folder": "/mobile-app/react-native-cli",
-    "version": "0.0.1",
-    "description": "⚡ a react native cli boilerplate.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-03-01",
+    "app_features": [
+      "[react native](https://reactnative.dev/docs/environment-setup) cli application",
+      "tests-friendly with [jest](https://github.com/facebook/jest);"
+    ],
+    "project_features": [
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "nodejs",
+      "typescript",
+      "react_native",
+      "jest"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged"
+    ],
+    "resources": [
+      "[Advanced React Native Boilerplate using TypeScript, Eslint, Prettier, Husky, CommitLint & more](https://www.youtube.com/watch?v=Z0hQK3eyK2M)",
+      "[React Native Tutorial # 3 - Project Structure and Boiler Plate](https://www.youtube.com/watch?v=_Z9tMbrm0WU)"
+    ]
   },
   {
     "name": "react-native-expo",
+    "description": "react native application that uses expo",
     "category": "mobile-app",
     "folder": "/mobile-app/react-native-expo",
-    "version": "0.0.1",
-    "description": "⚡ a react native expo boilerplate.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-03-01",
+    "app_features": [
+      "[react native](https://reactnative.dev/docs/environment-setup) [expo](https://expo.dev/) application",
+      "tests-friendly with [jest](https://github.com/facebook/jest);"
+    ],
+    "project_features": [
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "nodejs",
+      "typescript",
+      "react_native",
+      "expo",
+      "jest"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged"
+    ],
+    "resources": [
+      "[React Native Expo to APK File](https://www.youtube.com/watch?v=MK4JjqbHFBk)",
+      "[Build APKs for Android Emulators and devices](https://docs.expo.dev/build-reference/apk/)",
+      "[How to publish Expo React Native App to Apple App Store (step-by-step tutorial)](https://www.youtube.com/watch?v=LE4Mgkrf7Sk)",
+      "[How to publish Expo React Native App to Google Play Store](https://www.youtube.com/watch?v=oBWBDaqNuws)",
+      "[Publish Expo React Native App to Google Play Store](https://www.youtube.com/watch?v=7DQbbTQpUjQ&list=PLk8gdrb2DmCjsRsDIwMBJdf350qKMiJ8R)",
+      "[Expo online development](https://expo.dev/)",
+      "[Apple developer account](https://developer.apple.com/account)",
+      "[Google developer account](https://play.google.com/console/signup)"
+    ]
   },
   {
     "name": "node-basic",
+    "description": "node application",
     "category": "node",
     "folder": "/node/node-basic",
-    "version": "0.0.1",
-    "description": "⚡ a basic nodejs-typescript boilerplate.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-03-01",
+    "app_features": [
+      "[node](https://github.com/nodejs/node) server backend",
+      "tests-friendly with [jest](https://github.com/facebook/jest)"
+    ],
+    "project_features": [
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "nodejs",
+      "typescript",
+      "jest"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged"
+    ],
+    "resources": [
+      "[Nodejs documentation](https://nodejs.org/en/)"
+    ]
   },
   {
     "name": "node-puppeteer",
+    "description": "node application that uses puppeteer for browser automation",
     "category": "node",
     "folder": "/node/node-puppeteer",
-    "version": "0.0.1",
-    "description": "⚡ a basic puppeteer-pkg boilerplate.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-03-01",
+    "app_features": [
+      "[node](https://github.com/nodejs/node) application",
+      "uses [puppeteer](https://github.com/puppeteer/puppeteer) for browser automation",
+      "uses [pkg](https://github.com/vercel/pkg) to compile the software to run in non-dev environment",
+      "tests-friendly with [jest](https://github.com/facebook/jest)"
+    ],
+    "project_features": [
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "nodejs",
+      "typescript",
+      "puppeteer",
+      "jest"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged"
+    ],
+    "resources": [
+      "[Nodejs documentation](https://nodejs.org/en/)"
+    ]
   },
   {
     "name": "next-pwa",
+    "description": "next pwa application",
     "category": "pwa-app",
     "folder": "/pwa-app/next-pwa",
-    "version": "0.0.1",
-    "description": "⚡ a basic nextjs pwa boilerplate.",
-    "lastUpdate": "2023-02-28"
-  },
-  {
-    "name": "aws-lambda-sam",
-    "category": "serverless-functions",
-    "folder": "/serverless-functions/aws-lambda-sam",
-    "version": "0.0.1",
-    "description": "⚡ aws lambda tamplate using aws sam.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-02-28",
+    "app_features": [
+      "[next](https://nextjs.org/) pwa application",
+      "tests-friendly with [jest](https://github.com/facebook/jest)"
+    ],
+    "project_features": [
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "nodejs",
+      "typescript",
+      "next",
+      "jest"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged"
+    ],
+    "resources": [
+      "[Next documentation](https://nextjs.org/)",
+      "[PWA with Next.js](https://dev.to/anuraggharat/pwa-with-nextjs-5178)",
+      "[next-pwa](https://www.npmjs.com/package/next-pwa)",
+      "[How to Create a PWA With Next.js in 10 Minutes](https://www.youtube.com/watch?v=ARNN_zmrwcw)"
+    ]
   },
   {
     "name": "aws-lambda-serverless",
+    "description": "aws lamda serverless application",
     "category": "serverless-functions",
     "folder": "/serverless-functions/aws-lambda-serverless",
-    "version": "0.0.1",
-    "description": "⚡ aws lambda tamplate using typescript and serverless.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-02-28",
+    "app_features": [
+      "uses serverless framework to handle aws lambda",
+      "uses typescript",
+      "automatically deploy in every github push"
+    ],
+    "project_features": [
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "nodejs",
+      "typescript",
+      "aws",
+      "serverless"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged"
+    ],
+    "resources": [
+      "[Criando uma API com Serverless e Typescript na AWS](https://www.youtube.com/watch?v=i8F2gBEbH0o)",
+      "[Deploying to AWS Lambda with Serverless + GitHub Actions (Modern CI/CD) | Serverless Saturday](https://www.youtube.com/watch?v=oFYFqOzJdqY)",
+      "[How to Build a Basic App with TypeScript / Node.js + Deploy it to the Cloud (AWS Lambda) in 15 min](https://www.youtube.com/watch?v=NDOh2qEmSe8)",
+      "[Install serverless](https://www.serverless.com/framework/docs/getting-started)"
+    ]
   },
   {
-    "name": "aws-lambda-puppeteer",
+    "name": "aws-lambda-serverless-puppeteer",
+    "description": "aws lamda serverless application that uses puppeteer",
     "category": "serverless-functions",
     "folder": "/serverless-functions/aws-lambda-serverless-puppeteer",
-    "version": "0.0.1",
-    "description": "⚡ aws lambda tamplate using typescript and serverless.",
-    "lastUpdate": "2023-02-28"
-  },
-  {
-    "name": "vercel-express",
-    "category": "serverless-functions",
-    "folder": "/serverless-functions/vercel-express",
-    "version": "0.0.1",
-    "description": "⚡ a basic express server boilerplate to run on vercel.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-03-01",
+    "app_features": [
+      "uses serverless framework to handle aws lambda",
+      "uses typescript",
+      "automatically deploy in every github push"
+    ],
+    "project_features": [
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "nodejs",
+      "typescript",
+      "aws",
+      "serverless",
+      "puppeteer"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged"
+    ],
+    "resources": [
+      "[https://www.npmjs.com/package/serverless-plugin-typescript](serverless-plugin-typescript)",
+      "[https://stackoverflow.com/questions/63507149/serverless-command-offline-not-found](Serverless command offline not found)",
+      "[https://www.youtube.com/watch?v=7ZEEvC-oW8c](Puppeteer on AWS Lambda in May of 2022)"
+    ]
   },
   {
     "name": "vercel-serverless",
+    "description": "vercel serverless application",
     "category": "serverless-functions",
     "folder": "/serverless-functions/vercel-serverless",
-    "version": "0.0.1",
-    "description": "⚡ a basic nextjs-typescript boilerplate.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-03-01",
+    "app_features": [
+      "vercel serverless function",
+      "automatically deploy in every github push"
+    ],
+    "project_features": [
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "nodejs",
+      "typescript",
+      "vercel",
+      "serverless"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged",
+      "lintstaged"
+    ],
+    "resources": [
+      "[Vercel Serverless Function](https://www.youtube.com/watch?v=nEapqhFgub4)"
+    ]
+  },
+  {
+    "name": "vercel-serverless-express",
+    "description": "vercel serverless application that uses express",
+    "category": "serverless-functions",
+    "folder": "/serverless-functions/vercel-serverless-express",
+    "lastUpdate": "2023-03-01",
+    "app_features": [
+      "vercel serverless function",
+      "automatically deploy in every github push"
+    ],
+    "project_features": [
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "nodejs",
+      "typescript",
+      "vercel",
+      "serverless",
+      "express"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged",
+      "lintstaged"
+    ],
+    "resources": [
+      "[Vercel Serverless Function](https://www.youtube.com/watch?v=nEapqhFgub4)"
+    ]
   },
   {
     "name": "vercel-serverless-puppeteer",
+    "description": "vercel serverless application that uses puppeteer",
     "category": "serverless-functions",
     "folder": "/serverless-functions/vercel-serverless-puppeteer",
-    "version": "0.0.1",
-    "description": "⚡ a basic express server boilerplate to run on vercel.",
-    "lastUpdate": "2023-02-28"
+    "lastUpdate": "2023-03-01",
+    "app_features": [
+      "vercel serverless function",
+      "automatically deploy in every github push"
+    ],
+    "project_features": [
+      "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    ],
+    "app_techs": [
+      "nodejs",
+      "typescript",
+      "vercel",
+      "serverless",
+      "puppeteer"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged",
+      "lintstaged"
+    ],
+    "resources": [
+      "[Vercel Serverless Function](https://www.youtube.com/watch?v=nEapqhFgub4)",
+      "[How To Deploy Puppeteer Script in Vercel via CLI & GitHub in 2022](https://www.youtube.com/watch?v=X6VIWHl3JmM)"
+    ]
   }
 ]

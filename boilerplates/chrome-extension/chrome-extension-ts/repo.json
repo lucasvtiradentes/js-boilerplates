@@ -1,0 +1,31 @@
+{
+  "description": "chrome extension that uses typescript",
+  "app_features": [
+    "chrome extension that is written in typescript",
+    "tests-friendly with [jest](https://github.com/facebook/jest)."
+  ],
+  "project_features": [
+    "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+    "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+  ],
+  "app_techs": [
+    "typescript",
+    "html",
+    "css"
+  ],
+  "project_techs": [
+    "vscode",
+    "husky",
+    "commitlint",
+    "commitizen",
+    "editorconfig",
+    "prettier",
+    "eslint",
+    "lintstaged"
+  ],
+  "resources": [
+    "[orange-it-up-chrome-extension](https://github.com/enisfr/orange-it-up-chrome-extension)",
+    "[creating chrome extesions with TypeScript](https://enisfr.medium.com/creating-chrome-extensions-with-typescript-914873467b65#9f32-5ed6c8b8e388)",
+    "[how to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)"
+  ]
+}

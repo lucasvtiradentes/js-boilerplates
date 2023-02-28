@@ -1,25 +1,15 @@
 {
   "name": "aws-lambda-serverless",
   "version": "0.0.1",
-  "description": "⚡ aws lambda tamplate using typescript and serverless.",
+  "description": "description",
   "license": "MIT",
-  "keywords": [
-    "nodejs",
-    "typescript",
-    "aws",
-    "aws lambda"
-  ],
-  "homepage": "https://github.com/username/repository",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/username/repository.git"
-  },
-  "bugs": {
-    "url": "https://github.com/username/repository/issues"
-  },
   "author": {
     "name": "your name",
     "email": "youremail@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/repository.git"
   },
   "scripts": {
     "prepare": "husky install",

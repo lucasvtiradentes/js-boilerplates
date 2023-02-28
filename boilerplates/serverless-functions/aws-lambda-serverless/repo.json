@@ -1,0 +1,20 @@
+{
+  "description": "aws lamda serverless application",
+  "app_features": [
+    "uses serverless framework to handle aws lambda",
+    "uses typescript",
+    "automatically deploy in every github push"
+  ],
+  "project_features": [
+    "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+    "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+  ],
+  "resources": [
+    "[Criando uma API com Serverless e Typescript na AWS](https://www.youtube.com/watch?v=i8F2gBEbH0o)",
+    "[Deploying to AWS Lambda with Serverless + GitHub Actions (Modern CI/CD) | Serverless Saturday](https://www.youtube.com/watch?v=oFYFqOzJdqY)",
+    "[How to Build a Basic App with TypeScript / Node.js + Deploy it to the Cloud (AWS Lambda) in 15 min](https://www.youtube.com/watch?v=NDOh2qEmSe8)",
+    "[Install serverless](https://www.serverless.com/framework/docs/getting-started)"
+  ],
+  "app_techs": ["nodejs", "typescript", "aws", "serverless"],
+  "project_techs": ["vscode", "husky", "commitlint", "commitizen", "editorconfig", "prettier", "eslint", "lintstaged"]
+}

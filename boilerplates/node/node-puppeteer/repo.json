@@ -1,0 +1,18 @@
+{
+  "description": "node application that uses puppeteer for browser automation",
+  "app_features": [
+    "[node](https://github.com/nodejs/node) application",
+    "uses [puppeteer](https://github.com/puppeteer/puppeteer) for browser automation",
+    "uses [pkg](https://github.com/vercel/pkg) to compile the software to run in non-dev environment",
+    "tests-friendly with [jest](https://github.com/facebook/jest)"
+  ],
+  "project_features": [
+    "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
+    "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+  ],
+  "resources": [
+    "[Nodejs documentation](https://nodejs.org/en/)"
+  ],
+  "app_techs": ["nodejs", "typescript", "puppeteer", "jest"],
+  "project_techs": ["vscode", "husky", "commitlint", "commitizen", "editorconfig", "prettier", "eslint", "lintstaged"]
+}

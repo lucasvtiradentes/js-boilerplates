@@ -8,10 +8,11 @@
   },
   "scripts": {
     "prepare": "husky install",
+    "precommit": "npm run script:issues",
     "commit": "cz",
     "start": "npm run update:boilerplates",
-    "update:json": "ts-node ./scripts/update-json.ts",
-    "update:md": "ts-node ./scripts/update-markdown.ts",
+    "update:json": "ts-node ./update/update-json.ts",
+    "update:md": "ts-node ./update/update-markdown.ts",
     "update": "npm run update:json && npm run update:md",
     "script:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
     "script:issues": "ts-node ./scripts/github-issues.ts"

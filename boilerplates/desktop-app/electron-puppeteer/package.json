@@ -1,25 +1,16 @@
 {
   "name": "electron-puppeteer",
   "version": "0.0.1",
-  "description": "⚡ a basic electron boilerplate.",
+  "description": "description",
   "license": "MIT",
-  "keywords": [
-    "nodejs",
-    "typescript"
-  ],
-  "homepage": "https://github.com/username/repository",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/username/repository.git"
-  },
   "author": {
     "name": "your name",
     "email": "youremail@gmail.com"
   },
-  "bugs": {
-    "url": "https://github.com/username/repository/issues"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/repository.git"
   },
-  "main": "./dist/src/index.js",
   "scripts": {
     "prepare": "husky install",
     "commit": "cz",
@@ -38,8 +29,8 @@
     "lint:check": "eslint .",
     "lint:fix": "eslint . --fix",
     "lint:staged": "lint-staged --concurrent false --quiet",
-    "scripts:gitmoji": "ts-node ./scripts/update-commits-configs.ts",
-    "scripts:issues": "ts-node ./scripts/show-all-open-issues.ts",
+    "scripts:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
+    "scripts:issues": "ts-node ./scripts/github-issues.ts",
     "scripts:copy": "ts-node ./scripts/copy-non-ignored-files-to-dist.ts"
   },
   "dependencies": {
