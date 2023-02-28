@@ -1,0 +1,16 @@
+#https://git-scm.com/docs/gitignore
+
+# FOLDERS ###############################
+
+coverage/
+ignore/
+node_modules/
+dist/
+
+# FILES #################################
+
+.ENV
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.vercel

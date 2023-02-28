@@ -1,5 +1,5 @@
 {
-  "name": "aws-lambda-ts-serverless",
+  "name": "aws-lambda-serverless",
   "version": "0.0.1",
   "description": "⚡ aws lambda tamplate using typescript and serverless.",
   "license": "MIT",

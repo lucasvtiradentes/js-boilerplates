@@ -36,15 +36,9 @@ This repository containes the following boilerplates:
       <th align="center" width="130">last update</th>
     </tr>
     <tr>
-      <td rowspan="2"><a href="./boilerplates/backend-server">backend-server</a></td>
+      <td rowspan="1"><a href="./boilerplates/backend-server">backend-server</a></td>
       <td><a href="./boilerplates/backend-server/express-server">express-server</a></td>
       <td>⚡ a basic express server boilerplate.</td>
-      <td>2023-02-03</td>
-    </tr>
-    <tr>
-  <!--     <td><a href="./boilerplates/backend-server">backend-server</a></td> -->
-      <td><a href="./boilerplates/backend-server/express-vercel">express-vercel</a></td>
-      <td>⚡ a basic express server boilerplate to run on vercel.</td>
       <td>2023-02-03</td>
     </tr>
     <tr>
@@ -61,27 +55,21 @@ This repository containes the following boilerplates:
     </tr>
     <tr>
       <td rowspan="2"><a href="./boilerplates/electron">electron</a></td>
-      <td><a href="./boilerplates/electron/electron">electron</a></td>
+      <td><a href="./boilerplates/electron/electron-basic">electron-basic</a></td>
       <td>⚡ a basic electron boilerplate.</td>
-      <td>2023-02-03</td>
+      <td>2023-02-28</td>
     </tr>
     <tr>
   <!--     <td><a href="./boilerplates/electron">electron</a></td> -->
       <td><a href="./boilerplates/electron/electron-puppeteer">electron-puppeteer</a></td>
       <td>⚡ a basic electron boilerplate.</td>
-      <td>2023-02-03</td>
+      <td>2023-02-28</td>
     </tr>
     <tr>
-      <td rowspan="7"><a href="./boilerplates/next">next</a></td>
+      <td rowspan="6"><a href="./boilerplates/next">next</a></td>
       <td><a href="./boilerplates/next/next-basic">next-basic</a></td>
       <td>⚡ a basic nextjs-typescript boilerplate.</td>
       <td>2023-02-03</td>
-    </tr>
-    <tr>
-  <!--     <td><a href="./boilerplates/next">next</a></td> -->
-      <td><a href="./boilerplates/next/next-pwa">next-pwa</a></td>
-      <td>⚡ a basic nextjs pwa boilerplate.</td>
-      <td>2023-02-27</td>
     </tr>
     <tr>
   <!--     <td><a href="./boilerplates/next">next</a></td> -->
@@ -115,15 +103,21 @@ This repository containes the following boilerplates:
     </tr>
     <tr>
       <td rowspan="2"><a href="./boilerplates/other">other</a></td>
-      <td><a href="./boilerplates/other/nodejs-basic">nodejs-basic</a></td>
+      <td><a href="./boilerplates/other/node-basic">node-basic</a></td>
       <td>⚡ a basic nodejs-typescript boilerplate.</td>
-      <td>2023-02-03</td>
+      <td>2023-02-28</td>
     </tr>
     <tr>
   <!--     <td><a href="./boilerplates/other">other</a></td> -->
       <td><a href="./boilerplates/other/puppeteer-pkg">puppeteer-pkg</a></td>
       <td>⚡ a basic puppeteer-pkg boilerplate.</td>
-      <td>2023-02-03</td>
+      <td>2023-02-28</td>
+    </tr>
+    <tr>
+      <td rowspan="1"><a href="./boilerplates/pwa">pwa</a></td>
+      <td><a href="./boilerplates/pwa/next-pwa">next-pwa</a></td>
+      <td>⚡ a basic nextjs pwa boilerplate.</td>
+      <td>2023-02-28</td>
     </tr>
     <tr>
       <td rowspan="2"><a href="./boilerplates/react">react</a></td>
@@ -135,31 +129,55 @@ This repository containes the following boilerplates:
   <!--     <td><a href="./boilerplates/react">react</a></td> -->
       <td><a href="./boilerplates/react/react-tailwind">react-tailwind</a></td>
       <td>⚡ a basic react-tailwind boilerplate.</td>
-      <td>2023-02-03</td>
+      <td>2023-02-28</td>
     </tr>
     <tr>
       <td rowspan="2"><a href="./boilerplates/react-native">react-native</a></td>
       <td><a href="./boilerplates/react-native/react-native-cli">react-native-cli</a></td>
       <td>⚡ a react native cli boilerplate.</td>
-      <td>2023-02-26</td>
+      <td>2023-02-28</td>
     </tr>
     <tr>
   <!--     <td><a href="./boilerplates/react-native">react-native</a></td> -->
       <td><a href="./boilerplates/react-native/react-native-expo">react-native-expo</a></td>
       <td>⚡ a react native expo boilerplate.</td>
-      <td>2023-02-26</td>
+      <td>2023-02-28</td>
     </tr>
     <tr>
-      <td rowspan="2"><a href="./boilerplates/serverless">serverless</a></td>
-      <td><a href="./boilerplates/serverless/aws-lambda-sam">aws-lambda-sam</a></td>
-      <td>⚡ aws lambda tamplate using aws sam.</td>
-      <td>2023-02-24</td>
+      <td rowspan="6"><a href="./boilerplates/serverless">serverless</a></td>
+      <td><a href="./boilerplates/serverless/aws-lambda-puppeteer">aws-lambda-puppeteer</a></td>
+      <td>⚡ aws lambda tamplate using typescript and serverless.</td>
+      <td>2023-02-28</td>
     </tr>
     <tr>
   <!--     <td><a href="./boilerplates/serverless">serverless</a></td> -->
-      <td><a href="./boilerplates/serverless/aws-lambda-ts-serverless">aws-lambda-ts-serverless</a></td>
+      <td><a href="./boilerplates/serverless/aws-lambda-sam">aws-lambda-sam</a></td>
+      <td>⚡ aws lambda tamplate using aws sam.</td>
+      <td>2023-02-28</td>
+    </tr>
+    <tr>
+  <!--     <td><a href="./boilerplates/serverless">serverless</a></td> -->
+      <td><a href="./boilerplates/serverless/aws-lambda-serverless">aws-lambda-serverless</a></td>
       <td>⚡ aws lambda tamplate using typescript and serverless.</td>
-      <td>2023-02-24</td>
+      <td>2023-02-28</td>
+    </tr>
+    <tr>
+  <!--     <td><a href="./boilerplates/serverless">serverless</a></td> -->
+      <td><a href="./boilerplates/serverless/vercel-express">vercel-express</a></td>
+      <td>⚡ a basic express server boilerplate to run on vercel.</td>
+      <td>2023-02-28</td>
+    </tr>
+    <tr>
+  <!--     <td><a href="./boilerplates/serverless">serverless</a></td> -->
+      <td><a href="./boilerplates/serverless/vercel-serverless">vercel-serverless</a></td>
+      <td>⚡ a basic nextjs-typescript boilerplate.</td>
+      <td>2023-02-28</td>
+    </tr>
+    <tr>
+  <!--     <td><a href="./boilerplates/serverless">serverless</a></td> -->
+      <td><a href="./boilerplates/serverless/vercel-serverless-puppeteer">vercel-serverless-puppeteer</a></td>
+      <td>⚡ a basic express server boilerplate to run on vercel.</td>
+      <td>2023-02-28</td>
     </tr>
   </table>
 <!-- </DYNFIELD:boilerplates> -->
