@@ -11,21 +11,23 @@
 </a> • <a href="#information_source-related">Related</a>
 </p>
 
-<a href="#"><img src="./.github/images/divider.png" /></a>
+<div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
 
 ## :dart: Features</a><a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
 
 ### Main features
 <!-- <DYNFIELD:boilerplate_app_features> -->
-- [x] basic chrome extension written in javascript;
+- [x] basic chrome extension written in javascript;.
 <!-- </DYNFIELD:boilerplate_app_features> -->
 
 ### Project features
 
 <!-- <DYNFIELD:boilerplate_project_features> -->
-- [x] [utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues
-- [x] [utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint).
+- [x] [utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues;
+- [x] [utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)..
 <!-- </DYNFIELD:boilerplate_project_features> -->
+
+<div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
 
 ## :wrench: Development<a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
 
@@ -44,7 +46,7 @@ To use this boilerplate you can either:
 
 ### Used technologies
 
-This project uses the following thechnologies:
+This project uses the following technologies:
 
 <!-- <DYNFIELD:boilerplate_technologies_table> -->
 <div align="center">
@@ -69,28 +71,21 @@ This project uses the following thechnologies:
       <a href="https://github.com/conventional-changelog/commitlint"><img src="https://img.shields.io/badge/commitlint-red?logo=commitlint&logoColor=white"></a>
       <a href="https://github.com/commitizen/cz-cli"><img src="https://img.shields.io/badge/commitizen-pink?logo=conventionalcommits&logoColor=white"></a>
       <a href="https://editorconfig.org/"><img src="https://img.shields.io/badge/Editor%20Config-E0EFEF?logo=editorconfig&logoColor=000"></a>
-      <a href="https://prettier.io/"><img src="https://img.shields.io/badge/prettier-blue?logo=prettier&logoColor=white"></a>
-      <a href="https://eslint.org/"><img src="https://img.shields.io/badge/ESLint-4B3263?logo=eslint&logoColor=white"></a>
-      <a href="https://github.com/okonet/lint-staged"><img src="https://img.shields.io/badge/🚫%20lint%20staged-yellow?&logoColor=white"></a>
     </td>
   </tr>
 </table>
 </div>
 <!-- </DYNFIELD:boilerplate_technologies_table> -->
 
-### Tips and tricks
-
-- everytime you need to make an commit, you can run the `commit` package.json script, in order to show commitzen available options;
-- before making a commit, you can run `script:issues` package.json script to actually see all open issues in the repository;
-- if you want to change the commits convention (which uses gitmoji), you can run the `script:gitmoji` packge.json script, and select the desired option.
-
 ## :information_source: Related<a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
 
 <!-- <DYNFIELD:boilerplate_related> -->
-- [How to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)
+- [How to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/).
 <!-- </DYNFIELD:boilerplate_related> -->
 
-<a href="#"><img src="./.github/images/divider.png" /></a>
+<div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
+
+<br>
 
 <!-- <DYNFIELD:footer> -->
 

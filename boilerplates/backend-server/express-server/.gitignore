@@ -3,13 +3,13 @@
 # FOLDERS ###############################
 
 coverage/
-ignore/
 dist/
 node_modules/
 
 # FILES #################################
 
-.ENV
+.env
+
 package-lock.json
-yarn.lock
 pnpm-lock.yaml
+yarn.lock

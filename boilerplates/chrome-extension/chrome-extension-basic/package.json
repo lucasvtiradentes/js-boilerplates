@@ -1,7 +1,7 @@
 {
-  "name": "chrome-extension",
-  "version": "0.0.1",
+  "name": "application-name",
   "description": "description",
+  "version": "0.0.1",
   "license": "MIT",
   "author": {
     "name": "your name",
@@ -15,6 +15,7 @@
     "prepare": "husky install",
     "precommit": "npm run script:issues",
     "commit": "cz",
+
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "lint:check": "eslint .",
@@ -28,12 +29,6 @@
     "commitizen-emoji": "^1.0.5",
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
-
-    "lint-staged": "^13.1.0",
-    "prettier": "^2.8.2",
-    "eslint": "^8.31.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1",
 
     "husky": "^8.0.3",
     "ts-node": "^10.9.1",

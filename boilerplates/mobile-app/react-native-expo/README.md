@@ -11,22 +11,24 @@
 </a> • <a href="#information_source-related">Related</a>
 </p>
 
-<a href="#"><img src="./.github/images/divider.png" /></a>
+<div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
 
 ## :dart: Features</a><a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
 
 ### Main features
 <!-- <DYNFIELD:boilerplate_app_features> -->
-- [x] [react native](https://reactnative.dev/docs/environment-setup) [expo](https://expo.dev/) application
-- [x] tests-friendly with [jest](https://github.com/facebook/jest;
+- [x] [react native](https://reactnative.dev/docs/environment-setup) [expo](https://expo.dev/) application;
+- [x] tests-friendly with [jest](https://github.com/facebook/jest;.
 <!-- </DYNFIELD:boilerplate_app_features> -->
 
 ### Project features
 
 <!-- <DYNFIELD:boilerplate_project_features> -->
-- [x] [utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues
-- [x] [utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint).
+- [x] [utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues;
+- [x] [utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)..
 <!-- </DYNFIELD:boilerplate_project_features> -->
+
+<div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
 
 ## :wrench: Development<a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
 
@@ -62,7 +64,7 @@ $ npm run start
 
 ### Used technologies
 
-This project uses the following thechnologies:
+This project uses the following technologies:
 
 <!-- <DYNFIELD:boilerplate_technologies_table> -->
 <div align="center">
@@ -98,26 +100,22 @@ This project uses the following thechnologies:
 </div>
 <!-- </DYNFIELD:boilerplate_technologies_table> -->
 
-### Tips and tricks
-
-- everytime you need to make an commit, you can run the `commit` package.json script, in order to show commitzen available options;
-- before making a commit, you can run `script:issues` package.json script to actually see all open issues in the repository;
-- if you want to change the commits convention (which uses gitmoji), you can run the `script:gitmoji` packge.json script, and select the desired option.
-
 ## :information_source: Related<a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
 
 <!-- <DYNFIELD:boilerplate_related> -->
-- [React Native Expo to APK File](https://www.youtube.com/watch?v=MK4JjqbHFBk)
-- [Build APKs for Android Emulators and devices](https://docs.expo.dev/build-reference/apk/)
-- [How to publish Expo React Native App to Apple App Store (step-by-step tutorial)](https://www.youtube.com/watch?v=LE4Mgkrf7Sk)
-- [How to publish Expo React Native App to Google Play Store](https://www.youtube.com/watch?v=oBWBDaqNuws)
-- [Publish Expo React Native App to Google Play Store](https://www.youtube.com/watch?v=7DQbbTQpUjQ&list=PLk8gdrb2DmCjsRsDIwMBJdf350qKMiJ8R)
-- [Expo online development](https://expo.dev/)
-- [Apple developer account](https://developer.apple.com/account)
-- [Google developer account](https://play.google.com/console/signup)
+- [React Native Expo to APK File](https://www.youtube.com/watch?v=MK4JjqbHFBk);
+- [Build APKs for Android Emulators and devices](https://docs.expo.dev/build-reference/apk/);
+- [How to publish Expo React Native App to Apple App Store (step-by-step tutorial)](https://www.youtube.com/watch?v=LE4Mgkrf7Sk);
+- [How to publish Expo React Native App to Google Play Store](https://www.youtube.com/watch?v=oBWBDaqNuws);
+- [Publish Expo React Native App to Google Play Store](https://www.youtube.com/watch?v=7DQbbTQpUjQ&list=PLk8gdrb2DmCjsRsDIwMBJdf350qKMiJ8R);
+- [Expo online development](https://expo.dev/);
+- [Apple developer account](https://developer.apple.com/account);
+- [Google developer account](https://play.google.com/console/signup).
 <!-- </DYNFIELD:boilerplate_related> -->
 
-<a href="#"><img src="./.github/images/divider.png" /></a>
+<div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
+
+<br>
 
 <!-- <DYNFIELD:footer> -->
 

@@ -5,7 +5,7 @@
     "tests-friendly with [jest](https://github.com/facebook/jest;"
   ],
   "project_features": [
-    "easily test your api responses through a [server_routes.http](./tools/server_routes.http) and [REST CLIENT](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode",
+    "easily test your api responses through a [server_routes.http](./tools/server_routes.http) and [rest client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode extension",
     "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
     "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
   ],

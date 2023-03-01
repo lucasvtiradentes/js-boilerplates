@@ -1,7 +1,7 @@
 {
-  "name": "react-native-expo",
-  "version": "0.0.1",
+  "name": "application-name",
   "description": "description",
+  "version": "0.0.1",
   "license": "MIT",
   "author": {
     "name": "your name",
@@ -16,6 +16,7 @@
     "prepare": "husky install",
     "precommit": "npm run script:issues",
     "commit": "cz",
+
     "build:ios": "eas build -p ios",
     "build:android": "eas build -p android --profile preview",
     "build": "npm run build:android",
@@ -23,6 +24,7 @@
     "dev:ios": "expo start --ios",
     "dev:web": "expo start --web",
     "dev": "expo start",
+    
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "lint:check": "eslint .",

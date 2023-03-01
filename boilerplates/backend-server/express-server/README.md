@@ -11,25 +11,28 @@
 </a> • <a href="#information_source-related">Related</a>
 </p>
 
-<a href="#"><img src="./.github/images/divider.png" /></a>
+<div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
 
 ## :dart: Features</a><a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
 
 ### Main features
 <!-- <DYNFIELD:boilerplate_app_features> -->
-- [x] [express](https://github.com/expressjs/express) server backend
-- [x] [util function](./src/server/utils/show-all-server-endpoints.ts) where you can view all available routes
-- [x] [util function](./src/utils/handle-events.ts) to add graceful shutdown and error handling
-- [x] tests-friendly with [jest](https://github.com/facebook/jest) and [supertest](https://github.com/ladjs/supertest);
+- [x] [express](https://github.com/expressjs/express) server backend;
+- [x] [util function](./src/server/utils/show-all-server-endpoints.ts) where you can view all available routes;
+- [x] [util function](./src/utils/handle-events.ts) to add graceful shutdown and error handling;
+- [x] tests-friendly with [jest](https://github.com/facebook/jest) and [supertest](https://github.com/ladjs/supertest).
 <!-- </DYNFIELD:boilerplate_app_features> -->
 
 ### Project features
 
 <!-- <DYNFIELD:boilerplate_project_features> -->
-- [x] easily test your api responses through a [server_routes.http](./tools/server_routes.http) and [REST CLIENT](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode
-- [x] [utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues
-- [x] [utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)
+- [x] easily test your api responses through [server_routes.http](./tools/server_routes.http) file and [rest client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode extension;
+- [x] everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options;
+- [x] everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository;
+- [x] if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files.
 <!-- </DYNFIELD:boilerplate_project_features> -->
+
+<div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
 
 ## :wrench: Development<a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
 
@@ -65,7 +68,7 @@ $ npm run start
 
 ### Used technologies
 
-This project uses the following thechnologies:
+This project uses the following technologies:
 
 <!-- <DYNFIELD:boilerplate_technologies_table> -->
 <div align="center">
@@ -103,20 +106,16 @@ This project uses the following thechnologies:
 </div>
 <!-- </DYNFIELD:boilerplate_technologies_table> -->
 
-### Tips and tricks
-
-- everytime you need to make an commit, you can run the `commit` package.json script, in order to show commitzen available options;
-- before making a commit, you can run `script:issues` package.json script to actually see all open issues in the repository;
-- if you want to change the commits convention (which uses gitmoji), you can run the `script:gitmoji` packge.json script, and select the desired option.
-
 ## :information_source: Related<a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
 
 <!-- <DYNFIELD:boilerplate_related> -->
-- [Express documentation](https://expressjs.com/pt-br/)
-- [How to graceful shutdown a nodejs express server](https://www.youtube.com/watch?v=Z82mZV2Ye38)
+- [Express documentation](https://expressjs.com/pt-br/);
+- [How to graceful shutdown a nodejs express server](https://www.youtube.com/watch?v=Z82mZV2Ye38).
 <!-- </DYNFIELD:boilerplate_related> -->
 
-<a href="#"><img src="./.github/images/divider.png" /></a>
+<div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
+
+<br>
 
 <!-- <DYNFIELD:footer> -->
 

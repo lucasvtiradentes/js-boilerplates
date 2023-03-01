@@ -1,7 +1,7 @@
 {
   "name": "ts-boilerplates",
-  "version": "0.0.1",
   "description": "📁 typescript boilerplates pre-setted up modern and useful project tools.",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/lucasvtiradentes/ts-boilerplates.git"

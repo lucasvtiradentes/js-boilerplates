@@ -6,14 +6,10 @@
 .github/
 .husky/
 .vscode/
-coverage/
-ignore/
-dist/
 node_modules/
 
 # FILES #################################
 
-.commitlintrc
 .czrc
 .editorconfig
 .eslintignore
@@ -22,10 +18,13 @@ node_modules/
 .lintstagedrc
 .prettierignore
 .prettierrc.json
-jest.config.js
+commitlint.config.js
+LICENSE
 package.json
+README.md
+serverless.yml
 tsconfig.json
 
 package-lock.json
-yarn.lock
 pnpm-lock.yaml
+yarn.lock

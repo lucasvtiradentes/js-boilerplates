@@ -4,13 +4,10 @@
 
 .next
 coverage/
-ignore/
-dist/
 node_modules/
 
 # FILES #################################
 
 package-lock.json
-yarn.lock
 pnpm-lock.yaml
-.vercel
+yarn.lock

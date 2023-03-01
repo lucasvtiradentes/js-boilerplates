@@ -1,8 +1,12 @@
+#https://git-scm.com/docs/gitignore
+
 # FOLDERS #################################
+
 .expo/
 node_modules/
 
 # FILES ###################################
+
 pnpm-lock.yaml
 yarn.lock
 package-lock.json

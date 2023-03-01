@@ -1,7 +1,7 @@
 {
-  "name": "react-basic",
-  "version": "1.0.0",
+  "name": "application-name",
   "description": "description",
+  "version": "0.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -16,15 +16,17 @@
     "prepare": "husky install",
     "precommit": "npm run script:issues",
     "commit": "cz",
+
     "prebuild": "rimraf ./dist",
     "build:check": "tsc --noEmit",
     "build": "tsc && vite build",
+    "start": "vite preview",
+    "dev": "vite",
+
     "test": "jest --passWithNoTests",
     "test:watch": "jest --passWithNoTests --watchAll",
     "test:staged": "jest --passWithNoTests --findRelatedTests",
     "test:coverage": "jest --passWithNoTests --coverage",
-    "start": "vite preview",
-    "dev": "vite",
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "lint:check": "eslint .",

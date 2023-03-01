@@ -1,7 +1,7 @@
 {
-  "name": "react-native-cli",
-  "version": "0.0.1",
+  "name": "application-name",
   "description": "description",
+  "version": "0.0.1",
   "license": "MIT",
   "author": {
     "name": "your name",
@@ -15,10 +15,15 @@
     "prepare": "husky install",
     "precommit": "npm run script:issues",
     "commit": "cz",
+
     "dev:android": "react-native run-android",
     "dev:ios": "react-native run-ios",
     "dev": "react-native start",
-    "test": "jest",
+    
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest --passWithNoTests --watchAll",
+    "test:staged": "jest --passWithNoTests --findRelatedTests",
+    "test:coverage": "jest --passWithNoTests --coverage",
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "lint:check": "eslint .",

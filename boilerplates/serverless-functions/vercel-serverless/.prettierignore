@@ -8,13 +8,10 @@
 .next/
 .vscode/
 coverage/
-ignore/
-dist/
 node_modules/
 
 # FILES #################################
 
-.commitlintrc
 .czrc
 .editorconfig
 .eslintignore
@@ -23,10 +20,15 @@ node_modules/
 .lintstagedrc
 .prettierignore
 .prettierrc.json
+commitlint.config.js
 jest.config.js
+LICENSE
+next-env.d.ts
+next.config.js
 package.json
+README.md
 tsconfig.json
 
 package-lock.json
-yarn.lock
 pnpm-lock.yaml
+yarn.lock

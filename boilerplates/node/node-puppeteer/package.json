@@ -1,7 +1,7 @@
 {
-  "name": "node-puppeteer",
-  "version": "0.0.1",
+  "name": "application-name",
   "description": "description",
+  "version": "0.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -18,16 +18,18 @@
     "prepare": "husky install",
     "precommit": "npm run script:issues",
     "commit": "cz",
+
     "prebuild": "rimraf ./dist",
     "build:check": "tsc --noEmit",
     "build": "tsc && cp ./package.json ./dist && pkg dist --out-path build",
     "postbuild": "npm run script:postbuild",
+    "start": "node ./dist/src/index.js",
+    "dev": "ts-node ./src/index.ts",
+    
     "test": "jest --passWithNoTests",
     "test:watch": "jest --passWithNoTests --watchAll",
     "test:staged": "jest --passWithNoTests --findRelatedTests",
     "test:coverage": "jest --passWithNoTests --coverage",
-    "start": "node ./dist/src/index.js",
-    "dev": "ts-node ./src/index.ts",
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "lint:check": "eslint .",

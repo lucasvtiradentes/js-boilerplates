@@ -1,7 +1,12 @@
-# FOLDERS ##########################
-node_modules/
-.build/
-.serverless
+# https://git-scm.com/docs/gitignore
 
-# FILES ############################
+# FOLDERS ###############################
+
+node_modules/
+.serverless/
+
+# FILES #################################
+
+package-lock.json
 pnpm-lock.yaml
+yarn.lock

@@ -289,7 +289,7 @@ This repository is meant to be used alongside [boilermanager](https://github.com
 <!-- </DYNFIELD:boilerplates> -->
 </div>
 
-<a href="#"><img src="./.github/images/divider.png" /></a>
+<div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
 
 <div align="center">
   <p>

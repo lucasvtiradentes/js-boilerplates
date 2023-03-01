@@ -1,7 +1,7 @@
 {
-	"name": "vercel-express",
-	"version": "0.0.1",
+	"name": "application-name",
   "description": "description",
+	"version": "0.0.1",
   "license": "MIT",
   "author": {
     "name": "your name",
@@ -15,15 +15,17 @@
     "prepare": "husky install",
     "precommit": "npm run script:issues",
     "commit": "cz",
+
     "prebuild": "rimraf ./dist",
     "build": "tsc",
     "build:check": "tsc --noEmit",
+    "start": "node ./dist/src/index.js",
+    "dev": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules src/index.ts",
+    
     "test": "jest --passWithNoTests",
     "test:watch": "jest --passWithNoTests --verbose --watchAll",
     "test:staged": "jest --passWithNoTests --findRelatedTests",
     "test:coverage": "jest --passWithNoTests --coverage",
-    "start": "node ./dist/src/index.js",
-    "dev": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules src/index.ts",
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "lint:check": "eslint .",

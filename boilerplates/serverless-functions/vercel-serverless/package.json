@@ -1,7 +1,7 @@
 {
-  "name": "vercel-serverless",
-  "version": "0.0.1",
+  "name": "application-name",
   "description": "description",
+  "version": "0.0.1",
   "license": "MIT",
   "author": {
     "name": "your name",
@@ -15,14 +15,16 @@
     "prepare": "husky install",
     "precommit": "npm run script:issues",
     "commit": "cz",
+
     "build": "next build",
     "build:check": "tsc --noEmit",
+    "start": "next start",
+    "dev": "next dev",
+
     "test": "jest --passWithNoTests",
     "test:watch": "jest --passWithNoTests --watchAll",
     "test:staged": "jest --passWithNoTests --findRelatedTests",
     "test:coverage": "jest --passWithNoTests --coverage",
-    "start": "next start",
-    "dev": "next dev",
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "lint:check": "next lint",

@@ -11,22 +11,24 @@
 </a> • <a href="#information_source-related">Related</a>
 </p>
 
-<a href="#"><img src="./.github/images/divider.png" /></a>
+<div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
 
 ## :dart: Features</a><a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
 
 ### Main features
 <!-- <DYNFIELD:boilerplate_app_features> -->
-- [x] chrome extension that is written in typescript
-- [x] tests-friendly with [jest](https://github.com/facebook/jest).
+- [x] chrome extension that is written in typescript;
+- [x] tests-friendly with [jest](https://github.com/facebook/jest)..
 <!-- </DYNFIELD:boilerplate_app_features> -->
 
 ### Project features
 
 <!-- <DYNFIELD:boilerplate_project_features> -->
-- [x] [utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues
-- [x] [utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint).
+- [x] [utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues;
+- [x] [utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)..
 <!-- </DYNFIELD:boilerplate_project_features> -->
+
+<div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
 
 ## :wrench: Development<a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
 
@@ -59,7 +61,7 @@ $ npm run build
 
 ### Used technologies
 
-This project uses the following thechnologies:
+This project uses the following technologies:
 
 <!-- <DYNFIELD:boilerplate_technologies_table> -->
 <div align="center">
@@ -93,21 +95,17 @@ This project uses the following thechnologies:
 </div>
 <!-- </DYNFIELD:boilerplate_technologies_table> -->
 
-### Tips and tricks
-
-- everytime you need to make an commit, you can run the `commit` package.json script, in order to show commitzen available options;
-- before making a commit, you can run `script:issues` package.json script to actually see all open issues in the repository;
-- if you want to change the commits convention (which uses gitmoji), you can run the `script:gitmoji` packge.json script, and select the desired option.
-
 ## :information_source: Related<a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
 
 <!-- <DYNFIELD:boilerplate_related> -->
-- [orange-it-up-chrome-extension](https://github.com/enisfr/orange-it-up-chrome-extension)
-- [creating chrome extesions with TypeScript](https://enisfr.medium.com/creating-chrome-extensions-with-typescript-914873467b65#9f32-5ed6c8b8e388)
-- [how to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)
+- [orange-it-up-chrome-extension](https://github.com/enisfr/orange-it-up-chrome-extension);
+- [creating chrome extesions with TypeScript](https://enisfr.medium.com/creating-chrome-extensions-with-typescript-914873467b65#9f32-5ed6c8b8e388);
+- [how to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/).
 <!-- </DYNFIELD:boilerplate_related> -->
 
-<a href="#"><img src="./.github/images/divider.png" /></a>
+<div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
+
+<br>
 
 <!-- <DYNFIELD:footer> -->
 

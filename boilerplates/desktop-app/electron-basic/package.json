@@ -1,7 +1,7 @@
 {
-  "name": "electron-basic",
-  "version": "0.0.1",
+  "name": "application-name",
   "description": "description",
+  "version": "0.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -15,16 +15,18 @@
     "prepare": "husky install",
     "precommit": "npm run script:issues",
     "commit": "cz",
+
     "prebuild": "rimraf ./dist",
     "build:check": "tsc --noEmit",
     "build": "tsc",
     "postbuild": "npm run script:copy",
+    "start": "electron ./dist/src/index.js",
+    "dev": "tsc -w",
+    
     "test": "jest --passWithNoTests",
     "test:watch": "jest --passWithNoTests --watchAll",
     "test:staged": "jest --passWithNoTests --findRelatedTests",
     "test:coverage": "jest --passWithNoTests --coverage",
-    "start": "electron ./dist/src/index.js",
-    "dev": "tsc -w",
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "lint:check": "eslint .",

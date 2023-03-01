@@ -1,7 +1,7 @@
 {
-  "name": "chrome-extension-react",
-  "version": "0.0.1",
+  "name": "application-name",
   "description": "description",
+  "version": "0.0.1",
   "license": "MIT",
   "author": {
     "name": "your name",
@@ -15,11 +15,13 @@
     "prepare": "husky install",
     "precommit": "npm run script:issues",
     "commit": "cz",
+
     "dev": "webpack --config ./webpack/webpack.dev.js --watch",
     "build:check": "tsc --noEmit",
     "prebuild": "rimraf ./dist",
     "build": "webpack --config ./webpack/webpack.prod.js",
     "postbuild": "npm run script:copy",
+    
     "test": "jest --passWithNoTests",
     "test:watch": "jest --passWithNoTests --watchAll",
     "test:staged": "jest --passWithNoTests --findRelatedTests",
@@ -61,11 +63,11 @@
     "webpack-cli": "^4.0.0",
     "webpack-merge": "^5.0.0",
     "copy-webpack-plugin": "^9.0.1",
+    "glob": "^7.1.6",
 
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
 
-    "glob": "^7.1.6",
     "husky": "^8.0.3",
     "rimraf": "^4.0.4",
     "ts-loader": "^8.0.0",

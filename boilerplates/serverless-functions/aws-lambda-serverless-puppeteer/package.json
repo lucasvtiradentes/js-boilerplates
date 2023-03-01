@@ -1,7 +1,7 @@
 {
-  "name": "aws-lambda-puppeteer",
-  "version": "0.0.1",
+  "name": "application-name",
   "description": "description",
+  "version": "0.0.1",
   "license": "MIT",
   "author": {
     "name": "your name",
@@ -15,12 +15,14 @@
     "prepare": "husky install",
     "precommit": "npm run script:issues",
     "commit": "cz",
+
     "function:prod": "serverless invoke --function puppeteerFunction",
     "function:dev": "serverless invoke local --function puppeteerFunction",
     "dev": "serverless offline start",
     "build": "serverless package",
     "build:check": "tsc --noEmit",
     "pub": "serverless deploy",
+    
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "lint:check": "eslint .",

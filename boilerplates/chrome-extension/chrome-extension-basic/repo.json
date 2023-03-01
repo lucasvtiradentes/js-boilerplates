@@ -18,10 +18,7 @@
     "husky",
     "commitlint",
     "commitizen",
-    "editorconfig",
-    "prettier",
-    "eslint",
-    "lintstaged"
+    "editorconfig"
   ],
   "resources": [
     "[How to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)"

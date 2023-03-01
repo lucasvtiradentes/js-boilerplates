@@ -11,8 +11,8 @@ const BOILERMANAGER_LINK = `${GITHUB_USER}/boilermanager`
 const boilerplatesJson = getJson('./boilerplates/boilerplates.json')
 const iconsJson = getJson("./update/icons.json")
 
-const getFeaturesStr = (arr: string[]) => arr.map(item => `- [x] ${item}`).join('\n')
-const getResourcesStr = (arr: string[]) => arr.map(item => `- ${item}`).join('\n')
+const getFeaturesStr = (arr: string[]) => arr.map((item, index) => `- [x] ${item}` + (index === arr.length - 1 ? "." : ";")).join('\n')
+const getResourcesStr = (arr: string[]) => arr.map((item, index) => `- ${item}` + (index === arr.length - 1 ? "." : ";")).join('\n')
 
 const getCommandsStr = (commands: Command[]) => {
 
