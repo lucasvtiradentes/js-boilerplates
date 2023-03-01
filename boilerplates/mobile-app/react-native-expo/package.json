@@ -14,6 +14,7 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "prepare": "husky install",
+    "precommit": "npm run script:issues",
     "commit": "cz",
     "build:ios": "eas build -p ios",
     "build:android": "eas build -p android --profile preview",

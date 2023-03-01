@@ -7,6 +7,7 @@
     "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
     "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
   ],
+  "commands": [],
   "app_techs": [
     "javascript",
     "html",

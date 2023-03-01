@@ -16,11 +16,12 @@
   },
   "scripts": {
     "prepare": "husky install",
+    "precommit": "npm run script:issues",
     "commit": "cz",
     "prebuild": "rimraf ./dist",
     "build:check": "tsc --noEmit",
     "build": "tsc && cp ./package.json ./dist && pkg dist --out-path build",
-    "postbuild": "npm run scripts:postbuild",
+    "postbuild": "npm run script:postbuild",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --passWithNoTests --watchAll",
     "test:staged": "jest --passWithNoTests --findRelatedTests",
@@ -32,9 +33,9 @@
     "lint:check": "eslint .",
     "lint:fix": "eslint . --fix",
     "lint:staged": "lint-staged --concurrent false --quiet",
-    "scripts:gitmoji": "ts-node ./script/gitmoji-setup.ts",
-    "scripts:issues": "ts-node ./script/github-issues.ts",
-    "scripts:postbuild": "ts-node ./script/post-build.ts"
+    "script:gitmoji": "ts-node ./script/gitmoji-setup.ts",
+    "script:issues": "ts-node ./script/github-issues.ts",
+    "script:postbuild": "ts-node ./script/post-build.ts"
   },
   "dependencies": {
     "pkg": "^5.8.0",

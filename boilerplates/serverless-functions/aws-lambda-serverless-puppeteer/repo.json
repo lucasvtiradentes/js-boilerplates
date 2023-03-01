@@ -9,12 +9,44 @@
     "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
     "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
   ],
-  "resources": [
-    "[https://www.npmjs.com/package/serverless-plugin-typescript](serverless-plugin-typescript)",
-    "[https://stackoverflow.com/questions/63507149/serverless-command-offline-not-found](Serverless command offline not found)",
-    "[https://www.youtube.com/watch?v=7ZEEvC-oW8c](Puppeteer on AWS Lambda in May of 2022)"
-
+  "commands": [
+    {
+      "description": "Install dependencies",
+      "command": "npm install"
+    },
+    {
+      "description": "Run the project in development mode",
+      "command": "npm run dev"
+    },
+    {
+      "description": "Compiles the code into production mode",
+      "command": "npm run build"
+    },
+    {
+      "description": "Run the project in production mode",
+      "command": "npm run start"
+    }
   ],
-  "app_techs": ["nodejs", "typescript", "aws", "serverless", "puppeteer"],
-  "project_techs": ["vscode", "husky", "commitlint", "commitizen", "editorconfig", "prettier", "eslint", "lintstaged"]
+  "resources": [
+    "[serverless-plugin-typescript](https://www.npmjs.com/package/serverless-plugin-typescript)",
+    "[Serverless command offline not found](https://stackoverflow.com/questions/63507149/serverless-command-offline-not-found)",
+    "[Puppeteer on AWS Lambda in May of 2022](https://www.youtube.com/watch?v=7ZEEvC-oW8c)"
+  ],
+  "app_techs": [
+    "nodejs",
+    "typescript",
+    "aws",
+    "serverless",
+    "puppeteer"
+  ],
+  "project_techs": [
+    "vscode",
+    "husky",
+    "commitlint",
+    "commitizen",
+    "editorconfig",
+    "prettier",
+    "eslint",
+    "lintstaged"
+  ]
 }

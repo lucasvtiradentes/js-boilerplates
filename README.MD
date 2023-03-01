@@ -1,7 +1,9 @@
 <a name="TOC"></a>
 
 <H3 align="center">
-  NODEJS BOILERPLATES
+<!-- <DYNFIELD:boilerplates_count> -->
+  NODEJS BOILERPLATES (18)
+<!-- </DYNFIELD:boilerplates_count> -->
 </H1>
 
 <div align="center">

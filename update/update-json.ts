@@ -55,6 +55,7 @@ function getUpdatedBoilerplatesInfo(allBoilerplates: string[]){
       project_features: infoFileContent.project_features,
       app_techs: infoFileContent.app_techs,
       project_techs: infoFileContent.project_techs,
+      commands: infoFileContent.commands,
       resources: infoFileContent.resources
     }
 

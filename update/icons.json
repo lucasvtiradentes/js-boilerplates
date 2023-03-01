@@ -196,7 +196,7 @@
   },
   {
     "name": "restclient",
-    "image": "https://img.shields.io/badge/restclient-blue?logo=restclient&logoColor=white",
+    "image": "https://img.shields.io/badge/🌐%20restclient-1e3a8a?logo=restclient&logoColor=white",
     "default_link": "https://marketplace.visualstudio.com/items?itemName=humao.rest-client"
   },
   {

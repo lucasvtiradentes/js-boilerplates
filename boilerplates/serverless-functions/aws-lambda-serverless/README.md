@@ -2,7 +2,7 @@
 
 <h3 align="center">
 <!-- <DYNFIELD:boilerplate_name> -->
-  CHROME-EXTENSION-TS-REACT
+  AWS-LAMBDA-SERVERLESS
 <!-- </DYNFIELD:boilerplate_name> -->
 </h3>
 
@@ -17,8 +17,9 @@
 
 ### Main features
 <!-- <DYNFIELD:boilerplate_app_features> -->
-- [x] chrome extension that is written in typescript and uses react
-- [x] tests-friendly with [jest](https://github.com/facebook/jest).
+- [x] uses serverless framework to handle aws lambda
+- [x] uses typescript
+- [x] automatically deploy in every github push
 <!-- </DYNFIELD:boilerplate_app_features> -->
 
 ### Project features
@@ -36,7 +37,7 @@ To use this boilerplate you can either:
 
 <!-- <DYNFIELD:boilerplate_project_download> -->
 1. install [boilermanager](https://github.com/lucasvtiradentes/boilermanager) and select it from the boilerplate list everytime you want to use it (✅ recommended)
-2. download this folder by clicking [this link](https://download-directory.github.io/?url=https://github.com/lucasvtiradentes/ts-boilerplates/tree/master/boilerplates/chrome-extension/chrome-extension-ts-react)
+2. download this folder by clicking [this link](https://download-directory.github.io/?url=https://github.com/lucasvtiradentes/ts-boilerplates/tree/master/boilerplates/serverless-functions/aws-lambda-serverless)
 <!-- </DYNFIELD:boilerplate_project_download> -->
 
 <!-- <DYNFIELD:boilerplate_available_commands> -->
@@ -51,8 +52,11 @@ $ npm install
 # Run the project in development mode
 $ npm run dev
 
-# Compiles the code into production mode, after that you can load the dist folder
+# Compiles the code into production mode
 $ npm run build
+
+# Run the project in production mode
+$ npm run start
 ```
 
 <!-- </DYNFIELD:boilerplate_available_commands> -->
@@ -71,10 +75,10 @@ This project uses the following thechnologies:
   <tr>
     <td width="150">Main</td>
     <td align="center" width="400">
+      <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node.js-339933?logo=nodedotjs&logoColor=white"></a>
       <a href="https://typescriptlang.org/"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?logo=typescript&logoColor=white"></a>
-      <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361DAFB"></a>
-      <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"><img src="https://img.shields.io/badge/html-%23E34F26.svg?logo=html5&logoColor=white"></a>
-      <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img src="https://img.shields.io/badge/css-%231572B6.svg?logo=css3&logoColor=white"></a>
+      <a href="https://aws.com/"><img src="https://img.shields.io/badge/aws-yellow?logo=amazonaws&logoColor=white"></a>
+      <a href="https://serverless.com/"><img src="https://img.shields.io/badge/serverless-red?logo=serverless&logoColor=white"></a>
     </td>
   </tr>
   <tr>
@@ -103,9 +107,10 @@ This project uses the following thechnologies:
 ## :information_source: Related<a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
 
 <!-- <DYNFIELD:boilerplate_related> -->
-- [orange-it-up-chrome-extension](https://github.com/enisfr/orange-it-up-chrome-extension)
-- [creating chrome extesions with TypeScript](https://enisfr.medium.com/creating-chrome-extensions-with-typescript-914873467b65#9f32-5ed6c8b8e388)
-- [how to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)
+- [Criando uma API com Serverless e Typescript na AWS](https://www.youtube.com/watch?v=i8F2gBEbH0o)
+- [Deploying to AWS Lambda with Serverless + GitHub Actions (Modern CI/CD) | Serverless Saturday](https://www.youtube.com/watch?v=oFYFqOzJdqY)
+- [How to Build a Basic App with TypeScript / Node.js + Deploy it to the Cloud (AWS Lambda) in 15 min](https://www.youtube.com/watch?v=NDOh2qEmSe8)
+- [Install serverless](https://www.serverless.com/framework/docs/getting-started)
 <!-- </DYNFIELD:boilerplate_related> -->
 
 <a href="#"><img src="./.github/images/divider.png" /></a>

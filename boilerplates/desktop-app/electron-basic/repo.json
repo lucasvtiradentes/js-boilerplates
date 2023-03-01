@@ -2,12 +2,30 @@
   "description": "electron application",
   "app_features": [
     "[electron](https://github.com/electron/electron) basic application",
-    "tests-friendly with [jest](https://github.com/facebook/jest);"
+    "tests-friendly with [jest](https://github.com/facebook/jest;"
   ],
   "project_features": [
     "easily test your api responses through a [server_routes.http](./tools/server_routes.http) and [REST CLIENT](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode",
     "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
     "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+  ],
+  "commands": [
+    {
+      "description": "Install dependencies",
+      "command": "npm install"
+    },
+    {
+      "description": "Run the project in development mode",
+      "command": "npm run dev"
+    },
+    {
+      "description": "Compiles the code into production mode",
+      "command": "npm run build"
+    },
+    {
+      "description": "Run the project in production mode",
+      "command": "npm run start"
+    }
   ],
   "resources": [
     "[electron documentation](https://www.electronjs.org/pt/)"

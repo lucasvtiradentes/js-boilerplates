@@ -4,7 +4,7 @@
     "description": "express server application",
     "category": "backend-server",
     "folder": "/backend-server/express-server",
-    "lastUpdate": "2023-02-28",
+    "lastUpdate": "2023-03-01",
     "app_features": [
       "[express](https://github.com/expressjs/express) server backend",
       "[util function](./src/server/utils/show-all-server-endpoints.ts) where you can view all available routes",
@@ -14,7 +14,7 @@
     "project_features": [
       "easily test your api responses through a [server_routes.http](./tools/server_routes.http) and [REST CLIENT](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode",
       "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
-      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+      "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)"
     ],
     "app_techs": [
       "nodejs",
@@ -34,6 +34,24 @@
       "eslint",
       "lintstaged",
       "restclient"
+    ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode",
+        "command": "npm run build"
+      },
+      {
+        "description": "Run the project in production mode",
+        "command": "npm run start"
+      }
     ],
     "resources": [
       "[Express documentation](https://expressjs.com/pt-br/)",
@@ -68,6 +86,7 @@
       "eslint",
       "lintstaged"
     ],
+    "commands": [],
     "resources": [
       "[How to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)"
     ]
@@ -100,6 +119,20 @@
       "prettier",
       "eslint",
       "lintstaged"
+    ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode, after that you can load the dist folder",
+        "command": "npm run build"
+      }
     ],
     "resources": [
       "[orange-it-up-chrome-extension](https://github.com/enisfr/orange-it-up-chrome-extension)",
@@ -137,6 +170,20 @@
       "eslint",
       "lintstaged"
     ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode, after that you can load the dist folder",
+        "command": "npm run build"
+      }
+    ],
     "resources": [
       "[orange-it-up-chrome-extension](https://github.com/enisfr/orange-it-up-chrome-extension)",
       "[creating chrome extesions with TypeScript](https://enisfr.medium.com/creating-chrome-extensions-with-typescript-914873467b65#9f32-5ed6c8b8e388)",
@@ -151,7 +198,7 @@
     "lastUpdate": "2023-03-01",
     "app_features": [
       "[electron](https://github.com/electron/electron) basic application",
-      "tests-friendly with [jest](https://github.com/facebook/jest);"
+      "tests-friendly with [jest](https://github.com/facebook/jest;"
     ],
     "project_features": [
       "easily test your api responses through a [server_routes.http](./tools/server_routes.http) and [REST CLIENT](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode",
@@ -176,6 +223,24 @@
       "eslint",
       "lintstaged"
     ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode",
+        "command": "npm run build"
+      },
+      {
+        "description": "Run the project in production mode",
+        "command": "npm run start"
+      }
+    ],
     "resources": [
       "[electron documentation](https://www.electronjs.org/pt/)"
     ]
@@ -189,7 +254,7 @@
     "app_features": [
       "[electron](https://github.com/electron/electron) basic application",
       "uses [puppeteer](https://github.com/puppeteer/puppeteer) to perform browser automation",
-      "tests-friendly with [jest](https://github.com/facebook/jest);"
+      "tests-friendly with [jest](https://github.com/facebook/jest;"
     ],
     "project_features": [
       "easily test your api responses through a [server_routes.http](./tools/server_routes.http) and [REST CLIENT](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode",
@@ -215,6 +280,24 @@
       "eslint",
       "lintstaged"
     ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode",
+        "command": "npm run build"
+      },
+      {
+        "description": "Run the project in production mode",
+        "command": "npm run start"
+      }
+    ],
     "resources": [
       "[electron documentation](https://www.electronjs.org/pt/)"
     ]
@@ -227,7 +310,7 @@
     "lastUpdate": "2023-03-01",
     "app_features": [
       "[react](https://github.com/facebook/react) basic application",
-      "tests-friendly with [jest](https://github.com/facebook/jest);"
+      "tests-friendly with [jest](https://github.com/facebook/jest;"
     ],
     "project_features": [
       "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
@@ -249,6 +332,24 @@
       "eslint",
       "lintstaged"
     ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode",
+        "command": "npm run build"
+      },
+      {
+        "description": "Run the project in production mode",
+        "command": "npm run start"
+      }
+    ],
     "resources": [
       "[react documentation](https://www.reactjs.org/pt/)"
     ]
@@ -261,7 +362,7 @@
     "lastUpdate": "2023-03-01",
     "app_features": [
       "[react](https://github.com/facebook/react) basic application that uses tailwind",
-      "tests-friendly with [jest](https://github.com/facebook/jest);"
+      "tests-friendly with [jest](https://github.com/facebook/jest;"
     ],
     "project_features": [
       "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
@@ -284,6 +385,24 @@
       "eslint",
       "lintstaged"
     ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode",
+        "command": "npm run build"
+      },
+      {
+        "description": "Run the project in production mode",
+        "command": "npm run start"
+      }
+    ],
     "resources": [
       "[react documentation](https://www.reactjs.org/pt/)",
       "[tailwind documentation](https://tailwindcss.com/)"
@@ -297,7 +416,7 @@
     "lastUpdate": "2023-03-01",
     "app_features": [
       "[react native](https://reactnative.dev/docs/environment-setup) cli application",
-      "tests-friendly with [jest](https://github.com/facebook/jest);"
+      "tests-friendly with [jest](https://github.com/facebook/jest;"
     ],
     "project_features": [
       "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
@@ -319,6 +438,24 @@
       "eslint",
       "lintstaged"
     ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode",
+        "command": "npm run build"
+      },
+      {
+        "description": "Run the project in production mode",
+        "command": "npm run start"
+      }
+    ],
     "resources": [
       "[Advanced React Native Boilerplate using TypeScript, Eslint, Prettier, Husky, CommitLint & more](https://www.youtube.com/watch?v=Z0hQK3eyK2M)",
       "[React Native Tutorial # 3 - Project Structure and Boiler Plate](https://www.youtube.com/watch?v=_Z9tMbrm0WU)"
@@ -332,7 +469,7 @@
     "lastUpdate": "2023-03-01",
     "app_features": [
       "[react native](https://reactnative.dev/docs/environment-setup) [expo](https://expo.dev/) application",
-      "tests-friendly with [jest](https://github.com/facebook/jest);"
+      "tests-friendly with [jest](https://github.com/facebook/jest;"
     ],
     "project_features": [
       "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
@@ -354,6 +491,24 @@
       "prettier",
       "eslint",
       "lintstaged"
+    ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode",
+        "command": "npm run build"
+      },
+      {
+        "description": "Run the project in production mode",
+        "command": "npm run start"
+      }
     ],
     "resources": [
       "[React Native Expo to APK File](https://www.youtube.com/watch?v=MK4JjqbHFBk)",
@@ -395,6 +550,24 @@
       "eslint",
       "lintstaged"
     ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode",
+        "command": "npm run build"
+      },
+      {
+        "description": "Run the project in production mode",
+        "command": "npm run start"
+      }
+    ],
     "resources": [
       "[Nodejs documentation](https://nodejs.org/en/)"
     ]
@@ -431,6 +604,24 @@
       "eslint",
       "lintstaged"
     ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode",
+        "command": "npm run build"
+      },
+      {
+        "description": "Run the project in production mode",
+        "command": "npm run start"
+      }
+    ],
     "resources": [
       "[Nodejs documentation](https://nodejs.org/en/)"
     ]
@@ -440,7 +631,7 @@
     "description": "next pwa application",
     "category": "pwa-app",
     "folder": "/pwa-app/next-pwa",
-    "lastUpdate": "2023-02-28",
+    "lastUpdate": "2023-03-01",
     "app_features": [
       "[next](https://nextjs.org/) pwa application",
       "tests-friendly with [jest](https://github.com/facebook/jest)"
@@ -465,6 +656,24 @@
       "eslint",
       "lintstaged"
     ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode",
+        "command": "npm run build"
+      },
+      {
+        "description": "Run the project in production mode",
+        "command": "npm run start"
+      }
+    ],
     "resources": [
       "[Next documentation](https://nextjs.org/)",
       "[PWA with Next.js](https://dev.to/anuraggharat/pwa-with-nextjs-5178)",
@@ -477,7 +686,7 @@
     "description": "aws lamda serverless application",
     "category": "serverless-functions",
     "folder": "/serverless-functions/aws-lambda-serverless",
-    "lastUpdate": "2023-02-28",
+    "lastUpdate": "2023-03-01",
     "app_features": [
       "uses serverless framework to handle aws lambda",
       "uses typescript",
@@ -502,6 +711,24 @@
       "prettier",
       "eslint",
       "lintstaged"
+    ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode",
+        "command": "npm run build"
+      },
+      {
+        "description": "Run the project in production mode",
+        "command": "npm run start"
+      }
     ],
     "resources": [
       "[Criando uma API com Serverless e Typescript na AWS](https://www.youtube.com/watch?v=i8F2gBEbH0o)",
@@ -542,10 +769,28 @@
       "eslint",
       "lintstaged"
     ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode",
+        "command": "npm run build"
+      },
+      {
+        "description": "Run the project in production mode",
+        "command": "npm run start"
+      }
+    ],
     "resources": [
-      "[https://www.npmjs.com/package/serverless-plugin-typescript](serverless-plugin-typescript)",
-      "[https://stackoverflow.com/questions/63507149/serverless-command-offline-not-found](Serverless command offline not found)",
-      "[https://www.youtube.com/watch?v=7ZEEvC-oW8c](Puppeteer on AWS Lambda in May of 2022)"
+      "[serverless-plugin-typescript](https://www.npmjs.com/package/serverless-plugin-typescript)",
+      "[Serverless command offline not found](https://stackoverflow.com/questions/63507149/serverless-command-offline-not-found)",
+      "[Puppeteer on AWS Lambda in May of 2022](https://www.youtube.com/watch?v=7ZEEvC-oW8c)"
     ]
   },
   {
@@ -578,6 +823,24 @@
       "eslint",
       "lintstaged",
       "lintstaged"
+    ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode",
+        "command": "npm run build"
+      },
+      {
+        "description": "Run the project in production mode",
+        "command": "npm run start"
+      }
     ],
     "resources": [
       "[Vercel Serverless Function](https://www.youtube.com/watch?v=nEapqhFgub4)"
@@ -615,6 +878,24 @@
       "lintstaged",
       "lintstaged"
     ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode",
+        "command": "npm run build"
+      },
+      {
+        "description": "Run the project in production mode",
+        "command": "npm run start"
+      }
+    ],
     "resources": [
       "[Vercel Serverless Function](https://www.youtube.com/watch?v=nEapqhFgub4)"
     ]
@@ -650,6 +931,24 @@
       "eslint",
       "lintstaged",
       "lintstaged"
+    ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode",
+        "command": "npm run build"
+      },
+      {
+        "description": "Run the project in production mode",
+        "command": "npm run start"
+      }
     ],
     "resources": [
       "[Vercel Serverless Function](https://www.youtube.com/watch?v=nEapqhFgub4)",

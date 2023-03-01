@@ -13,12 +13,13 @@
   },
   "scripts": {
     "prepare": "husky install",
+    "precommit": "npm run script:issues",
     "commit": "cz",
     "dev": "webpack --config ./webpack/webpack.dev.js --watch",
     "build:check": "tsc --noEmit",
     "prebuild": "rimraf ./dist",
     "build": "webpack --config ./webpack/webpack.prod.js",
-    "postbuild": "npm run scripts:copy",
+    "postbuild": "npm run script:copy",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --passWithNoTests --watchAll",
     "test:staged": "jest --passWithNoTests --findRelatedTests",
@@ -30,7 +31,7 @@
     "lint:staged": "lint-staged --concurrent false --quiet",
     "script:issues": "ts-node ./scripts/github-issues.ts",
     "script:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
-    "scripts:copy": "ts-node ./scripts/post-build.ts"
+    "script:copy": "ts-node ./scripts/post-build.ts"
   },
   "devDependencies": {
     "@types/chrome": "0.0.158",

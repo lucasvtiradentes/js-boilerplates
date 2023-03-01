@@ -37,6 +37,7 @@ const getIconsStr = (arr: string[]) => {
 
   return `\n${curIcons}\n    `
 }
+
 boilerplatesJson.forEach((boilerplateItem: Boilerplate) => {
 
   boilerplatesTable.addBodyRow([
@@ -54,4 +55,6 @@ boilerplatesJson.forEach((boilerplateItem: Boilerplate) => {
 })
 
 boilerplatesMD.updateField('boilerplates', boilerplatesTable.getTable('category'))
+boilerplatesMD.updateField('boilerplates_count', `NODEJS BOILERPLATES (${boilerplatesJson.length})`)
+
 boilerplatesMD.saveFile()

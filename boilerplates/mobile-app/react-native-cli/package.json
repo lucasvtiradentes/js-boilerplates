@@ -13,6 +13,7 @@
   },
   "scripts": {
     "prepare": "husky install",
+    "precommit": "npm run script:issues",
     "commit": "cz",
     "dev:android": "react-native run-android",
     "dev:ios": "react-native run-ios",

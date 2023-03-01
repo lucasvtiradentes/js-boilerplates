@@ -16,6 +16,7 @@
   },
   "scripts": {
     "prepare": "husky install",
+    "precommit": "npm run script:issues",
     "commit": "cz",
     "prebuild": "rimraf ./dist",
     "build": "tsc",
@@ -31,8 +32,8 @@
     "lint:check": "eslint .",
     "lint:fix": "eslint . --fix",
     "lint:staged": "lint-staged --concurrent false --quiet",
-    "scripts:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
-    "scripts:issues": "ts-node ./scripts/github-issues.ts"
+    "script:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
+    "script:issues": "ts-node ./scripts/github-issues.ts"
   },
   "dependencies": {
     "chrome-aws-lambda": "^10.1.0",

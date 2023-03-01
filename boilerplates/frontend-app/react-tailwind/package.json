@@ -14,6 +14,7 @@
   "type": "module",
   "scripts": {
     "prepare": "husky install",
+    "precommit": "npm run script:issues",
     "commit": "cz",
     "prebuild": "rimraf ./dist",
     "build:check": "tsc --noEmit",
@@ -29,8 +30,8 @@
     "lint:check": "eslint .",
     "lint:fix": "eslint . --fix",
     "lint:staged": "lint-staged --concurrent false --quiet",
-    "scripts:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
-    "scripts:issues": "ts-node ./scripts/github-issues.ts"
+    "script:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
+    "script:issues": "ts-node ./scripts/github-issues.ts"
   },
   "dependencies": {
     "react": "^18.2.0",

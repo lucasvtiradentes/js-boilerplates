@@ -8,6 +8,20 @@
     "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
     "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
   ],
+  "commands": [
+    {
+      "description": "Install dependencies",
+      "command": "npm install"
+    },
+    {
+      "description": "Run the project in development mode",
+      "command": "npm run dev"
+    },
+    {
+      "description": "Compiles the code into production mode, after that you can load the dist folder",
+      "command": "npm run build"
+    }
+  ],
   "app_techs": [
     "typescript",
     "html",

@@ -13,6 +13,7 @@
   },
   "scripts": {
     "prepare": "husky install",
+    "precommit": "npm run script:issues",
     "commit": "cz",
     "build": "next build",
     "build:check": "tsc --noEmit",

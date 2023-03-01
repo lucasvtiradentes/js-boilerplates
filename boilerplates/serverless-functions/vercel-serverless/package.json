@@ -13,6 +13,7 @@
   },
   "scripts": {
     "prepare": "husky install",
+    "precommit": "npm run script:issues",
     "commit": "cz",
     "build": "next build",
     "build:check": "tsc --noEmit",
@@ -27,8 +28,8 @@
     "lint:check": "next lint",
     "lint:fix": "next lint --fix",
     "lint:staged": "lint-staged --concurrent false --quiet",
-    "scripts:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
-    "scripts:issues": "ts-node ./scripts/github-issues.ts"
+    "script:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
+    "script:issues": "ts-node ./scripts/github-issues.ts"
   },
   "dependencies": {
     "next": "13.0.4",
