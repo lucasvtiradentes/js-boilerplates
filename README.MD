@@ -291,6 +291,8 @@ This repository is meant to be used alongside [boilermanager](https://github.com
 
 <div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
 
+<br/>
+
 <div align="center">
   <p>
     <a target="_blank" href="https://www.linkedin.com/in/lucasvtiradentes/"><img src="https://img.shields.io/badge/-linkedin-blue?logo=Linkedin&logoColor=white" alt="LinkedIn"></a>

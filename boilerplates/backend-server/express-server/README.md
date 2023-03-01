@@ -11,6 +11,10 @@
 </a> • <a href="#information_source-related">Related</a>
 </p>
 
+<!-- <DYNFIELD:boilerplate_image> -->
+
+<!-- </DYNFIELD:boilerplate_image> -->
+
 <div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
 
 ## :dart: Features</a><a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
@@ -42,7 +46,7 @@ To use this boilerplate you can either:
 
 <!-- <DYNFIELD:boilerplate_project_download> -->
 1. install [boilermanager](https://github.com/lucasvtiradentes/boilermanager) and select it from the boilerplate list everytime you want to use it (✅ recommended)
-2. download this folder by clicking [this link](https://download-directory.github.io/?url=https://github.com/lucasvtiradentes/ts-boilerplates/tree/master/boilerplates/backend-server/express-server)
+2. download this folder by clicking [this link](https://download-directory.github.io/?url=https://github.com/lucasvtiradentes/boilermanager-boilerplates/tree/master/boilerplates/backend-server/express-server)
 <!-- </DYNFIELD:boilerplate_project_download> -->
 
 <!-- <DYNFIELD:boilerplate_available_commands> -->

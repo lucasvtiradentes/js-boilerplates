@@ -1,12 +1,18 @@
 {
   "description": "react native application that uses expo",
+  "image": {
+    "src": "",
+    "width": "",
+    "height": ""
+  },
   "app_features": [
     "[react native](https://reactnative.dev/docs/environment-setup) [expo](https://expo.dev/) application",
-    "tests-friendly with [jest](https://github.com/facebook/jest;"
+    "tests-friendly with [jest](https://github.com/facebook/jest)"
   ],
   "project_features": [
-    "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
-    "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+    "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+    "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
   ],
   "commands": [
     {
@@ -36,6 +42,21 @@
     "[Apple developer account](https://developer.apple.com/account)",
     "[Google developer account](https://play.google.com/console/signup)"
   ],
-  "app_techs": ["nodejs", "typescript", "react_native", "expo", "jest"],
-  "project_techs": ["vscode", "husky", "commitlint", "commitizen", "editorconfig", "prettier", "eslint", "lintstaged"]
+  "app_techs": [
+    "nodejs",
+    "typescript",
+    "react_native",
+    "expo",
+    "jest"
+  ],
+  "project_techs": [
+    "vscode",
+    "husky",
+    "commitlint",
+    "commitizen",
+    "editorconfig",
+    "prettier",
+    "eslint",
+    "lintstaged"
+  ]
 }

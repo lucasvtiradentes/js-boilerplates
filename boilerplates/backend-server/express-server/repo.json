@@ -1,6 +1,10 @@
 {
   "description": "express server application",
-  "image": "",
+  "image": {
+    "src": "",
+    "width": "",
+    "height": ""
+  },
   "app_features": [
     "[express](https://github.com/expressjs/express) server backend",
     "[util function](./src/server/utils/show-all-server-endpoints.ts) where you can view all available routes",

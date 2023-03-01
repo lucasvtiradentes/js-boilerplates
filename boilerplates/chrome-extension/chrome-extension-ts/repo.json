@@ -1,12 +1,18 @@
 {
   "description": "chrome extension that uses typescript",
+  "image": {
+    "src": "",
+    "width": "",
+    "height": ""
+  },
   "app_features": [
     "chrome extension that is written in typescript",
     "tests-friendly with [jest](https://github.com/facebook/jest)."
   ],
   "project_features": [
-    "[utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues",
-    "[utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)."
+    "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+    "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+    "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
   ],
   "commands": [
     {
@@ -22,6 +28,11 @@
       "command": "npm run build"
     }
   ],
+  "resources": [
+    "[orange-it-up-chrome-extension](https://github.com/enisfr/orange-it-up-chrome-extension)",
+    "[creating chrome extesions with TypeScript](https://enisfr.medium.com/creating-chrome-extensions-with-typescript-914873467b65#9f32-5ed6c8b8e388)",
+    "[how to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)"
+  ],
   "app_techs": [
     "typescript",
     "html",
@@ -36,10 +47,5 @@
     "prettier",
     "eslint",
     "lintstaged"
-  ],
-  "resources": [
-    "[orange-it-up-chrome-extension](https://github.com/enisfr/orange-it-up-chrome-extension)",
-    "[creating chrome extesions with TypeScript](https://enisfr.medium.com/creating-chrome-extensions-with-typescript-914873467b65#9f32-5ed6c8b8e388)",
-    "[how to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)"
   ]
 }

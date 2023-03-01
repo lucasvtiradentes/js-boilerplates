@@ -1,10 +1,10 @@
 {
-  "name": "ts-boilerplates",
-  "description": "📁 typescript boilerplates pre-setted up modern and useful project tools.",
+  "name": "boilermanager-boilerplates",
+  "description": "📁 nodejs default boilerplates meant to be used alongside boilermanager.",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lucasvtiradentes/ts-boilerplates.git"
+    "url": "https://github.com/lucasvtiradentes/boilermanager-boilerplates.git"
   },
   "scripts": {
     "prepare": "husky install",

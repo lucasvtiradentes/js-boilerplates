@@ -47,6 +47,7 @@ function getUpdatedBoilerplatesInfo(allBoilerplates: string[]){
 
     const curValue = {
       name: boilerplateName,
+      image: infoFileContent.image,
       description: infoFileContent.description,
       category: boilerplateCategory,
       folder: boilerplateCompletePath,

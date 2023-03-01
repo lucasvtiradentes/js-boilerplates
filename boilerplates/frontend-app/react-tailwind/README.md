@@ -11,6 +11,10 @@
 </a> • <a href="#information_source-related">Related</a>
 </p>
 
+<!-- <DYNFIELD:boilerplate_image> -->
+
+<!-- </DYNFIELD:boilerplate_image> -->
+
 <div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
 
 ## :dart: Features</a><a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
@@ -18,14 +22,15 @@
 ### Main features
 <!-- <DYNFIELD:boilerplate_app_features> -->
 - [x] [react](https://github.com/facebook/react) basic application that uses tailwind;
-- [x] tests-friendly with [jest](https://github.com/facebook/jest;.
+- [x] tests-friendly with [jest](https://github.com/facebook/jest).
 <!-- </DYNFIELD:boilerplate_app_features> -->
 
 ### Project features
 
 <!-- <DYNFIELD:boilerplate_project_features> -->
-- [x] [utility script](./scripts/github-issues.ts) to retrieve all project remote github repository issues;
-- [x] [utility script](./scripts/gitmoji-setup.ts) to setup easily gitmoji in [commitzen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint)..
+- [x] everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options;
+- [x] everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository;
+- [x] if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files.
 <!-- </DYNFIELD:boilerplate_project_features> -->
 
 <div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
@@ -38,7 +43,7 @@ To use this boilerplate you can either:
 
 <!-- <DYNFIELD:boilerplate_project_download> -->
 1. install [boilermanager](https://github.com/lucasvtiradentes/boilermanager) and select it from the boilerplate list everytime you want to use it (✅ recommended)
-2. download this folder by clicking [this link](https://download-directory.github.io/?url=https://github.com/lucasvtiradentes/ts-boilerplates/tree/master/boilerplates/frontend-app/react-tailwind)
+2. download this folder by clicking [this link](https://download-directory.github.io/?url=https://github.com/lucasvtiradentes/boilermanager-boilerplates/tree/master/boilerplates/frontend-app/react-tailwind)
 <!-- </DYNFIELD:boilerplate_project_download> -->
 
 <!-- <DYNFIELD:boilerplate_available_commands> -->

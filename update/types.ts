@@ -1,16 +1,22 @@
-export type Command = {
+export type BoilerplateCommand = {
   description: string;
   command: string;
+}
+export type BoilerplateImage = {
+  src: string;
+  width: string;
+  height: string;
 }
 
 export type RepoInfo = {
   description: string
+  image: BoilerplateImage
   app_features: string[]
   project_features: string[]
-  commands: Command[]
+  commands: BoilerplateCommand[]
+  resources: string[]
   app_techs: string[]
   project_techs: string[]
-  resources: string[]
 }
 
 type AditionalInfo = {

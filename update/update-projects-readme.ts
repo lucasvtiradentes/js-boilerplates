@@ -2,10 +2,10 @@ import { DynMarkdown, MarkdownTable, RowContent, getJson } from 'dyn-markdown'
 import { existsSync } from 'node:fs'
 import { join } from 'node:path'
 
-import { Boilerplate, Icon, Command } from './types'
+import { Icon, Boilerplate, BoilerplateCommand, BoilerplateImage } from './types'
 
 const GITHUB_USER = "https://github.com/lucasvtiradentes"
-const BOILERPLATES_LINK = `${GITHUB_USER}/ts-boilerplates`
+const BOILERPLATES_LINK = `${GITHUB_USER}/boilermanager-boilerplates`
 const BOILERMANAGER_LINK = `${GITHUB_USER}/boilermanager`
 
 const boilerplatesJson = getJson('./boilerplates/boilerplates.json')
@@ -14,7 +14,7 @@ const iconsJson = getJson("./update/icons.json")
 const getFeaturesStr = (arr: string[]) => arr.map((item, index) => `- [x] ${item}` + (index === arr.length - 1 ? "." : ";")).join('\n')
 const getResourcesStr = (arr: string[]) => arr.map((item, index) => `- ${item}` + (index === arr.length - 1 ? "." : ";")).join('\n')
 
-const getCommandsStr = (commands: Command[]) => {
+const getCommandsStr = (commands: BoilerplateCommand[]) => {
 
   if (commands.length === 0){return ''}
 
@@ -78,6 +78,8 @@ const getTechTable = (boiler: Boilerplate) => {
 
 }
 
+const getBoilerImage = (image: BoilerplateImage) => image.src === "" ? "" : `<div align="center"><img ${image.width !== "" ? `width="${image.width}"` : ""} ${image.height !== "" ? `height="${image.height}"` : ""} src="${image.src}"></div>`
+
 boilerplatesJson.forEach((boiler: Boilerplate) => {
   const boilerFolder = join(__dirname, '..', 'boilerplates', boiler.folder)
   const boilerReadme = join(boilerFolder, 'README.md')
@@ -86,6 +88,7 @@ boilerplatesJson.forEach((boiler: Boilerplate) => {
     const boilerMd = new DynMarkdown(boilerReadme)
 
     boilerMd.updateField('boilerplate_name', boiler.name.toUpperCase())
+    boilerMd.updateField('boilerplate_image', getBoilerImage(boiler.image))
     boilerMd.updateField('boilerplate_app_features', getFeaturesStr(boiler.app_features))
     boilerMd.updateField('boilerplate_project_features', getFeaturesStr(boiler.project_features))
     boilerMd.updateField('boilerplate_project_download', `1. install [boilermanager](${BOILERMANAGER_LINK}) and select it from the boilerplate list everytime you want to use it (✅ recommended)\n2. download this folder by clicking [this link](https://download-directory.github.io/?url=${BOILERPLATES_LINK}/tree/master/boilerplates${boiler.folder})`)
