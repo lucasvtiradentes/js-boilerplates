@@ -10,11 +10,13 @@
     "prepare": "husky install",
     "precommit": "npm run script:issues",
     "commit": "cz",
-    "start": "npm run update:boilerplates",
+
+    "dev": "npm run update",
     "update": "npm run update:json && npm run update:md && npm run update:projects",
     "update:json": "ts-node ./update/update-json.ts",
     "update:md": "ts-node ./update/update-readme.ts",
     "update:projects": "ts-node ./update/update-projects-readme.ts",
+
     "script:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
     "script:issues": "ts-node ./scripts/github-issues.ts"
   },

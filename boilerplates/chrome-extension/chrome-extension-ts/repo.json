@@ -7,7 +7,7 @@
   },
   "app_features": [
     "chrome extension that is written in typescript",
-    "tests-friendly with [jest](https://github.com/facebook/jest)."
+    "tests-friendly with [jest](https://github.com/facebook/jest)"
   ],
   "project_features": [
     "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",

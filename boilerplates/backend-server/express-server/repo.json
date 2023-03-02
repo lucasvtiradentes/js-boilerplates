@@ -42,11 +42,11 @@
       "list": [
         {
           "title": "option 01",
-          "file": "./options/cmd1.sh"
+          "file": "./.options/cmd1.js"
         },
         {
           "title": "option 02",
-          "file": "./options/cmd2.sh"
+          "file": "./.options/cmd2.js"
         }
       ]
     },
@@ -56,11 +56,11 @@
       "list": [
         {
           "title": "option 03",
-          "file": "./options/cmd3.sh"
+          "file": "./.options/cmd3.js"
         },
         {
           "title": "option 04",
-          "file": "./options/cmd4.sh"
+          "file": "./.options/cmd4.js"
         }
       ]
     }

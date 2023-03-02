@@ -1,1 +1,0 @@
-echo commando 1

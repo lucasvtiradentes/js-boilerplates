@@ -1,7 +1,7 @@
-import { readdirSync, readFileSync, statSync, writeFileSync } from "node:fs"
+import { readdirSync, readFileSync, writeFileSync } from "node:fs"
 import { platform } from 'node:os'
 import { join } from "node:path"
-import { Boilerplate } from './types'
+import { BoilerplateInfo } from './types'
 
 const REPO_INFO_FILE = "repo.json"
 const OS_DIVIDER = platform() === 'win32' ? '\\' : '/'
@@ -42,27 +42,16 @@ function getUpdatedBoilerplatesInfo(allBoilerplates: string[]){
     const boilerplateCompletePath = value.replace(`${OS_DIVIDER}${REPO_INFO_FILE}`, '').replace(new RegExp(OS_DIVIDER, "g"), FINAL_DIVIDER)
     const boilerplateCategory = boilerplateCompletePath.split(FINAL_DIVIDER)[1]
     const boilerplateName = boilerplateCompletePath.replace(boilerplateCategory, '').replace(new RegExp(OS_DIVIDER, "g"), '')
-    const infoFileStats = statSync(boilerplateInfoFile)
     const infoFileContent = JSON.parse(readFileSync(boilerplateInfoFile, 'utf8'));
 
     const curValue = {
       name: boilerplateName,
-      image: infoFileContent.image,
-      description: infoFileContent.description,
       category: boilerplateCategory,
-      folder: boilerplateCompletePath,
-      lastUpdate: (infoFileStats.mtime.toISOString().split("T")[0]),
-      app_features: infoFileContent.app_features,
-      project_features: infoFileContent.project_features,
-      commands: infoFileContent.commands,
       options: infoFileContent.options,
-      resources: infoFileContent.resources,
-      app_techs: infoFileContent.app_techs,
-      project_techs: infoFileContent.project_techs
     }
 
     return [...acc, curValue]
-  }, [] as Boilerplate[])
+  }, [] as BoilerplateInfo[])
 
   return allUpdatedValues
 }
