@@ -28,6 +28,7 @@
       "command": "npm run build"
     }
   ],
+  "options": [],
   "resources": [
     "[orange-it-up-chrome-extension](https://github.com/enisfr/orange-it-up-chrome-extension)",
     "[creating chrome extesions with TypeScript](https://enisfr.medium.com/creating-chrome-extensions-with-typescript-914873467b65#9f32-5ed6c8b8e388)",

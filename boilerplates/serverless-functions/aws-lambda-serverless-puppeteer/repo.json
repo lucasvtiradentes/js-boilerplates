@@ -33,6 +33,7 @@
       "command": "npm run start"
     }
   ],
+  "options": [],
   "resources": [
     "[serverless-plugin-typescript](https://www.npmjs.com/package/serverless-plugin-typescript)",
     "[Serverless command offline not found](https://stackoverflow.com/questions/63507149/serverless-command-offline-not-found)",

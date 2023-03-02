@@ -32,6 +32,7 @@
       "command": "npm run start"
     }
   ],
+  "options": [],
   "resources": [
     "[Advanced React Native Boilerplate using TypeScript, Eslint, Prettier, Husky, CommitLint & more](https://www.youtube.com/watch?v=Z0hQK3eyK2M)",
     "[React Native Tutorial # 3 - Project Structure and Boiler Plate](https://www.youtube.com/watch?v=_Z9tMbrm0WU)"

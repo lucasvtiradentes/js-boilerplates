@@ -32,6 +32,7 @@
       "command": "npm run start"
     }
   ],
+  "options": [],
   "resources": [
     "[Next documentation](https://nextjs.org/)",
     "[PWA with Next.js](https://dev.to/anuraggharat/pwa-with-nextjs-5178)",

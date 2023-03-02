@@ -32,6 +32,7 @@
       "command": "npm run start"
     }
   ],
+  "options": [],
   "resources": [
     "[Vercel Serverless Function](https://www.youtube.com/watch?v=nEapqhFgub4)"
   ],

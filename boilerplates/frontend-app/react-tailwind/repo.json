@@ -32,6 +32,7 @@
       "command": "npm run start"
     }
   ],
+  "options": [],
   "resources": [
     "[react documentation](https://www.reactjs.org/pt/)",
     "[tailwind documentation](https://tailwindcss.com/)"

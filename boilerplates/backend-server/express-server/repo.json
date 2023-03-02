@@ -35,6 +35,36 @@
       "command": "npm run start"
     }
   ],
+  "options": [
+    {
+      "name": "selection1",
+      "message": "select the command to run: ",
+      "list": [
+        {
+          "title": "option 01",
+          "file": "./options/cmd1.sh"
+        },
+        {
+          "title": "option 02",
+          "file": "./options/cmd2.sh"
+        }
+      ]
+    },
+    {
+      "name": "selection2",
+      "message": "select the command2 to run: ",
+      "list": [
+        {
+          "title": "option 03",
+          "file": "./options/cmd3.sh"
+        },
+        {
+          "title": "option 04",
+          "file": "./options/cmd4.sh"
+        }
+      ]
+    }
+  ],
   "resources": [
     "[Express documentation](https://expressjs.com/pt-br/)",
     "[How to graceful shutdown a nodejs express server](https://www.youtube.com/watch?v=Z82mZV2Ye38)"

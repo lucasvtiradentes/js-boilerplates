@@ -9,7 +9,7 @@
     "description": "express server application",
     "category": "backend-server",
     "folder": "/backend-server/express-server",
-    "lastUpdate": "2023-03-01",
+    "lastUpdate": "2023-03-02",
     "app_features": [
       "[express](https://github.com/expressjs/express) server backend",
       "[util function](./src/server/utils/show-all-server-endpoints.ts) where you can view all available routes",
@@ -21,6 +21,58 @@
       "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
       "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
       "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+    ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode",
+        "command": "npm run build"
+      },
+      {
+        "description": "Run the project in production mode",
+        "command": "npm run start"
+      }
+    ],
+    "options": [
+      {
+        "name": "selection1",
+        "message": "select the command to run: ",
+        "list": [
+          {
+            "title": "option 01",
+            "file": "./options/cmd1.sh"
+          },
+          {
+            "title": "option 02",
+            "file": "./options/cmd2.sh"
+          }
+        ]
+      },
+      {
+        "name": "selection2",
+        "message": "select the command2 to run: ",
+        "list": [
+          {
+            "title": "option 03",
+            "file": "./options/cmd3.sh"
+          },
+          {
+            "title": "option 04",
+            "file": "./options/cmd4.sh"
+          }
+        ]
+      }
+    ],
+    "resources": [
+      "[Express documentation](https://expressjs.com/pt-br/)",
+      "[How to graceful shutdown a nodejs express server](https://www.youtube.com/watch?v=Z82mZV2Ye38)"
     ],
     "app_techs": [
       "nodejs",
@@ -40,6 +92,178 @@
       "eslint",
       "lintstaged",
       "restclient"
+    ]
+  },
+  {
+    "name": "chrome-extension-basic",
+    "image": {
+      "src": "",
+      "width": "",
+      "height": ""
+    },
+    "description": "chrome extension",
+    "category": "chrome-extension",
+    "folder": "/chrome-extension/chrome-extension-basic",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "basic chrome extension written in javascript"
+    ],
+    "project_features": [
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+    ],
+    "commands": [],
+    "options": [],
+    "resources": [
+      "[How to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)"
+    ],
+    "app_techs": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig"
+    ]
+  },
+  {
+    "name": "chrome-extension-ts",
+    "image": {
+      "src": "",
+      "width": "",
+      "height": ""
+    },
+    "description": "chrome extension that uses typescript",
+    "category": "chrome-extension",
+    "folder": "/chrome-extension/chrome-extension-ts",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "chrome extension that is written in typescript",
+      "tests-friendly with [jest](https://github.com/facebook/jest)."
+    ],
+    "project_features": [
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+    ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode, after that you can load the dist folder",
+        "command": "npm run build"
+      }
+    ],
+    "options": [],
+    "resources": [
+      "[orange-it-up-chrome-extension](https://github.com/enisfr/orange-it-up-chrome-extension)",
+      "[creating chrome extesions with TypeScript](https://enisfr.medium.com/creating-chrome-extensions-with-typescript-914873467b65#9f32-5ed6c8b8e388)",
+      "[how to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)"
+    ],
+    "app_techs": [
+      "typescript",
+      "html",
+      "css"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged"
+    ]
+  },
+  {
+    "name": "chrome-extension-ts-react",
+    "image": {
+      "src": "",
+      "width": "",
+      "height": ""
+    },
+    "description": "chrome extension that uses typescript and react",
+    "category": "chrome-extension",
+    "folder": "/chrome-extension/chrome-extension-ts-react",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "chrome extension that is written in typescript and uses react",
+      "tests-friendly with [jest](https://github.com/facebook/jest)."
+    ],
+    "project_features": [
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+    ],
+    "commands": [
+      {
+        "description": "Install dependencies",
+        "command": "npm install"
+      },
+      {
+        "description": "Run the project in development mode",
+        "command": "npm run dev"
+      },
+      {
+        "description": "Compiles the code into production mode, after that you can load the dist folder",
+        "command": "npm run build"
+      }
+    ],
+    "options": [],
+    "resources": [
+      "[orange-it-up-chrome-extension](https://github.com/enisfr/orange-it-up-chrome-extension)",
+      "[creating chrome extesions with TypeScript](https://enisfr.medium.com/creating-chrome-extensions-with-typescript-914873467b65#9f32-5ed6c8b8e388)",
+      "[how to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)"
+    ],
+    "app_techs": [
+      "typescript",
+      "react",
+      "html",
+      "css"
+    ],
+    "project_techs": [
+      "vscode",
+      "husky",
+      "commitlint",
+      "commitizen",
+      "editorconfig",
+      "prettier",
+      "eslint",
+      "lintstaged"
+    ]
+  },
+  {
+    "name": "electron-basic",
+    "image": {
+      "src": "./.github/images/app-img.png",
+      "width": "350",
+      "height": ""
+    },
+    "description": "electron application",
+    "category": "desktop-app",
+    "folder": "/desktop-app/electron-basic",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "[electron](https://github.com/electron/electron) basic application",
+      "tests-friendly with [jest](https://github.com/facebook/jest)"
+    ],
+    "project_features": [
+      "easily test your api responses through a [server_routes.http](./tools/server_routes.http) and [rest client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode extension",
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "commands": [
       {
@@ -59,178 +283,9 @@
         "command": "npm run start"
       }
     ],
+    "options": [],
     "resources": [
-      "[Express documentation](https://expressjs.com/pt-br/)",
-      "[How to graceful shutdown a nodejs express server](https://www.youtube.com/watch?v=Z82mZV2Ye38)"
-    ]
-  },
-  {
-    "name": "chrome-extension-basic",
-    "image": {
-      "src": "",
-      "width": "",
-      "height": ""
-    },
-    "description": "chrome extension",
-    "category": "chrome-extension",
-    "folder": "/chrome-extension/chrome-extension-basic",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "basic chrome extension written in javascript"
-    ],
-    "project_features": [
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
-    ],
-    "app_techs": [
-      "javascript",
-      "html",
-      "css"
-    ],
-    "project_techs": [
-      "vscode",
-      "husky",
-      "commitlint",
-      "commitizen",
-      "editorconfig"
-    ],
-    "commands": [],
-    "resources": [
-      "[How to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)"
-    ]
-  },
-  {
-    "name": "chrome-extension-ts",
-    "image": {
-      "src": "",
-      "width": "",
-      "height": ""
-    },
-    "description": "chrome extension that uses typescript",
-    "category": "chrome-extension",
-    "folder": "/chrome-extension/chrome-extension-ts",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "chrome extension that is written in typescript",
-      "tests-friendly with [jest](https://github.com/facebook/jest)."
-    ],
-    "project_features": [
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
-    ],
-    "app_techs": [
-      "typescript",
-      "html",
-      "css"
-    ],
-    "project_techs": [
-      "vscode",
-      "husky",
-      "commitlint",
-      "commitizen",
-      "editorconfig",
-      "prettier",
-      "eslint",
-      "lintstaged"
-    ],
-    "commands": [
-      {
-        "description": "Install dependencies",
-        "command": "npm install"
-      },
-      {
-        "description": "Run the project in development mode",
-        "command": "npm run dev"
-      },
-      {
-        "description": "Compiles the code into production mode, after that you can load the dist folder",
-        "command": "npm run build"
-      }
-    ],
-    "resources": [
-      "[orange-it-up-chrome-extension](https://github.com/enisfr/orange-it-up-chrome-extension)",
-      "[creating chrome extesions with TypeScript](https://enisfr.medium.com/creating-chrome-extensions-with-typescript-914873467b65#9f32-5ed6c8b8e388)",
-      "[how to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)"
-    ]
-  },
-  {
-    "name": "chrome-extension-ts-react",
-    "image": {
-      "src": "",
-      "width": "",
-      "height": ""
-    },
-    "description": "chrome extension that uses typescript and react",
-    "category": "chrome-extension",
-    "folder": "/chrome-extension/chrome-extension-ts-react",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "chrome extension that is written in typescript and uses react",
-      "tests-friendly with [jest](https://github.com/facebook/jest)."
-    ],
-    "project_features": [
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
-    ],
-    "app_techs": [
-      "typescript",
-      "react",
-      "html",
-      "css"
-    ],
-    "project_techs": [
-      "vscode",
-      "husky",
-      "commitlint",
-      "commitizen",
-      "editorconfig",
-      "prettier",
-      "eslint",
-      "lintstaged"
-    ],
-    "commands": [
-      {
-        "description": "Install dependencies",
-        "command": "npm install"
-      },
-      {
-        "description": "Run the project in development mode",
-        "command": "npm run dev"
-      },
-      {
-        "description": "Compiles the code into production mode, after that you can load the dist folder",
-        "command": "npm run build"
-      }
-    ],
-    "resources": [
-      "[orange-it-up-chrome-extension](https://github.com/enisfr/orange-it-up-chrome-extension)",
-      "[creating chrome extesions with TypeScript](https://enisfr.medium.com/creating-chrome-extensions-with-typescript-914873467b65#9f32-5ed6c8b8e388)",
-      "[how to load a chrome extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)"
-    ]
-  },
-  {
-    "name": "electron-basic",
-    "image": {
-      "src": "./.github/images/app-img.png",
-      "width": "350",
-      "height": ""
-    },
-    "description": "electron application",
-    "category": "desktop-app",
-    "folder": "/desktop-app/electron-basic",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "[electron](https://github.com/electron/electron) basic application",
-      "tests-friendly with [jest](https://github.com/facebook/jest)"
-    ],
-    "project_features": [
-      "easily test your api responses through a [server_routes.http](./tools/server_routes.http) and [rest client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode extension",
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+      "[electron documentation](https://www.electronjs.org/pt/)"
     ],
     "app_techs": [
       "nodejs",
@@ -249,6 +304,29 @@
       "prettier",
       "eslint",
       "lintstaged"
+    ]
+  },
+  {
+    "name": "electron-puppeteer",
+    "image": {
+      "src": "./.github/images/app-img.png",
+      "width": "350",
+      "height": ""
+    },
+    "description": "electron application that uses puppeteer for browser automation",
+    "category": "desktop-app",
+    "folder": "/desktop-app/electron-puppeteer",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "[electron](https://github.com/electron/electron) basic application",
+      "uses [puppeteer](https://github.com/puppeteer/puppeteer) to perform browser automation",
+      "tests-friendly with [jest](https://github.com/facebook/jest)"
+    ],
+    "project_features": [
+      "easily test your api responses through a [server_routes.http](./tools/server_routes.http) and [rest client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode extension",
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "commands": [
       {
@@ -268,31 +346,9 @@
         "command": "npm run start"
       }
     ],
+    "options": [],
     "resources": [
       "[electron documentation](https://www.electronjs.org/pt/)"
-    ]
-  },
-  {
-    "name": "electron-puppeteer",
-    "image": {
-      "src": "./.github/images/app-img.png",
-      "width": "350",
-      "height": ""
-    },
-    "description": "electron application that uses puppeteer for browser automation",
-    "category": "desktop-app",
-    "folder": "/desktop-app/electron-puppeteer",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "[electron](https://github.com/electron/electron) basic application",
-      "uses [puppeteer](https://github.com/puppeteer/puppeteer) to perform browser automation",
-      "tests-friendly with [jest](https://github.com/facebook/jest)"
-    ],
-    "project_features": [
-      "easily test your api responses through a [server_routes.http](./tools/server_routes.http) and [rest client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode extension",
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "app_techs": [
       "nodejs",
@@ -312,6 +368,27 @@
       "prettier",
       "eslint",
       "lintstaged"
+    ]
+  },
+  {
+    "name": "react-basic",
+    "image": {
+      "src": "",
+      "width": "",
+      "height": ""
+    },
+    "description": "react application",
+    "category": "frontend-app",
+    "folder": "/frontend-app/react-basic",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "[react](https://github.com/facebook/react) basic application",
+      "tests-friendly with [jest](https://github.com/facebook/jest)"
+    ],
+    "project_features": [
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "commands": [
       {
@@ -331,29 +408,9 @@
         "command": "npm run start"
       }
     ],
+    "options": [],
     "resources": [
-      "[electron documentation](https://www.electronjs.org/pt/)"
-    ]
-  },
-  {
-    "name": "react-basic",
-    "image": {
-      "src": "",
-      "width": "",
-      "height": ""
-    },
-    "description": "react application",
-    "category": "frontend-app",
-    "folder": "/frontend-app/react-basic",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "[react](https://github.com/facebook/react) basic application",
-      "tests-friendly with [jest](https://github.com/facebook/jest)"
-    ],
-    "project_features": [
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+      "[react documentation](https://www.reactjs.org/pt/)"
     ],
     "app_techs": [
       "nodejs",
@@ -370,6 +427,27 @@
       "prettier",
       "eslint",
       "lintstaged"
+    ]
+  },
+  {
+    "name": "react-tailwind",
+    "image": {
+      "src": "",
+      "width": "",
+      "height": ""
+    },
+    "description": "react application that uses tailwind",
+    "category": "frontend-app",
+    "folder": "/frontend-app/react-tailwind",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "[react](https://github.com/facebook/react) basic application that uses tailwind",
+      "tests-friendly with [jest](https://github.com/facebook/jest)"
+    ],
+    "project_features": [
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "commands": [
       {
@@ -389,29 +467,10 @@
         "command": "npm run start"
       }
     ],
+    "options": [],
     "resources": [
-      "[react documentation](https://www.reactjs.org/pt/)"
-    ]
-  },
-  {
-    "name": "react-tailwind",
-    "image": {
-      "src": "",
-      "width": "",
-      "height": ""
-    },
-    "description": "react application that uses tailwind",
-    "category": "frontend-app",
-    "folder": "/frontend-app/react-tailwind",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "[react](https://github.com/facebook/react) basic application that uses tailwind",
-      "tests-friendly with [jest](https://github.com/facebook/jest)"
-    ],
-    "project_features": [
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+      "[react documentation](https://www.reactjs.org/pt/)",
+      "[tailwind documentation](https://tailwindcss.com/)"
     ],
     "app_techs": [
       "nodejs",
@@ -429,6 +488,27 @@
       "prettier",
       "eslint",
       "lintstaged"
+    ]
+  },
+  {
+    "name": "react-native-cli",
+    "image": {
+      "src": "",
+      "width": "",
+      "height": ""
+    },
+    "description": "react native application",
+    "category": "mobile-app",
+    "folder": "/mobile-app/react-native-cli",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "[react native](https://reactnative.dev/docs/environment-setup) cli application",
+      "tests-friendly with [jest](https://github.com/facebook/jest)"
+    ],
+    "project_features": [
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "commands": [
       {
@@ -448,30 +528,10 @@
         "command": "npm run start"
       }
     ],
+    "options": [],
     "resources": [
-      "[react documentation](https://www.reactjs.org/pt/)",
-      "[tailwind documentation](https://tailwindcss.com/)"
-    ]
-  },
-  {
-    "name": "react-native-cli",
-    "image": {
-      "src": "",
-      "width": "",
-      "height": ""
-    },
-    "description": "react native application",
-    "category": "mobile-app",
-    "folder": "/mobile-app/react-native-cli",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "[react native](https://reactnative.dev/docs/environment-setup) cli application",
-      "tests-friendly with [jest](https://github.com/facebook/jest)"
-    ],
-    "project_features": [
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+      "[Advanced React Native Boilerplate using TypeScript, Eslint, Prettier, Husky, CommitLint & more](https://www.youtube.com/watch?v=Z0hQK3eyK2M)",
+      "[React Native Tutorial # 3 - Project Structure and Boiler Plate](https://www.youtube.com/watch?v=_Z9tMbrm0WU)"
     ],
     "app_techs": [
       "nodejs",
@@ -488,6 +548,27 @@
       "prettier",
       "eslint",
       "lintstaged"
+    ]
+  },
+  {
+    "name": "react-native-expo",
+    "image": {
+      "src": "",
+      "width": "",
+      "height": ""
+    },
+    "description": "react native application that uses expo",
+    "category": "mobile-app",
+    "folder": "/mobile-app/react-native-expo",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "[react native](https://reactnative.dev/docs/environment-setup) [expo](https://expo.dev/) application",
+      "tests-friendly with [jest](https://github.com/facebook/jest)"
+    ],
+    "project_features": [
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "commands": [
       {
@@ -507,30 +588,16 @@
         "command": "npm run start"
       }
     ],
+    "options": [],
     "resources": [
-      "[Advanced React Native Boilerplate using TypeScript, Eslint, Prettier, Husky, CommitLint & more](https://www.youtube.com/watch?v=Z0hQK3eyK2M)",
-      "[React Native Tutorial # 3 - Project Structure and Boiler Plate](https://www.youtube.com/watch?v=_Z9tMbrm0WU)"
-    ]
-  },
-  {
-    "name": "react-native-expo",
-    "image": {
-      "src": "",
-      "width": "",
-      "height": ""
-    },
-    "description": "react native application that uses expo",
-    "category": "mobile-app",
-    "folder": "/mobile-app/react-native-expo",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "[react native](https://reactnative.dev/docs/environment-setup) [expo](https://expo.dev/) application",
-      "tests-friendly with [jest](https://github.com/facebook/jest)"
-    ],
-    "project_features": [
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+      "[React Native Expo to APK File](https://www.youtube.com/watch?v=MK4JjqbHFBk)",
+      "[Build APKs for Android Emulators and devices](https://docs.expo.dev/build-reference/apk/)",
+      "[How to publish Expo React Native App to Apple App Store (step-by-step tutorial)](https://www.youtube.com/watch?v=LE4Mgkrf7Sk)",
+      "[How to publish Expo React Native App to Google Play Store](https://www.youtube.com/watch?v=oBWBDaqNuws)",
+      "[Publish Expo React Native App to Google Play Store](https://www.youtube.com/watch?v=7DQbbTQpUjQ&list=PLk8gdrb2DmCjsRsDIwMBJdf350qKMiJ8R)",
+      "[Expo online development](https://expo.dev/)",
+      "[Apple developer account](https://developer.apple.com/account)",
+      "[Google developer account](https://play.google.com/console/signup)"
     ],
     "app_techs": [
       "nodejs",
@@ -548,6 +615,27 @@
       "prettier",
       "eslint",
       "lintstaged"
+    ]
+  },
+  {
+    "name": "node-basic",
+    "image": {
+      "src": "",
+      "width": "",
+      "height": ""
+    },
+    "description": "node application",
+    "category": "node",
+    "folder": "/node/node-basic",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "[node](https://github.com/nodejs/node) server backend",
+      "tests-friendly with [jest](https://github.com/facebook/jest)"
+    ],
+    "project_features": [
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "commands": [
       {
@@ -567,36 +655,9 @@
         "command": "npm run start"
       }
     ],
+    "options": [],
     "resources": [
-      "[React Native Expo to APK File](https://www.youtube.com/watch?v=MK4JjqbHFBk)",
-      "[Build APKs for Android Emulators and devices](https://docs.expo.dev/build-reference/apk/)",
-      "[How to publish Expo React Native App to Apple App Store (step-by-step tutorial)](https://www.youtube.com/watch?v=LE4Mgkrf7Sk)",
-      "[How to publish Expo React Native App to Google Play Store](https://www.youtube.com/watch?v=oBWBDaqNuws)",
-      "[Publish Expo React Native App to Google Play Store](https://www.youtube.com/watch?v=7DQbbTQpUjQ&list=PLk8gdrb2DmCjsRsDIwMBJdf350qKMiJ8R)",
-      "[Expo online development](https://expo.dev/)",
-      "[Apple developer account](https://developer.apple.com/account)",
-      "[Google developer account](https://play.google.com/console/signup)"
-    ]
-  },
-  {
-    "name": "node-basic",
-    "image": {
-      "src": "",
-      "width": "",
-      "height": ""
-    },
-    "description": "node application",
-    "category": "node",
-    "folder": "/node/node-basic",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "[node](https://github.com/nodejs/node) server backend",
-      "tests-friendly with [jest](https://github.com/facebook/jest)"
-    ],
-    "project_features": [
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+      "[Nodejs documentation](https://nodejs.org/en/)"
     ],
     "app_techs": [
       "nodejs",
@@ -612,6 +673,29 @@
       "prettier",
       "eslint",
       "lintstaged"
+    ]
+  },
+  {
+    "name": "node-puppeteer",
+    "image": {
+      "src": "",
+      "width": "",
+      "height": ""
+    },
+    "description": "node application that uses puppeteer for browser automation",
+    "category": "node",
+    "folder": "/node/node-puppeteer",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "[node](https://github.com/nodejs/node) application",
+      "uses [puppeteer](https://github.com/puppeteer/puppeteer) for browser automation",
+      "uses [pkg](https://github.com/vercel/pkg) to compile the software to run in non-dev environment",
+      "tests-friendly with [jest](https://github.com/facebook/jest)"
+    ],
+    "project_features": [
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "commands": [
       {
@@ -631,31 +715,9 @@
         "command": "npm run start"
       }
     ],
+    "options": [],
     "resources": [
       "[Nodejs documentation](https://nodejs.org/en/)"
-    ]
-  },
-  {
-    "name": "node-puppeteer",
-    "image": {
-      "src": "",
-      "width": "",
-      "height": ""
-    },
-    "description": "node application that uses puppeteer for browser automation",
-    "category": "node",
-    "folder": "/node/node-puppeteer",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "[node](https://github.com/nodejs/node) application",
-      "uses [puppeteer](https://github.com/puppeteer/puppeteer) for browser automation",
-      "uses [pkg](https://github.com/vercel/pkg) to compile the software to run in non-dev environment",
-      "tests-friendly with [jest](https://github.com/facebook/jest)"
-    ],
-    "project_features": [
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "app_techs": [
       "nodejs",
@@ -672,6 +734,27 @@
       "prettier",
       "eslint",
       "lintstaged"
+    ]
+  },
+  {
+    "name": "next-pwa",
+    "image": {
+      "src": "",
+      "width": "",
+      "height": ""
+    },
+    "description": "next pwa application",
+    "category": "pwa-app",
+    "folder": "/pwa-app/next-pwa",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "[next](https://nextjs.org/) pwa application",
+      "tests-friendly with [jest](https://github.com/facebook/jest)"
+    ],
+    "project_features": [
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "commands": [
       {
@@ -691,29 +774,12 @@
         "command": "npm run start"
       }
     ],
+    "options": [],
     "resources": [
-      "[Nodejs documentation](https://nodejs.org/en/)"
-    ]
-  },
-  {
-    "name": "next-pwa",
-    "image": {
-      "src": "",
-      "width": "",
-      "height": ""
-    },
-    "description": "next pwa application",
-    "category": "pwa-app",
-    "folder": "/pwa-app/next-pwa",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "[next](https://nextjs.org/) pwa application",
-      "tests-friendly with [jest](https://github.com/facebook/jest)"
-    ],
-    "project_features": [
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+      "[Next documentation](https://nextjs.org/)",
+      "[PWA with Next.js](https://dev.to/anuraggharat/pwa-with-nextjs-5178)",
+      "[next-pwa](https://www.npmjs.com/package/next-pwa)",
+      "[How to Create a PWA With Next.js in 10 Minutes](https://www.youtube.com/watch?v=ARNN_zmrwcw)"
     ],
     "app_techs": [
       "nodejs",
@@ -730,6 +796,28 @@
       "prettier",
       "eslint",
       "lintstaged"
+    ]
+  },
+  {
+    "name": "aws-lambda-serverless",
+    "image": {
+      "src": "",
+      "width": "",
+      "height": ""
+    },
+    "description": "aws lamda serverless application",
+    "category": "serverless-functions",
+    "folder": "/serverless-functions/aws-lambda-serverless",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "uses serverless framework to handle aws lambda",
+      "uses typescript",
+      "automatically deploy in every github push"
+    ],
+    "project_features": [
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "commands": [
       {
@@ -749,33 +837,12 @@
         "command": "npm run start"
       }
     ],
+    "options": [],
     "resources": [
-      "[Next documentation](https://nextjs.org/)",
-      "[PWA with Next.js](https://dev.to/anuraggharat/pwa-with-nextjs-5178)",
-      "[next-pwa](https://www.npmjs.com/package/next-pwa)",
-      "[How to Create a PWA With Next.js in 10 Minutes](https://www.youtube.com/watch?v=ARNN_zmrwcw)"
-    ]
-  },
-  {
-    "name": "aws-lambda-serverless",
-    "image": {
-      "src": "",
-      "width": "",
-      "height": ""
-    },
-    "description": "aws lamda serverless application",
-    "category": "serverless-functions",
-    "folder": "/serverless-functions/aws-lambda-serverless",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "uses serverless framework to handle aws lambda",
-      "uses typescript",
-      "automatically deploy in every github push"
-    ],
-    "project_features": [
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+      "[Criando uma API com Serverless e Typescript na AWS](https://www.youtube.com/watch?v=i8F2gBEbH0o)",
+      "[Deploying to AWS Lambda with Serverless + GitHub Actions (Modern CI/CD) | Serverless Saturday](https://www.youtube.com/watch?v=oFYFqOzJdqY)",
+      "[How to Build a Basic App with TypeScript / Node.js + Deploy it to the Cloud (AWS Lambda) in 15 min](https://www.youtube.com/watch?v=NDOh2qEmSe8)",
+      "[Install serverless](https://www.serverless.com/framework/docs/getting-started)"
     ],
     "app_techs": [
       "nodejs",
@@ -792,6 +859,28 @@
       "prettier",
       "eslint",
       "lintstaged"
+    ]
+  },
+  {
+    "name": "aws-lambda-serverless-puppeteer",
+    "image": {
+      "src": "",
+      "width": "",
+      "height": ""
+    },
+    "description": "aws lamda serverless application that uses puppeteer",
+    "category": "serverless-functions",
+    "folder": "/serverless-functions/aws-lambda-serverless-puppeteer",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "uses serverless framework to handle aws lambda",
+      "uses typescript",
+      "automatically deploy in every github push"
+    ],
+    "project_features": [
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "commands": [
       {
@@ -811,33 +900,11 @@
         "command": "npm run start"
       }
     ],
+    "options": [],
     "resources": [
-      "[Criando uma API com Serverless e Typescript na AWS](https://www.youtube.com/watch?v=i8F2gBEbH0o)",
-      "[Deploying to AWS Lambda with Serverless + GitHub Actions (Modern CI/CD) | Serverless Saturday](https://www.youtube.com/watch?v=oFYFqOzJdqY)",
-      "[How to Build a Basic App with TypeScript / Node.js + Deploy it to the Cloud (AWS Lambda) in 15 min](https://www.youtube.com/watch?v=NDOh2qEmSe8)",
-      "[Install serverless](https://www.serverless.com/framework/docs/getting-started)"
-    ]
-  },
-  {
-    "name": "aws-lambda-serverless-puppeteer",
-    "image": {
-      "src": "",
-      "width": "",
-      "height": ""
-    },
-    "description": "aws lamda serverless application that uses puppeteer",
-    "category": "serverless-functions",
-    "folder": "/serverless-functions/aws-lambda-serverless-puppeteer",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "uses serverless framework to handle aws lambda",
-      "uses typescript",
-      "automatically deploy in every github push"
-    ],
-    "project_features": [
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+      "[serverless-plugin-typescript](https://www.npmjs.com/package/serverless-plugin-typescript)",
+      "[Serverless command offline not found](https://stackoverflow.com/questions/63507149/serverless-command-offline-not-found)",
+      "[Puppeteer on AWS Lambda in May of 2022](https://www.youtube.com/watch?v=7ZEEvC-oW8c)"
     ],
     "app_techs": [
       "nodejs",
@@ -855,6 +922,27 @@
       "prettier",
       "eslint",
       "lintstaged"
+    ]
+  },
+  {
+    "name": "vercel-serverless",
+    "image": {
+      "src": "",
+      "width": "",
+      "height": ""
+    },
+    "description": "vercel serverless application",
+    "category": "serverless-functions",
+    "folder": "/serverless-functions/vercel-serverless",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "vercel serverless function",
+      "automatically deploy in every github push"
+    ],
+    "project_features": [
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "commands": [
       {
@@ -874,31 +962,9 @@
         "command": "npm run start"
       }
     ],
+    "options": [],
     "resources": [
-      "[serverless-plugin-typescript](https://www.npmjs.com/package/serverless-plugin-typescript)",
-      "[Serverless command offline not found](https://stackoverflow.com/questions/63507149/serverless-command-offline-not-found)",
-      "[Puppeteer on AWS Lambda in May of 2022](https://www.youtube.com/watch?v=7ZEEvC-oW8c)"
-    ]
-  },
-  {
-    "name": "vercel-serverless",
-    "image": {
-      "src": "",
-      "width": "",
-      "height": ""
-    },
-    "description": "vercel serverless application",
-    "category": "serverless-functions",
-    "folder": "/serverless-functions/vercel-serverless",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "vercel serverless function",
-      "automatically deploy in every github push"
-    ],
-    "project_features": [
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+      "[Vercel Serverless Function](https://www.youtube.com/watch?v=nEapqhFgub4)"
     ],
     "app_techs": [
       "nodejs",
@@ -916,6 +982,27 @@
       "eslint",
       "lintstaged",
       "lintstaged"
+    ]
+  },
+  {
+    "name": "vercel-serverless-express",
+    "image": {
+      "src": "",
+      "width": "",
+      "height": ""
+    },
+    "description": "vercel serverless application that uses express",
+    "category": "serverless-functions",
+    "folder": "/serverless-functions/vercel-serverless-express",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "vercel serverless function",
+      "automatically deploy in every github push"
+    ],
+    "project_features": [
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "commands": [
       {
@@ -935,29 +1022,9 @@
         "command": "npm run start"
       }
     ],
+    "options": [],
     "resources": [
       "[Vercel Serverless Function](https://www.youtube.com/watch?v=nEapqhFgub4)"
-    ]
-  },
-  {
-    "name": "vercel-serverless-express",
-    "image": {
-      "src": "",
-      "width": "",
-      "height": ""
-    },
-    "description": "vercel serverless application that uses express",
-    "category": "serverless-functions",
-    "folder": "/serverless-functions/vercel-serverless-express",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "vercel serverless function",
-      "automatically deploy in every github push"
-    ],
-    "project_features": [
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "app_techs": [
       "nodejs",
@@ -976,6 +1043,27 @@
       "eslint",
       "lintstaged",
       "lintstaged"
+    ]
+  },
+  {
+    "name": "vercel-serverless-puppeteer",
+    "image": {
+      "src": "",
+      "width": "",
+      "height": ""
+    },
+    "description": "vercel serverless application that uses puppeteer",
+    "category": "serverless-functions",
+    "folder": "/serverless-functions/vercel-serverless-puppeteer",
+    "lastUpdate": "2023-03-02",
+    "app_features": [
+      "vercel serverless function",
+      "automatically deploy in every github push"
+    ],
+    "project_features": [
+      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
+      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
+      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
     ],
     "commands": [
       {
@@ -995,29 +1083,10 @@
         "command": "npm run start"
       }
     ],
+    "options": [],
     "resources": [
-      "[Vercel Serverless Function](https://www.youtube.com/watch?v=nEapqhFgub4)"
-    ]
-  },
-  {
-    "name": "vercel-serverless-puppeteer",
-    "image": {
-      "src": "",
-      "width": "",
-      "height": ""
-    },
-    "description": "vercel serverless application that uses puppeteer",
-    "category": "serverless-functions",
-    "folder": "/serverless-functions/vercel-serverless-puppeteer",
-    "lastUpdate": "2023-03-01",
-    "app_features": [
-      "vercel serverless function",
-      "automatically deploy in every github push"
-    ],
-    "project_features": [
-      "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-      "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-      "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+      "[Vercel Serverless Function](https://www.youtube.com/watch?v=nEapqhFgub4)",
+      "[How To Deploy Puppeteer Script in Vercel via CLI & GitHub in 2022](https://www.youtube.com/watch?v=X6VIWHl3JmM)"
     ],
     "app_techs": [
       "nodejs",
@@ -1036,28 +1105,6 @@
       "eslint",
       "lintstaged",
       "lintstaged"
-    ],
-    "commands": [
-      {
-        "description": "Install dependencies",
-        "command": "npm install"
-      },
-      {
-        "description": "Run the project in development mode",
-        "command": "npm run dev"
-      },
-      {
-        "description": "Compiles the code into production mode",
-        "command": "npm run build"
-      },
-      {
-        "description": "Run the project in production mode",
-        "command": "npm run start"
-      }
-    ],
-    "resources": [
-      "[Vercel Serverless Function](https://www.youtube.com/watch?v=nEapqhFgub4)",
-      "[How To Deploy Puppeteer Script in Vercel via CLI & GitHub in 2022](https://www.youtube.com/watch?v=X6VIWHl3JmM)"
     ]
   }
 ]

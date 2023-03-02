@@ -32,6 +32,7 @@
       "command": "npm run start"
     }
   ],
+  "options": [],
   "resources": [
     "[Nodejs documentation](https://nodejs.org/en/)"
   ],

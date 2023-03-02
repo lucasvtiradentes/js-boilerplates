@@ -34,6 +34,7 @@
       "command": "npm run start"
     }
   ],
+  "options": [],
   "resources": [
     "[electron documentation](https://www.electronjs.org/pt/)"
   ],

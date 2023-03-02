@@ -32,6 +32,7 @@
       "command": "npm run start"
     }
   ],
+  "options": [],
   "resources": [
     "[Vercel Serverless Function](https://www.youtube.com/watch?v=nEapqhFgub4)",
     "[How To Deploy Puppeteer Script in Vercel via CLI & GitHub in 2022](https://www.youtube.com/watch?v=X6VIWHl3JmM)"

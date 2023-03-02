@@ -54,10 +54,11 @@ function getUpdatedBoilerplatesInfo(allBoilerplates: string[]){
       lastUpdate: (infoFileStats.mtime.toISOString().split("T")[0]),
       app_features: infoFileContent.app_features,
       project_features: infoFileContent.project_features,
-      app_techs: infoFileContent.app_techs,
-      project_techs: infoFileContent.project_techs,
       commands: infoFileContent.commands,
-      resources: infoFileContent.resources
+      options: infoFileContent.options,
+      resources: infoFileContent.resources,
+      app_techs: infoFileContent.app_techs,
+      project_techs: infoFileContent.project_techs
     }
 
     return [...acc, curValue]

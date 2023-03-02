@@ -32,6 +32,7 @@
       "command": "npm run start"
     }
   ],
+  "options": [],
   "resources": [
     "[React Native Expo to APK File](https://www.youtube.com/watch?v=MK4JjqbHFBk)",
     "[Build APKs for Android Emulators and devices](https://docs.expo.dev/build-reference/apk/)",
