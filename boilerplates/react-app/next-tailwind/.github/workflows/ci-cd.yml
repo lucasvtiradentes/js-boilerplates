@@ -1,0 +1,30 @@
+name: continuous integration & delivery
+# Runs CI in opening PR's
+# Runs CICD in merged PRs to master branch
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    types: [opened]
+
+jobs:
+
+  # info:
+  #   uses: lucasvtiradentes/dev-buddy/.github/workflows/_callable_info.yml@master
+
+  nodejs-ci:
+    # needs: [info]
+    # if: ${{ github.event.pull_request.merged }}
+    name: run nodejs continuous integration
+    uses: lucasvtiradentes/dev-buddy/.github/workflows/_callable_nodejs-ci.yml@master
+
+  vercel-cd-production:
+    needs: [nodejs-ci]
+    if: ${{ always() && github.event_name == 'push' && needs.nodejs-ci.result == 'success' }}
+    name: deploy master branch to vercel production
+    permissions:
+      deployments: write
+      contents: write
+    uses: lucasvtiradentes/dev-buddy/.github/workflows/_callable_vercel_deployment.yml@master
+    secrets: inherit

@@ -2,7 +2,7 @@
 
 <H3 align="center">
 <!-- <DYNFIELD:boilerplates_count> -->
-  NODEJS BOILERPLATES (18)
+  NODEJS BOILERPLATES (20)
 <!-- </DYNFIELD:boilerplates_count> -->
 </H1>
 
@@ -115,35 +115,6 @@ This repository is meant to be used alongside [boilermanager](https://github.com
     </tr>
     <tr>
       <td rowspan="2">
-        <a href="./boilerplates/frontend-app">frontend-app</a>
-      </td>
-      <td>
-        <a href="./boilerplates/frontend-app/react-basic">react-basic</a><br/><p>react application</p>
-      </td>
-      <td align="center">
-        <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node.js-339933?logo=nodedotjs&logoColor=white"></a>
-        <a href="https://typescriptlang.org/"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?logo=typescript&logoColor=white"></a>
-        <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361DAFB"></a>
-        <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/jest-black?logo=jest&logoColor=white"></a>
-      </td>
-    </tr>
-    <tr>
-  <!--     <td>
-        <a href="./boilerplates/frontend-app">frontend-app</a>
-      </td> -->
-      <td>
-        <a href="./boilerplates/frontend-app/react-tailwind">react-tailwind</a><br/><p>react application that uses tailwind</p>
-      </td>
-      <td align="center">
-        <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node.js-339933?logo=nodedotjs&logoColor=white"></a>
-        <a href="https://typescriptlang.org/"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?logo=typescript&logoColor=white"></a>
-        <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361DAFB"></a>
-        <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/tailwind-1e3a8a?logo=tailwindcss&logoColor=white"></a>
-        <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/jest-black?logo=jest&logoColor=white"></a>
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2">
         <a href="./boilerplates/mobile-app">mobile-app</a>
       </td>
       <td>
@@ -199,16 +170,74 @@ This repository is meant to be used alongside [boilermanager](https://github.com
       </td>
     </tr>
     <tr>
-      <td rowspan="1">
-        <a href="./boilerplates/pwa-app">pwa-app</a>
+      <td rowspan="5">
+        <a href="./boilerplates/react-app">react-app</a>
       </td>
       <td>
-        <a href="./boilerplates/pwa-app/next-pwa">next-pwa</a><br/><p>next pwa application</p>
+        <a href="./boilerplates/react-app/next-basic">next-basic</a><br/><p>next basic application</p>
       </td>
       <td align="center">
         <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node.js-339933?logo=nodedotjs&logoColor=white"></a>
         <a href="https://typescriptlang.org/"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?logo=typescript&logoColor=white"></a>
         <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next-000000?logo=next.js&logoColor=white"></a>
+        <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/jest-black?logo=jest&logoColor=white"></a>
+      </td>
+    </tr>
+    <tr>
+  <!--     <td>
+        <a href="./boilerplates/react-app">react-app</a>
+      </td> -->
+      <td>
+        <a href="./boilerplates/react-app/next-pwa">next-pwa</a><br/><p>next pwa application</p>
+      </td>
+      <td align="center">
+        <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node.js-339933?logo=nodedotjs&logoColor=white"></a>
+        <a href="https://typescriptlang.org/"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?logo=typescript&logoColor=white"></a>
+        <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next-000000?logo=next.js&logoColor=white"></a>
+        <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/jest-black?logo=jest&logoColor=white"></a>
+      </td>
+    </tr>
+    <tr>
+  <!--     <td>
+        <a href="./boilerplates/react-app">react-app</a>
+      </td> -->
+      <td>
+        <a href="./boilerplates/react-app/next-tailwind">next-tailwind</a><br/><p>next tailwind application</p>
+      </td>
+      <td align="center">
+        <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node.js-339933?logo=nodedotjs&logoColor=white"></a>
+        <a href="https://typescriptlang.org/"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?logo=typescript&logoColor=white"></a>
+        <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next-000000?logo=next.js&logoColor=white"></a>
+        <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/jest-black?logo=jest&logoColor=white"></a>
+        <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/tailwind-1e3a8a?logo=tailwindcss&logoColor=white"></a>
+      </td>
+    </tr>
+    <tr>
+  <!--     <td>
+        <a href="./boilerplates/react-app">react-app</a>
+      </td> -->
+      <td>
+        <a href="./boilerplates/react-app/react-basic">react-basic</a><br/><p>react application</p>
+      </td>
+      <td align="center">
+        <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node.js-339933?logo=nodedotjs&logoColor=white"></a>
+        <a href="https://typescriptlang.org/"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?logo=typescript&logoColor=white"></a>
+        <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361DAFB"></a>
+        <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/jest-black?logo=jest&logoColor=white"></a>
+      </td>
+    </tr>
+    <tr>
+  <!--     <td>
+        <a href="./boilerplates/react-app">react-app</a>
+      </td> -->
+      <td>
+        <a href="./boilerplates/react-app/react-tailwind">react-tailwind</a><br/><p>react application that uses tailwind</p>
+      </td>
+      <td align="center">
+        <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node.js-339933?logo=nodedotjs&logoColor=white"></a>
+        <a href="https://typescriptlang.org/"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?logo=typescript&logoColor=white"></a>
+        <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361DAFB"></a>
+        <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/tailwind-1e3a8a?logo=tailwindcss&logoColor=white"></a>
         <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/jest-black?logo=jest&logoColor=white"></a>
       </td>
     </tr>

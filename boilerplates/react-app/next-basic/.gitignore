@@ -1,0 +1,14 @@
+# FOLDERS ######################################################################
+
+.next/
+coverage/
+node_modules/
+
+# FILES ########################################################################
+
+.env.local
+next-env.d.ts
+
+pnpm-lock.yaml
+npm-lock.json
+yarn.lock

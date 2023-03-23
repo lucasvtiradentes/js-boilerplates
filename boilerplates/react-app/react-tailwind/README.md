@@ -2,7 +2,7 @@
 
 <h3 align="center">
 <!-- <DYNFIELD:boilerplate_name> -->
-  REACT-BASIC
+  REACT-TAILWIND
 <!-- </DYNFIELD:boilerplate_name> -->
 </h3>
 
@@ -21,7 +21,7 @@
 
 ### Main features
 <!-- <DYNFIELD:boilerplate_app_features> -->
-- [x] [react](https://github.com/facebook/react) basic application;
+- [x] [react](https://github.com/facebook/react) basic application that uses tailwind;
 - [x] tests-friendly with [jest](https://github.com/facebook/jest).
 <!-- </DYNFIELD:boilerplate_app_features> -->
 
@@ -43,7 +43,7 @@ To use this boilerplate you can either:
 
 <!-- <DYNFIELD:boilerplate_project_download> -->
 1. install [boilermanager](https://github.com/lucasvtiradentes/boilermanager) and select it from the boilerplate list everytime you want to use it (✅ recommended)
-2. download this folder by clicking [this link](https://download-directory.github.io/?url=https://github.com/lucasvtiradentes/boilermanager-boilerplates/tree/master/boilerplates/frontend-app/react-basic)
+2. download this folder by clicking [this link](https://download-directory.github.io/?url=https://github.com/lucasvtiradentes/boilermanager-boilerplates/tree/master/boilerplates/react-app/react-tailwind)
 <!-- </DYNFIELD:boilerplate_project_download> -->
 
 <!-- <DYNFIELD:boilerplate_available_commands> -->
@@ -84,6 +84,7 @@ This project uses the following technologies:
       <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node.js-339933?logo=nodedotjs&logoColor=white"></a>
       <a href="https://typescriptlang.org/"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?logo=typescript&logoColor=white"></a>
       <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361DAFB"></a>
+      <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/tailwind-1e3a8a?logo=tailwindcss&logoColor=white"></a>
       <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/jest-black?logo=jest&logoColor=white"></a>
     </td>
   </tr>
@@ -107,7 +108,8 @@ This project uses the following technologies:
 ## :information_source: Related<a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
 
 <!-- <DYNFIELD:boilerplate_related> -->
-- [react documentation](https://www.reactjs.org/pt/).
+- [react documentation](https://www.reactjs.org/pt/);
+- [tailwind documentation](https://tailwindcss.com/).
 <!-- </DYNFIELD:boilerplate_related> -->
 
 <div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>

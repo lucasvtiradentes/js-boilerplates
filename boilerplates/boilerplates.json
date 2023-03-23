@@ -59,16 +59,6 @@
     "options": []
   },
   {
-    "name": "react-basic",
-    "category": "frontend-app",
-    "options": []
-  },
-  {
-    "name": "react-tailwind",
-    "category": "frontend-app",
-    "options": []
-  },
-  {
     "name": "react-native-cli",
     "category": "mobile-app",
     "options": []
@@ -89,8 +79,28 @@
     "options": []
   },
   {
+    "name": "next-basic",
+    "category": "react-app",
+    "options": []
+  },
+  {
     "name": "next-pwa",
-    "category": "pwa-app",
+    "category": "react-app",
+    "options": []
+  },
+  {
+    "name": "next-tailwind",
+    "category": "react-app",
+    "options": []
+  },
+  {
+    "name": "react-basic",
+    "category": "react-app",
+    "options": []
+  },
+  {
+    "name": "react-tailwind",
+    "category": "react-app",
     "options": []
   },
   {

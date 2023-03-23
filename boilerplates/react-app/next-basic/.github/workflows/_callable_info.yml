@@ -1,0 +1,29 @@
+name: callable - show info
+
+on: [workflow_call]
+
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: show information
+        run: |
+          echo ""
+          echo "job variables: "
+          echo " - repository            : ${{ github.repository }}"
+          echo " - repository owner      : ${{ github.repository_owner }}"
+          echo " - actor                 : ${{ github.actor }}"
+          echo " - trigger event         : ${{ github.event_name }}"
+          echo " - trigger branch        : ${{ github.ref_name }}"
+          echo " - destination branch    : ${{ github.ref }}"
+          echo ""
+          echo "event variables:"
+          echo " - name                  : ${{ github.event_name }}"
+          echo " - type                  : ${{ github.event.action }}"
+          echo ""
+          echo "PRS variables:"
+          echo " - is pull request merged: ${{ github.event.pull_request.merged }}"
+          echo " - PR origin repository  : ${{ github.event.pull_request.head.repo.full_name }}"
+          echo " - original PR branch    : ${{ github.head_ref }}"
+          echo " - destination PR branch : ${{ github.base_ref }}"
+          echo ""

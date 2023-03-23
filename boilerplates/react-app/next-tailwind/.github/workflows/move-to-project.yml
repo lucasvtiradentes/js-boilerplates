@@ -1,0 +1,20 @@
+name: move issues/PRs to project
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  # info:
+  #   uses: lucasvtiradentes/dev-buddy/.github/workflows/_callable_info.yml@master
+
+  add-issue-to-project:
+    # needs: [info]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.4.1
+        with:
+          project-url: https://github.com/users/lucasvtiradentes/projects/9
+          github-token: ${{ secrets.CI_ISSUE_PROJECT_PAT }}

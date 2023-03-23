@@ -1,0 +1,63 @@
+name: callable - vercel deployment
+
+on: [workflow_call]
+
+env:
+  IS_PRODUCTION: ${{ github.ref == 'refs/heads/master' }}
+  VERCEL_ENVIRONMENT: ${{ fromJSON('["Preview", "Production"]')[ github.ref == 'refs/heads/master' ] }}
+  VERCEL_ARGS: ${{ fromJSON('["", "--prod"]')[ github.ref == 'refs/heads/master' ] }}
+
+jobs:
+
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      deployments: write
+      contents: write
+    steps:
+      - name: 1 - checkout the repository
+        uses: actions/checkout@v2
+
+      - name: 2 - start deployment
+        uses: bobheadxi/deployments@v1
+        id: deployment
+        with:
+          step: start
+          token: ${{ secrets.GITHUB_TOKEN }}
+          env: ${{ env.VERCEL_ENVIRONMENT }}
+
+      - name: 3 - wait for deployment
+        uses: amondnet/vercel-action@v20
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-args:  ${{ env.VERCEL_ARGS }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          scope: ${{ secrets.VERCEL_ORG_ID }}
+          working-directory: ./
+
+      - name: 4 - update deployment status
+        uses: bobheadxi/deployments@v1
+        if : always()
+        with:
+          step: finish
+          token: ${{ secrets.GITHUB_TOKEN }}
+          status: ${{ job.status }}
+          env: ${{ steps.deployment.outputs.env }}
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+
+  notify-deployment:
+    needs: [ deploy ]
+    if: ${{ github.ref == 'refs/heads/master' }}
+    runs-on: ubuntu-latest
+    steps:
+    - name: 1 - discord notification
+      env:
+        REPOSITORY: dev-buddy
+        DISCORD_USERNAME: LUCAS BOT
+        DISCORD_AVATAR: https://i.imgur.com/oBPXx0D.png
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      run: |
+        curDateTime=$(env TZ=America/Belem date '+%Y-%m-%d %H:%M:%S')
+        contentJson="{\"content\": \"**${{ env.REPOSITORY }}** was update by **${{ github.event_name }}** event at **$curDateTime**\", \"username\": \"${{ env.DISCORD_USERNAME }}\", \"avatar_url\": \"${{ env.DISCORD_AVATAR }}\"}"
+        curl -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data "$contentJson" "${{ env.DISCORD_WEBHOOK }}"

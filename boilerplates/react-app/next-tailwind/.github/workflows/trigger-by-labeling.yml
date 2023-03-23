@@ -1,0 +1,41 @@
+name: actions triggered by PR labeling
+
+on:
+  pull_request:
+    types:
+      - labeled
+
+jobs:
+
+  # info:
+  #   uses: lucasvtiradentes/dev-buddy/.github/workflows/_callable_info.yml@master
+
+  nodejs-ci:
+    # needs: [info]
+    name: run continuous integration in PR
+    if: contains(fromJson('["GA_ci", "GA_preview"]'), github.event.label.name)  && contains(fromJson('["lucasvtiradentes"]'), github.event.sender.login)
+    uses: lucasvtiradentes/dev-buddy/.github/workflows/_callable_nodejs-ci.yml@master
+
+  vercel-cd-preview:
+    needs: [nodejs-ci]
+    name: deploy PR in preview environment
+    if: ${{ always() && github.event.label.name == 'GA_preview' && needs.nodejs-ci.result == 'success' && contains(fromJson('["lucasvtiradentes"]'), github.event.sender.login)}}
+    permissions:
+      deployments: write
+      contents: write
+    uses: lucasvtiradentes/dev-buddy/.github/workflows/_callable_vercel_deployment.yml@master
+    secrets: inherit
+
+  # vercel-cd-preview:
+    # runs-on: ubuntu-latest
+    # steps:
+    #   - run: |
+    #       echo ""
+    #       echo "PR name     : ${{ github.event.pull_request.title }}"
+    #       echo "PR owner    : ${{ github.event.pull_request.user.login }}"
+    #       echo "PR state    : ${{ github.event.pull_request.state }}"
+    #       echo "PR number   : ${{ github.event.pull_request.number }}"
+    #       echo "PR datetime : ${{ github.event.pull_request.updated_at }}"
+    #       echo ""
+    #       echo "labeler user: ${{ github.event.sender.login }}"
+    #       echo "repository  : ${{ github.repository }}"
