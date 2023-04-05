@@ -2,7 +2,7 @@
 
 <H3 align="center">
 <!-- <DYNFIELD:boilerplates_count> -->
-  NODEJS BOILERPLATES (20)
+  NODEJS BOILERPLATES (22)
 <!-- </DYNFIELD:boilerplates_count> -->
 </H1>
 
@@ -25,9 +25,41 @@ This repository is meant to be used alongside [boilermanager](https://github.com
       <th width="200">app techs</th>
     </tr>
     <tr>
-      <td rowspan="1">
+      <td rowspan="3">
         <a href="./boilerplates/backend-server">backend-server</a>
       </td>
+      <td>
+        <a href="./boilerplates/backend-server/apollo-graphql-basic">apollo-graphql-basic</a><br/><p>apollo graphql server application</p>
+      </td>
+      <td align="center">
+        <a href="https://graphql.org/"><img src="https://img.shields.io/badge/graphql-F6009C?logo=graphql&logoColor=white"></a>
+        <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node.js-339933?logo=nodedotjs&logoColor=white"></a>
+        <a href="https://typescriptlang.org/"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?logo=typescript&logoColor=white"></a>
+        <a href="https://expressjs.com/"><img src="https://img.shields.io/badge/express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB"></a>
+        <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/jest-black?logo=jest&logoColor=white"></a>
+        <a href="https://github.com/motdotla/dotenv"><img src="https://img.shields.io/badge/dotenv-gray?logo=dotenv&logoColor=white"></a>
+      </td>
+    </tr>
+    <tr>
+  <!--     <td>
+        <a href="./boilerplates/backend-server">backend-server</a>
+      </td> -->
+      <td>
+        <a href="./boilerplates/backend-server/express-graphql-basic">express-graphql-basic</a><br/><p>express-graphql server application</p>
+      </td>
+      <td align="center">
+        <a href="https://graphql.org/"><img src="https://img.shields.io/badge/graphql-F6009C?logo=graphql&logoColor=white"></a>
+        <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node.js-339933?logo=nodedotjs&logoColor=white"></a>
+        <a href="https://typescriptlang.org/"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?logo=typescript&logoColor=white"></a>
+        <a href="https://expressjs.com/"><img src="https://img.shields.io/badge/express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB"></a>
+        <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/jest-black?logo=jest&logoColor=white"></a>
+        <a href="https://github.com/motdotla/dotenv"><img src="https://img.shields.io/badge/dotenv-gray?logo=dotenv&logoColor=white"></a>
+      </td>
+    </tr>
+    <tr>
+  <!--     <td>
+        <a href="./boilerplates/backend-server">backend-server</a>
+      </td> -->
       <td>
         <a href="./boilerplates/backend-server/express-server">express-server</a><br/><p>express server application</p>
       </td>

@@ -1,0 +1,57 @@
+{
+  "description": "express-graphql server application",
+  "image": {
+    "src": "",
+    "width": "",
+    "height": ""
+  },
+  "app_features": [
+    "[express](https://github.com/expressjs/express) server backend",
+    "tests-friendly with [jest](https://github.com/facebook/jest) and [supertest](https://github.com/ladjs/supertest)"
+  ],
+  "project_features": [
+  ],
+  "commands": [
+    {
+      "description": "Install dependencies",
+      "command": "npm install"
+    },
+    {
+      "description": "Run the project in development mode",
+      "command": "npm run dev"
+    },
+    {
+      "description": "Compiles the code into production mode",
+      "command": "npm run build"
+    },
+    {
+      "description": "Run the project in production mode",
+      "command": "npm run start"
+    }
+  ],
+  "options": [],
+  "resources": [
+    "[Graphql documentation](https://graphql.org/)",
+    "[Modern GraphQL Crash Course - 2022](https://www.youtube.com/watch?v=qux4-yWeZvo)",
+    "[Express documentation](https://expressjs.com/pt-br/)"
+  ],
+  "app_techs": [
+    "graphql",
+    "nodejs",
+    "typescript",
+    "express",
+    "jest",
+    "dotenv"
+  ],
+  "project_techs": [
+    "vscode",
+    "husky",
+    "commitlint",
+    "commitizen",
+    "editorconfig",
+    "prettier",
+    "eslint",
+    "lintstaged",
+    "restclient"
+  ]
+}

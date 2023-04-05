@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "gender": "Female"
+  },
+  {
+    "id": 2,
+    "gender": "Male"
+  },
+  {
+    "id": 3,
+    "gender": "Agender"
+  },
+  {
+    "id": 4,
+    "gender": "Polygender"
+  },
+  {
+    "id": 5,
+    "gender": "Non-binary"
+  },
+  {
+    "id": 6,
+    "gender": "Genderqueer"
+  },
+  {
+    "id": 7,
+    "gender": "tora"
+  }
+]

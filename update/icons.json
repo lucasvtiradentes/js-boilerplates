@@ -228,5 +228,10 @@
     "name": "serverless",
     "image": "https://img.shields.io/badge/serverless-red?logo=serverless&logoColor=white",
     "default_link": "https://serverless.com/"
+  },
+  {
+    "name": "graphql",
+    "image": "https://img.shields.io/badge/graphql-F6009C?logo=graphql&logoColor=white",
+    "default_link": "https://graphql.org/"
   }
 ]

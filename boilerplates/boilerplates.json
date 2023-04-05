@@ -1,5 +1,15 @@
 [
   {
+    "name": "apollo-graphql-basic",
+    "category": "backend-server",
+    "options": []
+  },
+  {
+    "name": "express-graphql-basic",
+    "category": "backend-server",
+    "options": []
+  },
+  {
     "name": "express-server",
     "category": "backend-server",
     "options": [
