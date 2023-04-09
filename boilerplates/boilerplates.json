@@ -12,36 +12,7 @@
   {
     "name": "express-server",
     "category": "backend-server",
-    "options": [
-      {
-        "name": "selection1",
-        "message": "select the command to run: ",
-        "list": [
-          {
-            "title": "option 01",
-            "file": "./.options/cmd1.js"
-          },
-          {
-            "title": "option 02",
-            "file": "./.options/cmd2.js"
-          }
-        ]
-      },
-      {
-        "name": "selection2",
-        "message": "select the command2 to run: ",
-        "list": [
-          {
-            "title": "option 03",
-            "file": "./.options/cmd3.js"
-          },
-          {
-            "title": "option 04",
-            "file": "./.options/cmd4.js"
-          }
-        ]
-      }
-    ]
+    "options": []
   },
   {
     "name": "chrome-extension-basic",

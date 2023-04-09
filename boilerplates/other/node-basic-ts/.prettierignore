@@ -2,7 +2,6 @@
 
 # FOLDERS ###############################
 
-.git/
 .github/
 .husky/
 .vscode/

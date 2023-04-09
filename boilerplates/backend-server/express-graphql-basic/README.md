@@ -22,13 +22,17 @@
 ### Main features
 <!-- <DYNFIELD:boilerplate_app_features> -->
 - [x] [express](https://github.com/expressjs/express) server backend;
-- [x] tests-friendly with [jest](https://github.com/facebook/jest) and [supertest](https://github.com/ladjs/supertest).
+- [x] supports testing by using  [jest](https://github.com/facebook/jest).
 <!-- </DYNFIELD:boilerplate_app_features> -->
 
 ### Project features
 
 <!-- <DYNFIELD:boilerplate_project_features> -->
-
+- [x] code formatting and linting provided by [prettier](https://github.com/prettier/prettier), [eslint](https://github.com/eslint/eslint) and [lintstaged](https://github.com/okonet/lint-staged);
+- [x] cross-os development support due to [editorconfig](https://editorconfig.org/);
+- [x] git hooks automation handled by [husky](https://github.com/typicode/husky);
+- [x] commit messages linting controlled by [commitlint](https://github.com/conventional-changelog/commitlint) and [commitzen](https://github.com/commitizen/cz-cli);
+- [x] util script to show all available commit types, you can use it by running the `commit` package.json script.
 <!-- </DYNFIELD:boilerplate_project_features> -->
 
 <div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
@@ -41,7 +45,7 @@ To use this boilerplate you can either:
 
 <!-- <DYNFIELD:boilerplate_project_download> -->
 1. install [boilermanager](https://github.com/lucasvtiradentes/boilermanager) and select it from the boilerplate list everytime you want to use it (✅ recommended)
-2. download this folder by clicking [this link](https://download-directory.github.io/?url=https://github.com/lucasvtiradentes/boilermanager-boilerplates/tree/master/boilerplates/backend-server/express-graphql-basic)
+2. download this folder by clicking [this link](https://download-directory.github.io/?url=https://github.com/lucasvtiradentes/js-boilerplates/tree/master/boilerplates/backend-server/express-graphql-basic)
 <!-- </DYNFIELD:boilerplate_project_download> -->
 
 <!-- <DYNFIELD:boilerplate_available_commands> -->

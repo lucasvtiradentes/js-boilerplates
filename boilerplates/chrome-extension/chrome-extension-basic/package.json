@@ -13,16 +13,8 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "precommit": "npm run script:issues",
     "commit": "cz",
-
-    "prettier:check": "prettier --check .",
-    "prettier:fix": "prettier --write .",
-    "lint:check": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "lint:staged": "lint-staged --concurrent false --quiet",
-    "script:gitmoji": "node ./scripts/gitmoji-setup.js",
-    "script:issues": "node ./scripts/github-issues.js"
+    "lint:staged": "lint-staged --concurrent false --quiet"
   },
   "devDependencies": {
     "commitizen": "^4.3.0",

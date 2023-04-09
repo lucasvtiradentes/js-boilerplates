@@ -13,27 +13,15 @@
   },
   "type": "module",
   "scripts": {
-    "prepare": "husky install",
-    "precommit": "npm run script:issues",
-    "commit": "cz",
-
-    "prebuild": "rimraf ./dist",
-    "build:check": "tsc --noEmit",
-    "build": "tsc && vite build",
     "start": "vite preview",
     "dev": "vite",
-
+    "build": "rimraf ./dist && tsc && vite build",
     "test": "jest --passWithNoTests",
-    "test:watch": "jest --passWithNoTests --watchAll",
-    "test:staged": "jest --passWithNoTests --findRelatedTests",
     "test:coverage": "jest --passWithNoTests --coverage",
-    "prettier:check": "prettier --check .",
-    "prettier:fix": "prettier --write .",
-    "lint:check": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "lint:staged": "lint-staged --concurrent false --quiet",
-    "script:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
-    "script:issues": "ts-node ./scripts/github-issues.ts"
+
+    "prepare": "husky install",
+    "commit": "cz",
+    "lint:staged": "lint-staged --concurrent false --quiet"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -43,7 +31,6 @@
     "@jest/globals": "^29.3.1",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
-    "@types/jest": "^29.2.5",
     "@types/node": "^18.11.9",
 
     "commitizen": "^4.3.0",
@@ -67,7 +54,6 @@
 
     "husky": "^8.0.3",
     "rimraf": "^4.0.4",
-    "ts-node": "^10.9.1",
     "typescript": "^4.9.3"
   }
 }

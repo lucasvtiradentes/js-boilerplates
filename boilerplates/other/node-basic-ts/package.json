@@ -12,21 +12,14 @@
     "url": "https://github.com/username/repository.git"
   },
   "scripts": {
-    "prebuild": "rimraf ./dist",
-    "build": "tsc",
-    "build:check": "tsc --noEmit",
     "start": "node ./dist/src/index.js",
-    "dev": "ts-node ./src/index.ts",
+    "dev": "tsx ./src/index.ts",
+    "build": "rimraf ./dist && tsc",
+    "test": "jest --passWithNoTests",
+    "test:coverage": "jest --passWithNoTests --coverage",
 
     "prepare": "husky install",
     "commit": "cz",
-    "test": "jest --passWithNoTests",
-    "test:watch": "jest --passWithNoTests --watchAll",
-    "test:coverage": "jest --passWithNoTests --coverage",
-    "prettier:check": "prettier --check .",
-    "prettier:fix": "prettier --write .",
-    "lint:check": "eslint .",
-    "lint:fix": "eslint . --fix",
     "lint:staged": "lint-staged --concurrent false --quiet"
   },
   "devDependencies": {
@@ -50,8 +43,8 @@
     "ts-jest": "^29.0.5",
 
     "husky": "^8.0.3",
-    "rimraf": "^4.0.4",
-    "ts-node": "^10.9.1",
+    "rimraf": "^4.3.1",
+    "tsx": "^3.12.6",
     "typescript": "^4.9.3"
   }
 }

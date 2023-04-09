@@ -1,4 +1,4 @@
-import { describe, expect } from '@jest/globals';
+import { describe, expect, it } from '@jest/globals';
 
 describe('server routes', () => {
   it('should be able to access home route', async () => {

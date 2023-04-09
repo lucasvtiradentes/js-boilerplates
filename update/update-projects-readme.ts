@@ -4,11 +4,13 @@ import { join } from "node:path";
 import { BoilerplateInfo, Icon, RepositoryInfo } from "./types";
 
 const GITHUB_USER = "https://github.com/lucasvtiradentes";
-const BOILERPLATES_LINK = `${GITHUB_USER}/boilermanager-boilerplates`;
+const BOILERPLATES_LINK = `${GITHUB_USER}/js-boilerplates`;
 const BOILERMANAGER_LINK = `${GITHUB_USER}/boilermanager`;
 const BOILERPLATES_FOLDER = 'boilerplates';
 const BOILERPLATES_INFO_FILE = 'boilerplates.json';
 const REPOSITORY_INFO_FILE = 'repo.json';
+const MY_ARTICLES_LINK = "https://github.com/lucasvtiradentes/my-tutorials/blob/master/README.md#TOC";
+const MY_PROJECTS_LINK = "https://github.com/lucasvtiradentes/lucasvtiradentes/blob/master/portfolio/PROJECTS.md#TOC";
 
 (() => {
   const boilerplatesJson = getJson(`./${BOILERPLATES_FOLDER}/${BOILERPLATES_INFO_FILE}`);
@@ -148,7 +150,11 @@ function getFooterStr() {
       <a target="_blank" href="https://github.com/lucasvtiradentes/"><img src="https://img.shields.io/badge/github-gray?logo=github&logoColor=white" alt="Github"></a>
     </p>
     <p>Made with ❤️ by <b>Lucas Vieira</b></p>
-    <p>👉 See also all <a href="https://github.com/lucasvtiradentes/lucasvtiradentes/blob/master/portfolio/PROJECTS.md#TOC">my projects</a></p>
-    <p>👉 See also all <a href="https://github.com/lucasvtiradentes/my-tutorials/blob/master/README.md#TOC">my articles</a></p>
+    <p>👉 See also all <a href="${MY_PROJECTS_LINK}">my projects</a></p>
+    <p>👉 See also all <a href="${MY_ARTICLES_LINK}">my articles</a></p>
   </div>`;
 }
+
+
+
+

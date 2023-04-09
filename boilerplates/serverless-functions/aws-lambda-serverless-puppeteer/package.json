@@ -12,24 +12,15 @@
     "url": "https://github.com/username/repository.git"
   },
   "scripts": {
-    "prepare": "husky install",
-    "precommit": "npm run script:issues",
-    "commit": "cz",
-
-    "function:prod": "serverless invoke --function puppeteerFunction",
-    "function:dev": "serverless invoke local --function puppeteerFunction",
+    "start:prod": "serverless invoke --function puppeteerFunction",
+    "start:dev": "serverless invoke local --function puppeteerFunction",
     "dev": "serverless offline start",
     "build": "serverless package",
-    "build:check": "tsc --noEmit",
     "pub": "serverless deploy",
-    
-    "prettier:check": "prettier --check .",
-    "prettier:fix": "prettier --write .",
-    "lint:check": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "lint:staged": "lint-staged --concurrent false --quiet",
-    "script:issues": "ts-node ./scripts/github-issues.ts",
-    "script:gitmoji": "ts-node ./scripts/gitmoji-setup.ts"
+
+    "prepare": "husky install",
+    "commit": "cz",
+    "lint:staged": "lint-staged --concurrent false --quiet"
   },
   "dependencies": {
     "chrome-aws-lambda": "^10.1.0",
@@ -37,7 +28,6 @@
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.110",
-    "@types/node": "^18.14.2",
     "@types/puppeteer-core": "^7.0.4",
 
     "commitizen": "^4.3.0",
@@ -57,7 +47,6 @@
     "serverless-plugin-typescript": "^2.1.4",
 
     "typescript": "^4.9.5",
-    "husky": "^8.0.3",
-    "ts-node": "^10.9.1"
+    "husky": "^8.0.3"
   }
 }

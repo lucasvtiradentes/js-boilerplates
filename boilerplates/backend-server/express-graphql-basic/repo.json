@@ -7,9 +7,14 @@
   },
   "app_features": [
     "[express](https://github.com/expressjs/express) server backend",
-    "tests-friendly with [jest](https://github.com/facebook/jest) and [supertest](https://github.com/ladjs/supertest)"
+    "supports testing by using  [jest](https://github.com/facebook/jest)"
   ],
   "project_features": [
+    "code formatting and linting provided by [prettier](https://github.com/prettier/prettier), [eslint](https://github.com/eslint/eslint) and [lintstaged](https://github.com/okonet/lint-staged)",
+    "cross-os development support due to [editorconfig](https://editorconfig.org/)",
+    "git hooks automation handled by [husky](https://github.com/typicode/husky)",
+    "commit messages linting controlled by [commitlint](https://github.com/conventional-changelog/commitlint) and [commitzen](https://github.com/commitizen/cz-cli)",
+    "util script to show all available commit types, you can use it by running the `commit` package.json script"
   ],
   "commands": [
     {

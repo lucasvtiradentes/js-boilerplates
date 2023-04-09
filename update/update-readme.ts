@@ -16,7 +16,7 @@ const REPOSITORY_INFO_FILE = 'repo.json';
   const boilerplatesTable = getBoilerplatesTable(boilerplatesJson, iconsJson)
 
   boilerplatesMD.updateField("boilerplates", boilerplatesTable);
-  boilerplatesMD.updateField("boilerplates_count", `NODEJS BOILERPLATES (${boilerplatesJson.length})`);
+  boilerplatesMD.updateField("boilerplates_count", `JAVASCRIPT BOILERPLATES (${boilerplatesJson.length})`);
 
   boilerplatesMD.saveFile();
 })();

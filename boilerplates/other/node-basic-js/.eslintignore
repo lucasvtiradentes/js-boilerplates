@@ -6,6 +6,4 @@
 .husky/
 .vscode/
 dist/
-docs/
-ignore/
 node_modules/

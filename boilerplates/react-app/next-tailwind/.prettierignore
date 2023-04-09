@@ -2,7 +2,6 @@
 
 # FOLDERS ###############################
 
-.git/
 .github/
 .husky/
 .next/
@@ -12,29 +11,3 @@ node_modules/
 public/
 
 # FILES #################################
-
-.czrc
-.editorconfig
-.env.local
-.env.example
-.eslintignore
-.eslintrc.json
-.gitignore
-.lintstagedrc
-.prettierignore
-.prettierrc.json
-commitlint.config.js
-jest.config.js
-LICENSE
-next-env.d.ts
-next.config.js
-package.json
-postcss.config.js
-README.md
-tailwind.config.js
-tsconfig.json
-vercel.json
-
-package-lock.json
-pnpm-lock.yaml
-yarn.lock

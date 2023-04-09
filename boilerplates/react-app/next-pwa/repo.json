@@ -7,12 +7,15 @@
   },
   "app_features": [
     "[next](https://nextjs.org/) pwa application",
-    "tests-friendly with [jest](https://github.com/facebook/jest)"
+    "supports testing by using  [jest](https://github.com/facebook/jest)"
   ],
   "project_features": [
-    "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-    "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-    "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+    "easily test your api responses through [server_routes.http](./tools/server_routes.http) file and [rest client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) vscode extension",
+    "code formatting and linting provided by [prettier](https://github.com/prettier/prettier), [eslint](https://github.com/eslint/eslint) and [lintstaged](https://github.com/okonet/lint-staged)",
+    "cross-os development support due to [editorconfig](https://editorconfig.org/)",
+    "git hooks automation handled by [husky](https://github.com/typicode/husky)",
+    "commit messages linting controlled by [commitlint](https://github.com/conventional-changelog/commitlint) and [commitzen](https://github.com/commitizen/cz-cli)",
+    "util script to show all available commit types, you can use it by running the `commit` package.json script"
   ],
   "commands": [
     {

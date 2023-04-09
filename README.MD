@@ -2,19 +2,15 @@
 
 <H3 align="center">
 <!-- <DYNFIELD:boilerplates_count> -->
-  NODEJS BOILERPLATES (23)
+  JAVASCRIPT BOILERPLATES (23)
 <!-- </DYNFIELD:boilerplates_count> -->
 </H1>
 
-<div align="center">
-  <a href=""><img src="https://img.shields.io/badge/made%20with-node-1f425f?logo=node.js&.svg" /></a>
-  <a href="https://github.com/commitizen/cz-cli"><img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square" alt="commitzen" /></a>
-  <a href="https://gitmoji.dev"><img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji" /></a>
-</div>
+<div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
 
-## :trumpet: Overview<a href="#TOC"><img align="right" src="./.github/images/up_arrow.png" width="22"></a>
+<br>
 
-This repository is meant to be used alongside [boilermanager](https://github.com/lucasvtiradentes/boilermanager), a boilerplate manager for nodejs based projects:
+The following projects are meant to be used alongside [boilermanager](https://github.com/lucasvtiradentes/boilermanager). To use them, first install it globally (`npm install -g boilermanager`) and after simply run `bpm`.
 
 <div align="center">
 <!-- <DYNFIELD:boilerplates> -->
@@ -192,7 +188,7 @@ This repository is meant to be used alongside [boilermanager](https://github.com
         <a href="./boilerplates/other">other</a>
       </td> -->
       <td>
-        <a href="./boilerplates/other/node-basic-ts">node-basic-ts</a><br/><p>node ts basic application</p>
+        <a href="./boilerplates/other/node-basic-ts">node-basic-ts</a><br/><p>node typescript basic application</p>
       </td>
       <td align="center">
         <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node.js-339933?logo=nodedotjs&logoColor=white"></a>

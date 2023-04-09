@@ -1,8 +1,6 @@
 {
   "root": true,
   "extends": [
-    "plugin:react/recommended",
-    "plugin:react/jsx-runtime",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier"
@@ -10,7 +8,6 @@
   "plugins": [
     "@typescript-eslint",
     "react",
-    "react-native",
     "prettier"
   ],
   "parser": "@typescript-eslint/parser",
@@ -20,9 +17,6 @@
   },
   "rules": {
     "prettier/prettier": [
-      "error"
-    ],
-    "react/jsx-uses-react": [
       "error"
     ]
   }

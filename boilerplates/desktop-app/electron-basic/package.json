@@ -12,29 +12,18 @@
     "email": "youremail@gmail.com"
   },
   "scripts": {
-    "prepare": "husky install",
-    "precommit": "npm run script:issues",
-    "commit": "cz",
-
     "prebuild": "rimraf ./dist",
-    "build:check": "tsc --noEmit",
     "build": "tsc",
     "postbuild": "npm run script:copy",
     "start": "electron ./dist/src/index.js",
     "dev": "tsc -w",
-    
     "test": "jest --passWithNoTests",
-    "test:watch": "jest --passWithNoTests --watchAll",
-    "test:staged": "jest --passWithNoTests --findRelatedTests",
     "test:coverage": "jest --passWithNoTests --coverage",
-    "prettier:check": "prettier --check .",
-    "prettier:fix": "prettier --write .",
-    "lint:check": "eslint .",
-    "lint:fix": "eslint . --fix",
+
+    "prepare": "husky install",
+    "commit": "cz",
     "lint:staged": "lint-staged --concurrent false --quiet",
-    "script:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
-    "script:issues": "ts-node ./scripts/github-issues.ts",
-    "script:copy": "ts-node ./scripts/post-build.ts"
+    "script:copy": "tsx ./scripts/post-build.ts"
   },
   "dependencies": {
     "electron": "^21.0.1"
@@ -42,7 +31,6 @@
   "devDependencies": {
     "@jest/globals": "^29.3.1",
     "@types/electron": "^1.6.10",
-    "@types/jest": "^29.2.5",
     "@types/node": "^18.11.9",
 
     "commitizen": "^4.3.0",
@@ -63,7 +51,7 @@
 
     "husky": "^8.0.3",
     "rimraf": "^4.0.4",
-    "ts-node": "^10.9.1",
+    "tsx": "^3.12.6",
     "typescript": "^4.9.3"
   }
 }

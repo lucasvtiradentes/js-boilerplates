@@ -1,5 +1,5 @@
 import supertest from 'supertest';
-import { describe, expect } from '@jest/globals';
+import { describe, expect, it } from '@jest/globals';
 import { createServer } from '../src/server/server';
 
 const app = createServer();

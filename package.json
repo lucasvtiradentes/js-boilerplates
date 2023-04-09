@@ -1,6 +1,6 @@
 {
   "name": "js-boilerplates",
-  "description": "📁 javascript boilerplates available in boilermanager as default option.",
+  "description": "📁 javascript boilerplates meant to be used alongside boilermanager.",
   "version": "0.0.1",
   "repository": {
     "type": "git",
@@ -9,12 +9,15 @@
   "scripts": {
     "dev": "npm run update",
     "update": "npm run update:json && npm run update:md && npm run update:projects",
-    "update:json": "ts-node ./update/update-json.ts",
-    "update:md": "ts-node ./update/update-readme.ts",
-    "update:projects": "ts-node ./update/update-projects-readme.ts",
+    "update:json": "tsx ./update/update-json.ts",
+    "update:md": "tsx ./update/update-readme.ts",
+    "update:projects": "tsx ./update/update-projects-readme.ts",
 
     "prepare": "husky install",
     "commit": "cz"
+  },
+  "dependencies": {
+    "dyn-markdown": "^1.1.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
@@ -24,9 +27,8 @@
     "commitizen": "^4.2.6",
     "commitizen-emoji": "^1.0.5",
 
-    "dyn-markdown": "^1.1.0",
     "husky": "^8.0.3",
-    "ts-node": "^10.9.1",
+    "tsx": "^3.12.6",
     "typescript": "^4.9.4"
   }
 }

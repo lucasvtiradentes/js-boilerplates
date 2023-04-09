@@ -11,9 +11,11 @@
     "automatically deploy in every github push"
   ],
   "project_features": [
-    "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options",
-    "everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository",
-    "if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files"
+    "code formatting and linting provided by [prettier](https://github.com/prettier/prettier), [eslint](https://github.com/eslint/eslint) and [lintstaged](https://github.com/okonet/lint-staged)",
+    "cross-os development support due to [editorconfig](https://editorconfig.org/)",
+    "git hooks automation handled by [husky](https://github.com/typicode/husky)",
+    "commit messages linting controlled by [commitlint](https://github.com/conventional-changelog/commitlint) and [commitzen](https://github.com/commitizen/cz-cli)",
+    "util script to show all available commit types, you can use it by running the `commit` package.json script"
   ],
   "commands": [
     {
@@ -29,8 +31,8 @@
       "command": "npm run build"
     },
     {
-      "description": "Run the project in production mode",
-      "command": "npm run start"
+      "description": "deploy the project to amazom aws lambda",
+      "command": "npm run pub"
     }
   ],
   "options": [],

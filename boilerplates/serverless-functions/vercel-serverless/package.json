@@ -12,26 +12,15 @@
     "url": "https://github.com/username/repository.git"
   },
   "scripts": {
-    "prepare": "husky install",
-    "precommit": "npm run script:issues",
-    "commit": "cz",
-
-    "build": "next build",
-    "build:check": "tsc --noEmit",
     "start": "next start",
     "dev": "next dev",
-
+    "build": "next build",
     "test": "jest --passWithNoTests",
-    "test:watch": "jest --passWithNoTests --watchAll",
-    "test:staged": "jest --passWithNoTests --findRelatedTests",
     "test:coverage": "jest --passWithNoTests --coverage",
-    "prettier:check": "prettier --check .",
-    "prettier:fix": "prettier --write .",
-    "lint:check": "next lint",
-    "lint:fix": "next lint --fix",
-    "lint:staged": "lint-staged --concurrent false --quiet",
-    "script:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
-    "script:issues": "ts-node ./scripts/github-issues.ts"
+
+    "prepare": "husky install",
+    "commit": "cz",
+    "lint:staged": "lint-staged --concurrent false --quiet"
   },
   "dependencies": {
     "next": "13.0.4",
@@ -40,7 +29,6 @@
   },
   "devDependencies": {
     "@jest/globals": "^29.3.1",
-    "@types/jest": "^29.2.5",
     "@types/node": "^18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
@@ -64,7 +52,6 @@
     "ts-jest": "^29.0.5",
 
     "husky": "^8.0.3",
-    "ts-node": "^10.9.1",
     "typescript": "^4.9.3"
   }
 }

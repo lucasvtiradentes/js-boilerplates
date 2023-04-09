@@ -2,7 +2,6 @@
 
 # FOLDERS #################################
 
-.git/
 .expo/
 .github/
 .husky/
@@ -10,24 +9,3 @@
 node_modules/
 
 # FILES ###################################
-
-.czrc
-.editorconfig
-.eslintignore
-.eslintrc.json
-.gitignore
-.lintstagedrc
-.prettierignore
-.prettierrc.json
-app.json
-babel.config.js
-commitlint.config.js
-eas.json
-LICENSE
-package.json
-README.md
-tsconfig.json
-
-package-lock.json
-pnpm-lock.yaml
-yarn.lock

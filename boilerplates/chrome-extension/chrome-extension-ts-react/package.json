@@ -12,35 +12,23 @@
     "url": "https://github.com/username/repository.git"
   },
   "scripts": {
-    "prepare": "husky install",
-    "precommit": "npm run script:issues",
-    "commit": "cz",
-
     "dev": "webpack --config ./webpack/webpack.dev.js --watch",
-    "build:check": "tsc --noEmit",
     "prebuild": "rimraf ./dist",
     "build": "webpack --config ./webpack/webpack.prod.js",
     "postbuild": "npm run script:copy",
-    
     "test": "jest --passWithNoTests",
-    "test:watch": "jest --passWithNoTests --watchAll",
-    "test:staged": "jest --passWithNoTests --findRelatedTests",
     "test:coverage": "jest --passWithNoTests --coverage",
-    "prettier:check": "prettier --check .",
-    "prettier:fix": "prettier --write .",
-    "lint:check": "eslint .",
-    "lint:fix": "eslint . --fix",
+
+    "prepare": "husky install",
+    "commit": "cz",
     "lint:staged": "lint-staged --concurrent false --quiet",
-    "script:issues": "ts-node ./scripts/github-issues.ts",
-    "script:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
-    "script:copy": "ts-node ./scripts/post-build.ts"
+    "script:copy": "tsx ./scripts/post-build.ts"
   },
   "devDependencies": {
     "@types/chrome": "0.0.158",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@jest/globals": "^29.3.1",
-    "@types/jest": "^29.2.5",
     "@types/node": "^18.11.9",
 
     "commitizen": "^4.3.0",
@@ -71,7 +59,7 @@
     "husky": "^8.0.3",
     "rimraf": "^4.0.4",
     "ts-loader": "^8.0.0",
-    "ts-node": "^10.9.1",
+    "tsx": "^3.12.6",
     "typescript": "^4.9.3"
   }
 }
