@@ -2,7 +2,7 @@
 
 <H3 align="center">
 <!-- <DYNFIELD:boilerplates_count> -->
-  NODEJS BOILERPLATES (22)
+  NODEJS BOILERPLATES (23)
 <!-- </DYNFIELD:boilerplates_count> -->
 </H1>
 
@@ -175,11 +175,24 @@ This repository is meant to be used alongside [boilermanager](https://github.com
       </td>
     </tr>
     <tr>
-      <td rowspan="2">
-        <a href="./boilerplates/node">node</a>
+      <td rowspan="3">
+        <a href="./boilerplates/other">other</a>
       </td>
       <td>
-        <a href="./boilerplates/node/node-basic">node-basic</a><br/><p>node application</p>
+        <a href="./boilerplates/other/node-basic-js">node-basic-js</a><br/><p>node js basic application</p>
+      </td>
+      <td align="center">
+        <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node.js-339933?logo=nodedotjs&logoColor=white"></a>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/"><img src="https://img.shields.io/badge/javascript-%23323330.svg?logo=javascript&logoColor=%23F7DF1E"></a>
+        <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/jest-black?logo=jest&logoColor=white"></a>
+      </td>
+    </tr>
+    <tr>
+  <!--     <td>
+        <a href="./boilerplates/other">other</a>
+      </td> -->
+      <td>
+        <a href="./boilerplates/other/node-basic-ts">node-basic-ts</a><br/><p>node ts basic application</p>
       </td>
       <td align="center">
         <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node.js-339933?logo=nodedotjs&logoColor=white"></a>
@@ -189,10 +202,10 @@ This repository is meant to be used alongside [boilermanager](https://github.com
     </tr>
     <tr>
   <!--     <td>
-        <a href="./boilerplates/node">node</a>
+        <a href="./boilerplates/other">other</a>
       </td> -->
       <td>
-        <a href="./boilerplates/node/node-puppeteer">node-puppeteer</a><br/><p>node application that uses puppeteer for browser automation</p>
+        <a href="./boilerplates/other/node-puppeteer">node-puppeteer</a><br/><p>node application that uses puppeteer for browser automation</p>
       </td>
       <td align="center">
         <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node.js-339933?logo=nodedotjs&logoColor=white"></a>

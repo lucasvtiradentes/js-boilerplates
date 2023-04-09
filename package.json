@@ -1,24 +1,20 @@
 {
-  "name": "boilermanager-boilerplates",
-  "description": "📁 nodejs default boilerplates meant to be used alongside boilermanager.",
+  "name": "js-boilerplates",
+  "description": "📁 javascript boilerplates available in boilermanager as default option.",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lucasvtiradentes/boilermanager-boilerplates.git"
+    "url": "https://github.com/lucasvtiradentes/js-boilerplates.git"
   },
   "scripts": {
-    "prepare": "husky install",
-    "precommit": "npm run script:issues",
-    "commit": "cz",
-
     "dev": "npm run update",
     "update": "npm run update:json && npm run update:md && npm run update:projects",
     "update:json": "ts-node ./update/update-json.ts",
     "update:md": "ts-node ./update/update-readme.ts",
     "update:projects": "ts-node ./update/update-projects-readme.ts",
 
-    "script:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
-    "script:issues": "ts-node ./scripts/github-issues.ts"
+    "prepare": "husky install",
+    "commit": "cz"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",

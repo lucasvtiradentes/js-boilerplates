@@ -1,0 +1,12 @@
+# https://eslint.org/docs/latest/user-guide/configuring/ignoring-code
+
+# FOLDERS ###############################
+
+.github/
+.husky/
+.vscode/
+coverage/
+dist/
+node_modules/
+
+# FILES #################################

@@ -79,13 +79,18 @@
     "options": []
   },
   {
-    "name": "node-basic",
-    "category": "node",
+    "name": "node-basic-js",
+    "category": "other",
+    "options": []
+  },
+  {
+    "name": "node-basic-ts",
+    "category": "other",
     "options": []
   },
   {
     "name": "node-puppeteer",
-    "category": "node",
+    "category": "other",
     "options": []
   },
   {

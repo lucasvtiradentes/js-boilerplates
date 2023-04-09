@@ -1,0 +1,52 @@
+{
+  "description": "node ts basic application",
+  "image": {
+    "src": "",
+    "width": "",
+    "height": ""
+  },
+  "app_features": [
+    "[node](https://github.com/nodejs/node) basic application",
+    "tests-friendly with [jest](https://github.com/facebook/jest)"
+  ],
+  "project_features": [
+    "everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options"
+  ],
+  "commands": [
+    {
+      "description": "Install dependencies",
+      "command": "npm install"
+    },
+    {
+      "description": "Run the project in development mode",
+      "command": "npm run dev"
+    },
+    {
+      "description": "Compiles the code into production mode",
+      "command": "npm run build"
+    },
+    {
+      "description": "Run the project in production mode",
+      "command": "npm run start"
+    }
+  ],
+  "options": [],
+  "resources": [
+    "[Nodejs documentation](https://nodejs.org/en/)"
+  ],
+  "app_techs": [
+    "nodejs",
+    "typescript",
+    "jest"
+  ],
+  "project_techs": [
+    "vscode",
+    "husky",
+    "commitlint",
+    "commitizen",
+    "editorconfig",
+    "prettier",
+    "eslint",
+    "lintstaged"
+  ]
+}

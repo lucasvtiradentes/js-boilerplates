@@ -30,9 +30,7 @@
 ### Project features
 
 <!-- <DYNFIELD:boilerplate_project_features> -->
-- [x] everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options;
-- [x] everytime you run `commit` script, the `precommit` script will run the [github-issues.ts](./scripts/github-issues.ts) file in order to display all available issues in the project remote github repository;
-- [x] if you want to change the available commits types, you can edit the [gitmoji-setup.ts](./scripts/gitmoji-setup.ts) file and run the `script:gitmoji` packge.json script, which will produce the configs ready to replace in the [.czrc](./.czrc) and [commitlint.config.js](./commitlint.config.js) files.
+- [x] everytime you need to make a commit, you can run the `commit` package.json script, in order to show all commitizen available options.
 <!-- </DYNFIELD:boilerplate_project_features> -->
 
 <div align="center"><a href="#"><img src="./.github/images/divider.png" /></a></div>
@@ -45,7 +43,7 @@ To use this boilerplate you can either:
 
 <!-- <DYNFIELD:boilerplate_project_download> -->
 1. install [boilermanager](https://github.com/lucasvtiradentes/boilermanager) and select it from the boilerplate list everytime you want to use it (✅ recommended)
-2. download this folder by clicking [this link](https://download-directory.github.io/?url=https://github.com/lucasvtiradentes/boilermanager-boilerplates/tree/master/boilerplates/node/node-puppeteer)
+2. download this folder by clicking [this link](https://download-directory.github.io/?url=https://github.com/lucasvtiradentes/boilermanager-boilerplates/tree/master/boilerplates/other/node-puppeteer)
 <!-- </DYNFIELD:boilerplate_project_download> -->
 
 <!-- <DYNFIELD:boilerplate_available_commands> -->

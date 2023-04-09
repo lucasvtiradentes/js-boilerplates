@@ -12,31 +12,25 @@
     "url": "https://github.com/username/repository.git"
   },
   "scripts": {
-    "prepare": "husky install",
-    "precommit": "npm run script:issues",
-    "commit": "cz",
-
     "prebuild": "rimraf ./dist",
     "build": "tsc",
     "build:check": "tsc --noEmit",
     "start": "node ./dist/src/index.js",
     "dev": "ts-node ./src/index.ts",
-    
+
+    "prepare": "husky install",
+    "commit": "cz",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --passWithNoTests --watchAll",
-    "test:staged": "jest --passWithNoTests --findRelatedTests",
     "test:coverage": "jest --passWithNoTests --coverage",
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "lint:check": "eslint .",
     "lint:fix": "eslint . --fix",
-    "lint:staged": "lint-staged --concurrent false --quiet",
-    "script:gitmoji": "ts-node ./scripts/gitmoji-setup.ts",
-    "script:issues": "ts-node ./scripts/github-issues.ts"
+    "lint:staged": "lint-staged --concurrent false --quiet"
   },
   "devDependencies": {
     "@jest/globals": "^29.3.1",
-    "@types/jest": "^29.2.5",
     "@types/node": "^18.11.9",
 
     "commitizen": "^4.3.0",
